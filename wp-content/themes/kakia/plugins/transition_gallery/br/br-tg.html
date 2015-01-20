@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Cute Slider</title>
+
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+		<link rel="stylesheet" href="css/slider-style.css" type="text/css" media="screen" title="no title" charset="utf-8"/>
+        
+        <script src="modernizr.js" type="text/javascript" charset="utf-8"> </script>
+        <script src="js/cute/cute.slider.js" type="text/javascript" charset="utf-8"> </script>
+        <script src="js/cute/cute.transitions.all.js" type="text/javascript" charset="utf-8"> </script>
+		
+		<style>
+			#slider {
+				width:354px;
+				height:194px;
+				position:relative;
+			}
+		</style>
+		
+	</head>
+	<body>
+		
+		<div id="slider" data-width="290" data-height="150" data-vpwidth="354" data-vpheight="194" data-force="canvas">
+			<ul data-type="slides">
+				<li id='slide1' data-delay="0.5"><img src="images/1.png"/></li>
+				<li id='slide2' data-delay="0.5"><img src="theme/blank.jpg" data-src="images/2.png" /></li>
+				<li id='slide3' data-delay="0.5"><img src="theme/blank.jpg" data-src="images/3.png" /></li>
+				<li id='slide4' data-delay="0.5"><img src="theme/blank.jpg" data-src="images/4.png" /></li>
+			</ul>
+			<ul data-type="controls">						
+			</ul>
+			<div class="br-shadow"> </div>
+		</div>
+				
+		<div class="loading"> </div>		
+		
+		<script>
+		    
+		    var hash_valus = window.location.hash.split('/');
+		    
+		    var slider = document.getElementById('slider');
+		   if(hash_valus[2] == '2d')
+		       slider.setAttribute('data-force' , '2d');
+		    
+		    for(var i = 1 ; i <= 4 ; ++i){
+		     	document.getElementById('slide'+i).setAttribute('data-trans3d' , 'tr'+Number(hash_valus[1]));  
+		   	 	document.getElementById('slide'+i).setAttribute('data-trans2d' , 'tr'+Number(hash_valus[1])); 
+		    }
+
+			var br = new Cute.Slider();
+			br.setup("slider");
+			
+		</script>
+	
+	</body>
+</html>

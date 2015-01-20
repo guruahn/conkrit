@@ -1,0 +1,1697 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Minos Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-20 16:38+0700\n"
+"PO-Revision-Date: 2013-01-20 16:38+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:17
+msgid "Page Not Found"
+msgstr ""
+
+#: ../404.php:31
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help."
+msgstr ""
+
+#: ../archive.php:46 ../archive.php:48 ../archive.php:50
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../archive.php:52
+msgid "Blog Archives"
+msgstr ""
+
+#: ../archive.php:123 ../blog_2c.php:144 ../blog_3c.php:149 ../blog_f.php:138
+#: ../blog_l.php:158 ../blog_r.php:141 ../blog_thumb_l.php:157
+#: ../blog_thumb_r.php:140 ../category.php:90 ../search.php:72
+#: ../single.php:109 ../tag.php:95 ../lib/contentbuilder.lib.php:753
+msgid "Date:"
+msgstr ""
+
+#: ../archive.php:126 ../blog_2c.php:147 ../blog_3c.php:152 ../blog_f.php:141
+#: ../blog_l.php:161 ../blog_r.php:144 ../blog_thumb_l.php:160
+#: ../blog_thumb_r.php:143 ../category.php:93 ../search.php:75
+#: ../single.php:112 ../tag.php:98
+msgid "Posted by:"
+msgstr ""
+
+#: ../archive.php:148 ../blog_2c.php:161 ../blog_3c.php:166 ../blog_f.php:163
+#: ../blog_l.php:183 ../blog_r.php:166 ../blog_thumb_l.php:181
+#: ../blog_thumb_r.php:164 ../category.php:115 ../search.php:97 ../tag.php:120
+#: ../lib/contentbuilder.lib.php:759
+msgid "Read The Rest"
+msgstr ""
+
+#: ../blog_2c.php:150 ../blog_3c.php:155 ../blog_f.php:144 ../blog_l.php:164
+#: ../blog_r.php:147 ../blog_thumb_l.php:163 ../blog_thumb_r.php:146
+#, fuzzy
+msgid "Leave a Comment"
+msgstr "Leave a Reply"
+
+#: ../blog_2c.php:150 ../blog_3c.php:155 ../blog_f.php:144 ../blog_l.php:164
+#: ../blog_r.php:147 ../blog_thumb_l.php:163 ../blog_thumb_r.php:146
+msgid "Comment: 1"
+msgstr ""
+
+#: ../blog_2c.php:150 ../blog_3c.php:155 ../blog_f.php:144 ../blog_l.php:164
+#: ../blog_r.php:147 ../blog_thumb_l.php:163 ../blog_thumb_r.php:146
+msgid "Comment: %"
+msgstr ""
+
+#: ../category.php:19 ../tag.php:18
+#, php-format
+msgid " %s"
+msgstr ""
+
+#: ../comments.php:3
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../contact.php:100
+msgid "Tel. "
+msgstr ""
+
+#: ../contact.php:183
+msgid "Name*"
+msgstr ""
+
+#: ../contact.php:190
+msgid "Email*"
+msgstr ""
+
+#: ../contact.php:197
+msgid "Address"
+msgstr ""
+
+#: ../contact.php:204
+msgid "Phone"
+msgstr ""
+
+#: ../contact.php:211
+msgid "Mobile"
+msgstr ""
+
+#: ../contact.php:218
+msgid "Company Name"
+msgstr ""
+
+#: ../contact.php:225
+msgid "Country"
+msgstr ""
+
+#: ../contact.php:232 ../templates/comments-form.php:34
+msgid "Message"
+msgstr ""
+
+#: ../contact.php:266
+msgid "Send Message"
+msgstr ""
+
+#: ../contact.php:360
+msgid "Please enter your name"
+msgstr ""
+
+#: ../contact.php:361
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: ../contact.php:362
+msgid "Please enter some message"
+msgstr ""
+
+#: ../contact.php:421
+msgid "Email from contact form"
+msgstr ""
+
+#: ../contact.php:424
+msgid "Thank you! We will get back to you as soon as possible"
+msgstr ""
+
+#: ../contact.php:427
+msgid "Oops! something went wrong, please try to submit later."
+msgstr ""
+
+#: ../functions.php:118
+msgid "Primary Menu"
+msgstr ""
+
+#: ../portfolio-2-filter.php:79 ../portfolio-2-grid-filter.php:79
+#: ../portfolio-3-filter.php:91 ../portfolio-3-grid-filter.php:91
+#: ../portfolio-4-filter.php:105 ../portfolio-4-grid-filter.php:105
+msgid "All"
+msgstr ""
+
+#: ../portfolio_single.php:175
+msgid "Recent Portfolios"
+msgstr ""
+
+#: ../search.php:18
+#, php-format
+msgid "Search Results for &quot;%s&quot;"
+msgstr ""
+
+#: ../single.php:46
+msgid "The Blog"
+msgstr ""
+
+#: ../fields/post.fields.php:8
+msgid "Add New Slide"
+msgstr ""
+
+#: ../fields/post.fields.php:9
+msgid "Edit Slide"
+msgstr ""
+
+#: ../fields/post.fields.php:10
+msgid "New Slide"
+msgstr ""
+
+#: ../fields/post.fields.php:11
+msgid "View Slide"
+msgstr ""
+
+#: ../fields/post.fields.php:12
+msgid "Search Slides"
+msgstr ""
+
+#: ../fields/post.fields.php:13
+msgid "No slide found"
+msgstr ""
+
+#: ../fields/post.fields.php:14
+msgid "No slides found in Trash"
+msgstr ""
+
+#: ../fields/post.fields.php:40
+msgid "Add New Portfolio"
+msgstr ""
+
+#: ../fields/post.fields.php:41
+msgid "Edit Portfolio"
+msgstr ""
+
+#: ../fields/post.fields.php:42
+msgid "New Portfolio"
+msgstr ""
+
+#: ../fields/post.fields.php:43
+msgid "View Portfolio"
+msgstr ""
+
+#: ../fields/post.fields.php:44
+msgid "Search Portfolios"
+msgstr ""
+
+#: ../fields/post.fields.php:45
+msgid "No Portfolio found"
+msgstr ""
+
+#: ../fields/post.fields.php:46
+msgid "No Portfolio found in Trash"
+msgstr ""
+
+#: ../fields/post.fields.php:68
+msgid "Search Sets"
+msgstr ""
+
+#: ../fields/post.fields.php:69
+msgid "All Sets"
+msgstr ""
+
+#: ../fields/post.fields.php:70
+msgid "Parent Set"
+msgstr ""
+
+#: ../fields/post.fields.php:71
+msgid "Parent Set:"
+msgstr ""
+
+#: ../fields/post.fields.php:72
+msgid "Edit Set"
+msgstr ""
+
+#: ../fields/post.fields.php:73
+msgid "Update Set"
+msgstr ""
+
+#: ../fields/post.fields.php:74
+msgid "Add New Set"
+msgstr ""
+
+#: ../fields/post.fields.php:75
+msgid "New Set Name"
+msgstr ""
+
+#: ../fields/post.fields.php:99
+msgid "Add New Service"
+msgstr ""
+
+#: ../fields/post.fields.php:100
+msgid "Edit Service"
+msgstr ""
+
+#: ../fields/post.fields.php:101
+msgid "New Service"
+msgstr ""
+
+#: ../fields/post.fields.php:102
+msgid "View Service"
+msgstr ""
+
+#: ../fields/post.fields.php:103
+msgid "Search Services"
+msgstr ""
+
+#: ../fields/post.fields.php:104
+msgid "No Service found"
+msgstr ""
+
+#: ../fields/post.fields.php:105
+msgid "No Service found in Trash"
+msgstr ""
+
+#: ../fields/post.fields.php:132
+msgid "Add New Team Member"
+msgstr ""
+
+#: ../fields/post.fields.php:133
+msgid "Edit Team Member"
+msgstr ""
+
+#: ../fields/post.fields.php:134
+msgid "New Team Member"
+msgstr ""
+
+#: ../fields/post.fields.php:135
+msgid "View Team Member"
+msgstr ""
+
+#: ../fields/post.fields.php:136
+msgid "Search Team Members"
+msgstr ""
+
+#: ../fields/post.fields.php:137
+msgid "No team member found"
+msgstr ""
+
+#: ../fields/post.fields.php:138
+msgid "No team member found in Trash"
+msgstr ""
+
+#: ../fields/post.fields.php:164
+msgid "Add New FAQ"
+msgstr ""
+
+#: ../fields/post.fields.php:165
+msgid "Edit FAQ"
+msgstr ""
+
+#: ../fields/post.fields.php:166
+msgid "New FAQ"
+msgstr ""
+
+#: ../fields/post.fields.php:167
+msgid "View FAQ"
+msgstr ""
+
+#: ../fields/post.fields.php:168
+msgid "Search FAQ"
+msgstr ""
+
+#: ../fields/post.fields.php:169
+msgid "No FAQ found"
+msgstr ""
+
+#: ../fields/post.fields.php:170
+msgid "No FAQ found in Trash"
+msgstr ""
+
+#: ../fields/post.fields.php:194 ../plugins/LayerSlider/add.php:150
+#: ../plugins/LayerSlider/add.php:990 ../plugins/LayerSlider/edit.php:159
+#: ../plugins/LayerSlider/edit.php:1010
+msgid "Thumbnail"
+msgstr ""
+
+#: ../lib/contentbuilder.lib.php:461
+msgid "/ View Full Portfolios"
+msgstr ""
+
+#: ../lib/contentbuilder.lib.php:657
+msgid "/ Read Our Blog"
+msgstr ""
+
+#: ../lib/custom.lib.php:115
+msgid "Next"
+msgstr ""
+
+#: ../lib/custom.lib.php:117
+msgid "Previous"
+msgstr ""
+
+#: ../lib/custom.lib.php:245
+msgid "Page"
+msgstr ""
+
+#: ../lib/custom.lib.php:270
+msgid "(Your comment is awaiting moderation.)"
+msgstr ""
+
+#: ../lib/custom.lib.php:356 ../lib/widgets.lib.php:809
+msgid "Recent Posts"
+msgstr ""
+
+#: ../lib/custom.lib.php:364
+msgid "Popular Posts"
+msgstr ""
+
+#: ../lib/custom.lib.php:486
+msgid "Continue Reading"
+msgstr ""
+
+#: ../lib/shortcode.lib.php:1742
+msgid "View more events"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:23 ../plugins/LayerSlider/add.php:863
+#: ../plugins/LayerSlider/edit.php:32 ../plugins/LayerSlider/edit.php:883
+msgid "Layer Options"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:24 ../plugins/LayerSlider/add.php:864
+#: ../plugins/LayerSlider/edit.php:33 ../plugins/LayerSlider/edit.php:884
+msgid "Duplicate this layer"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:31 ../plugins/LayerSlider/add.php:871
+#: ../plugins/LayerSlider/edit.php:40 ../plugins/LayerSlider/edit.php:891
+msgid "Slide options"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:32 ../plugins/LayerSlider/add.php:872
+#: ../plugins/LayerSlider/edit.php:41 ../plugins/LayerSlider/edit.php:892
+msgid "Background"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:39 ../plugins/LayerSlider/add.php:293
+#: ../plugins/LayerSlider/add.php:349 ../plugins/LayerSlider/add.php:879
+#: ../plugins/LayerSlider/add.php:1133 ../plugins/LayerSlider/add.php:1189
+#: ../plugins/LayerSlider/edit.php:48 ../plugins/LayerSlider/edit.php:302
+#: ../plugins/LayerSlider/edit.php:358 ../plugins/LayerSlider/edit.php:899
+#: ../plugins/LayerSlider/edit.php:1158 ../plugins/LayerSlider/edit.php:1214
+msgid "Direction"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:42 ../plugins/LayerSlider/add.php:298
+#: ../plugins/LayerSlider/add.php:354 ../plugins/LayerSlider/add.php:882
+#: ../plugins/LayerSlider/add.php:1138 ../plugins/LayerSlider/add.php:1194
+#: ../plugins/LayerSlider/edit.php:51 ../plugins/LayerSlider/edit.php:307
+#: ../plugins/LayerSlider/edit.php:363 ../plugins/LayerSlider/edit.php:902
+#: ../plugins/LayerSlider/edit.php:1163
+msgid "top"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:43 ../plugins/LayerSlider/add.php:299
+#: ../plugins/LayerSlider/add.php:355 ../plugins/LayerSlider/add.php:883
+#: ../plugins/LayerSlider/add.php:1139 ../plugins/LayerSlider/add.php:1195
+#: ../plugins/LayerSlider/edit.php:52 ../plugins/LayerSlider/edit.php:308
+#: ../plugins/LayerSlider/edit.php:364 ../plugins/LayerSlider/edit.php:903
+#: ../plugins/LayerSlider/edit.php:1164
+msgid "right"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:44 ../plugins/LayerSlider/add.php:300
+#: ../plugins/LayerSlider/add.php:356 ../plugins/LayerSlider/add.php:884
+#: ../plugins/LayerSlider/add.php:1140 ../plugins/LayerSlider/add.php:1196
+#: ../plugins/LayerSlider/edit.php:53 ../plugins/LayerSlider/edit.php:309
+#: ../plugins/LayerSlider/edit.php:365 ../plugins/LayerSlider/edit.php:904
+#: ../plugins/LayerSlider/edit.php:1165
+msgid "bottom"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:45 ../plugins/LayerSlider/add.php:301
+#: ../plugins/LayerSlider/add.php:357 ../plugins/LayerSlider/add.php:885
+#: ../plugins/LayerSlider/add.php:1141 ../plugins/LayerSlider/add.php:1197
+#: ../plugins/LayerSlider/edit.php:54 ../plugins/LayerSlider/edit.php:310
+#: ../plugins/LayerSlider/edit.php:366 ../plugins/LayerSlider/edit.php:905
+#: ../plugins/LayerSlider/edit.php:1166
+msgid "left"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:48 ../plugins/LayerSlider/add.php:92
+#: ../plugins/LayerSlider/add.php:136 ../plugins/LayerSlider/add.php:343
+#: ../plugins/LayerSlider/add.php:399 ../plugins/LayerSlider/add.php:888
+#: ../plugins/LayerSlider/add.php:932 ../plugins/LayerSlider/add.php:976
+#: ../plugins/LayerSlider/add.php:1183 ../plugins/LayerSlider/add.php:1239
+#: ../plugins/LayerSlider/edit.php:57 ../plugins/LayerSlider/edit.php:101
+#: ../plugins/LayerSlider/edit.php:145 ../plugins/LayerSlider/edit.php:352
+#: ../plugins/LayerSlider/edit.php:408 ../plugins/LayerSlider/edit.php:908
+#: ../plugins/LayerSlider/edit.php:952 ../plugins/LayerSlider/edit.php:996
+#: ../plugins/LayerSlider/edit.php:1208 ../plugins/LayerSlider/edit.php:1264
+msgid "Delay"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:52 ../plugins/LayerSlider/add.php:292
+#: ../plugins/LayerSlider/add.php:892 ../plugins/LayerSlider/add.php:1132
+#: ../plugins/LayerSlider/edit.php:61 ../plugins/LayerSlider/edit.php:301
+#: ../plugins/LayerSlider/edit.php:912 ../plugins/LayerSlider/edit.php:1157
+msgid "Slide in animation"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:53 ../plugins/LayerSlider/add.php:97
+#: ../plugins/LayerSlider/add.php:304 ../plugins/LayerSlider/add.php:360
+#: ../plugins/LayerSlider/add.php:893 ../plugins/LayerSlider/add.php:937
+#: ../plugins/LayerSlider/add.php:1144 ../plugins/LayerSlider/add.php:1200
+#: ../plugins/LayerSlider/edit.php:62 ../plugins/LayerSlider/edit.php:106
+#: ../plugins/LayerSlider/edit.php:313 ../plugins/LayerSlider/edit.php:369
+#: ../plugins/LayerSlider/edit.php:913 ../plugins/LayerSlider/edit.php:957
+#: ../plugins/LayerSlider/edit.php:1169 ../plugins/LayerSlider/edit.php:1225
+msgid "Duration"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:55 ../plugins/LayerSlider/add.php:99
+#: ../plugins/LayerSlider/add.php:306 ../plugins/LayerSlider/add.php:362
+#: ../plugins/LayerSlider/add.php:895 ../plugins/LayerSlider/add.php:939
+#: ../plugins/LayerSlider/add.php:1146 ../plugins/LayerSlider/add.php:1202
+#: ../plugins/LayerSlider/edit.php:64 ../plugins/LayerSlider/edit.php:108
+#: ../plugins/LayerSlider/edit.php:315 ../plugins/LayerSlider/edit.php:371
+#: ../plugins/LayerSlider/edit.php:915 ../plugins/LayerSlider/edit.php:959
+#: ../plugins/LayerSlider/edit.php:1171 ../plugins/LayerSlider/edit.php:1227
+msgid "Easing"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:96 ../plugins/LayerSlider/add.php:348
+#: ../plugins/LayerSlider/add.php:936 ../plugins/LayerSlider/add.php:1188
+#: ../plugins/LayerSlider/edit.php:105 ../plugins/LayerSlider/edit.php:357
+#: ../plugins/LayerSlider/edit.php:956 ../plugins/LayerSlider/edit.php:1213
+msgid "Slide out animation"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:140 ../plugins/LayerSlider/add.php:781
+#: ../plugins/LayerSlider/add.php:980 ../plugins/LayerSlider/edit.php:149
+#: ../plugins/LayerSlider/edit.php:795 ../plugins/LayerSlider/edit.php:1000
+msgid "Misc"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:141 ../plugins/LayerSlider/add.php:981
+#: ../plugins/LayerSlider/edit.php:150 ../plugins/LayerSlider/edit.php:1001
+msgid "#ID"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:143 ../plugins/LayerSlider/add.php:983
+#: ../plugins/LayerSlider/edit.php:152 ../plugins/LayerSlider/edit.php:1003
+msgid "Deeplink"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:145 ../plugins/LayerSlider/add.php:409
+#: ../plugins/LayerSlider/add.php:985 ../plugins/LayerSlider/add.php:1249
+#: ../plugins/LayerSlider/edit.php:154 ../plugins/LayerSlider/edit.php:418
+#: ../plugins/LayerSlider/edit.php:1005 ../plugins/LayerSlider/edit.php:1274
+msgid "Hidden"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:149 ../plugins/LayerSlider/add.php:710
+#: ../plugins/LayerSlider/add.php:989 ../plugins/LayerSlider/edit.php:158
+#: ../plugins/LayerSlider/edit.php:723 ../plugins/LayerSlider/edit.php:1009
+msgid "Navigation"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:165 ../plugins/LayerSlider/add.php:1005
+#: ../plugins/LayerSlider/edit.php:174 ../plugins/LayerSlider/edit.php:1025
+msgid "Preview"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:177 ../plugins/LayerSlider/add.php:1017
+#: ../plugins/LayerSlider/edit.php:186 ../plugins/LayerSlider/edit.php:1037
+msgid "Enter Preview"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:188 ../plugins/LayerSlider/add.php:1028
+#: ../plugins/LayerSlider/edit.php:197 ../plugins/LayerSlider/edit.php:1048
+msgid "Sublayers"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:201 ../plugins/LayerSlider/add.php:519
+#: ../plugins/LayerSlider/add.php:1041 ../plugins/LayerSlider/edit.php:210
+#: ../plugins/LayerSlider/edit.php:528 ../plugins/LayerSlider/edit.php:1065
+msgid "Basic"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:202 ../plugins/LayerSlider/add.php:1042
+#: ../plugins/LayerSlider/edit.php:211 ../plugins/LayerSlider/edit.php:1066
+msgid "Options"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:203 ../plugins/LayerSlider/add.php:1043
+#: ../plugins/LayerSlider/edit.php:212 ../plugins/LayerSlider/edit.php:1067
+msgid "Link"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:204 ../plugins/LayerSlider/add.php:1044
+#: ../plugins/LayerSlider/edit.php:213 ../plugins/LayerSlider/edit.php:1068
+msgid "Style"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:205 ../plugins/LayerSlider/add.php:455
+#: ../plugins/LayerSlider/add.php:1045 ../plugins/LayerSlider/add.php:1295
+#: ../plugins/LayerSlider/edit.php:214 ../plugins/LayerSlider/edit.php:464
+#: ../plugins/LayerSlider/edit.php:1069 ../plugins/LayerSlider/edit.php:1320
+msgid "Attributes"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:206 ../plugins/LayerSlider/add.php:1046
+#: ../plugins/LayerSlider/edit.php:215
+msgid "Remove this sublayer"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:226 ../plugins/LayerSlider/add.php:1066
+#: ../plugins/LayerSlider/edit.php:235 ../plugins/LayerSlider/edit.php:1090
+msgid "Image"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:231 ../plugins/LayerSlider/add.php:1071
+#: ../plugins/LayerSlider/edit.php:240 ../plugins/LayerSlider/edit.php:1095
+msgid "Div"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:236 ../plugins/LayerSlider/add.php:1076
+#: ../plugins/LayerSlider/edit.php:245 ../plugins/LayerSlider/edit.php:1100
+msgid "Paragraph"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:241 ../plugins/LayerSlider/add.php:1081
+#: ../plugins/LayerSlider/edit.php:250 ../plugins/LayerSlider/edit.php:1105
+msgid "Span"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:246 ../plugins/LayerSlider/add.php:1086
+#: ../plugins/LayerSlider/edit.php:255 ../plugins/LayerSlider/edit.php:1110
+msgid "H1"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:251 ../plugins/LayerSlider/add.php:1091
+#: ../plugins/LayerSlider/edit.php:260 ../plugins/LayerSlider/edit.php:1115
+msgid "H2"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:256 ../plugins/LayerSlider/add.php:1096
+#: ../plugins/LayerSlider/edit.php:265 ../plugins/LayerSlider/edit.php:1120
+msgid "H3"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:261 ../plugins/LayerSlider/add.php:1101
+#: ../plugins/LayerSlider/edit.php:270 ../plugins/LayerSlider/edit.php:1125
+msgid "H4"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:266 ../plugins/LayerSlider/add.php:1106
+#: ../plugins/LayerSlider/edit.php:275 ../plugins/LayerSlider/edit.php:1130
+msgid "H5"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:271 ../plugins/LayerSlider/add.php:1111
+#: ../plugins/LayerSlider/edit.php:280 ../plugins/LayerSlider/edit.php:1135
+msgid "H6"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:279 ../plugins/LayerSlider/add.php:1119
+#: ../plugins/LayerSlider/edit.php:288 ../plugins/LayerSlider/edit.php:1144
+msgid ""
+"Click into this text field to open WordPress Media Library where you can "
+"upload new images or select previously used ones."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:284 ../plugins/LayerSlider/add.php:1124
+#: ../plugins/LayerSlider/edit.php:293 ../plugins/LayerSlider/edit.php:1149
+msgid "Custom HTML content"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:296 ../plugins/LayerSlider/add.php:352
+#: ../plugins/LayerSlider/add.php:619 ../plugins/LayerSlider/add.php:1136
+#: ../plugins/LayerSlider/add.php:1192 ../plugins/LayerSlider/edit.php:305
+#: ../plugins/LayerSlider/edit.php:361 ../plugins/LayerSlider/edit.php:1161
+msgid "auto"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:297 ../plugins/LayerSlider/add.php:353
+#: ../plugins/LayerSlider/add.php:1137 ../plugins/LayerSlider/add.php:1193
+#: ../plugins/LayerSlider/edit.php:306 ../plugins/LayerSlider/edit.php:362
+#: ../plugins/LayerSlider/edit.php:1162
+msgid "fade"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:404 ../plugins/LayerSlider/add.php:1244
+#: ../plugins/LayerSlider/edit.php:413 ../plugins/LayerSlider/edit.php:1269
+msgid "Other options"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:405 ../plugins/LayerSlider/add.php:1245
+#: ../plugins/LayerSlider/edit.php:414 ../plugins/LayerSlider/edit.php:1270
+msgid "P. Level"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:407 ../plugins/LayerSlider/add.php:1247
+#: ../plugins/LayerSlider/edit.php:416 ../plugins/LayerSlider/edit.php:1272
+msgid "Show until"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:411 ../plugins/LayerSlider/add.php:1251
+#: ../plugins/LayerSlider/edit.php:420 ../plugins/LayerSlider/edit.php:1276
+msgid "Duplicate this sublayer"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:419 ../plugins/LayerSlider/add.php:1259
+#: ../plugins/LayerSlider/edit.php:428 ../plugins/LayerSlider/edit.php:1284
+msgid "URL"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:435 ../plugins/LayerSlider/add.php:1275
+#: ../plugins/LayerSlider/edit.php:444 ../plugins/LayerSlider/edit.php:1300
+msgid "Basic style settings"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:436 ../plugins/LayerSlider/add.php:1276
+#: ../plugins/LayerSlider/edit.php:445 ../plugins/LayerSlider/edit.php:1301
+msgid "Top"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:438 ../plugins/LayerSlider/add.php:1278
+#: ../plugins/LayerSlider/edit.php:447 ../plugins/LayerSlider/edit.php:1303
+msgid "Left"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:440 ../plugins/LayerSlider/add.php:1280
+#: ../plugins/LayerSlider/edit.php:449 ../plugins/LayerSlider/edit.php:1305
+msgid "Word-wrap"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:444 ../plugins/LayerSlider/add.php:1284
+#: ../plugins/LayerSlider/edit.php:453 ../plugins/LayerSlider/edit.php:1309
+msgid "Custom style settings"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:445 ../plugins/LayerSlider/add.php:1285
+#: ../plugins/LayerSlider/edit.php:454 ../plugins/LayerSlider/edit.php:1310
+msgid "Custom styles"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:456 ../plugins/LayerSlider/add.php:1296
+#: ../plugins/LayerSlider/edit.php:465 ../plugins/LayerSlider/edit.php:1321
+#: ../plugins/shiba-media-library/shiba-mlib-manage.php:27
+msgid "ID"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:458 ../plugins/LayerSlider/add.php:1298
+#: ../plugins/LayerSlider/edit.php:467 ../plugins/LayerSlider/edit.php:1323
+msgid "Classes"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:460 ../plugins/LayerSlider/add.php:1300
+#: ../plugins/LayerSlider/edit.php:469 ../plugins/LayerSlider/edit.php:1325
+#: ../plugins/shiba-media-library/shiba-mlib-ajax.php:103
+msgid "Title"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:462 ../plugins/LayerSlider/add.php:1302
+#: ../plugins/LayerSlider/edit.php:471 ../plugins/LayerSlider/edit.php:1327
+msgid "Alt"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:474 ../plugins/LayerSlider/add.php:1314
+#: ../plugins/LayerSlider/edit.php:483 ../plugins/LayerSlider/edit.php:1341
+msgid "Add new sublayer"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:485
+msgid "Add new LayerSlider"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:486 ../plugins/LayerSlider/edit.php:495
+msgid "Back to the list"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:491 ../plugins/LayerSlider/add.php:513
+#: ../plugins/LayerSlider/edit.php:500 ../plugins/LayerSlider/edit.php:522
+msgid "Global Settings"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:492 ../plugins/LayerSlider/edit.php:501
+msgid "Layers"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:493 ../plugins/LayerSlider/edit.php:502
+msgid "Event Callbacks"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:494 ../plugins/LayerSlider/edit.php:503
+msgid "Documentation"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:507 ../plugins/LayerSlider/edit.php:516
+msgid "Type your slider name here"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:525
+msgid "Width"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:527 ../plugins/LayerSlider/edit.php:536
+msgid ""
+"The slider width in pixels. For compatibility reasons, we still support "
+"percentage values, but for responsive layout, you should use pixels."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:530
+msgid "Height"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:532 ../plugins/LayerSlider/edit.php:541
+msgid "The slider height in pixels."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:535 ../plugins/LayerSlider/edit.php:544
+msgid "Responsive"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:537 ../plugins/LayerSlider/edit.php:546
+msgid "Enable this option to turn LayerSlider into a responsive slider."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:540 ../plugins/LayerSlider/edit.php:549
+msgid "Full-width slider"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:542 ../plugins/LayerSlider/edit.php:551
+msgid ""
+"When you are using a responsiveness or percentage dimensions for the slider, "
+"it will respond the parent element size changes. With tis option you can "
+"bypass this behaviour and LayerSlider will be a full-width slider."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:545 ../plugins/LayerSlider/edit.php:554
+msgid "Responsive under"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:547 ../plugins/LayerSlider/edit.php:556
+msgid ""
+"You can force the slider to change automatically into responsive mode but "
+"only if the slider width is smaller than responsiveUnder pixels. It can be "
+"used if you need a full-width slider with fixed height but you also need it "
+"to be responsive if the browser is smaller... Important! If you enter a "
+"value higher than 0, the normal responsive mode will be switched off "
+"automatically!"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:550 ../plugins/LayerSlider/edit.php:559
+msgid "Sublayer Container"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:552 ../plugins/LayerSlider/edit.php:561
+msgid ""
+"This feature is needed if you are using a full-width slider and you need "
+"that your sublayers forced to positioning inside a centered custom width "
+"container. Just specify the width of this container in pixels! Note, that "
+"this feature is working only with pixel-positioned sublayers, but of course "
+"if you add left: 50% position to a sublayer it will be positioned "
+"horizontally to the center, as before!"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:559 ../plugins/LayerSlider/edit.php:568
+msgid "Slideshow"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:565 ../plugins/LayerSlider/edit.php:574
+msgid "Automatically start slideshow"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:567 ../plugins/LayerSlider/edit.php:576
+msgid "If enabled, slideshow will automatically start after loading the page."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:570 ../plugins/LayerSlider/edit.php:579
+msgid "Pause on hover"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:572 ../plugins/LayerSlider/edit.php:581
+msgid "Slideshow will pause when mouse pointer is over LayerSlider."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:575 ../plugins/LayerSlider/edit.php:584
+msgid "First layer"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:577 ../plugins/LayerSlider/edit.php:586
+msgid ""
+"LayerSlider will start with this layer (you can type the word <i>random</i> "
+"if you want the slider to start with a random layer)."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:580 ../plugins/LayerSlider/edit.php:589
+msgid "Animate first layer"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:582 ../plugins/LayerSlider/edit.php:591
+msgid "If enabled, first layer will animate (slide in) instead of fading."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:585 ../plugins/LayerSlider/edit.php:594
+msgid "Random slideshow"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:587 ../plugins/LayerSlider/edit.php:596
+msgid ""
+"LayerSlider will change to a random layer instead of changing to the next / "
+"prev layer. Note that 'loops' feature won't work with this option."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:590 ../plugins/LayerSlider/edit.php:599
+msgid "Two way slideshow"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:592 ../plugins/LayerSlider/edit.php:601
+msgid "If enabled, slideshow will go backwards if you click the prev button."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:595 ../plugins/LayerSlider/edit.php:604
+msgid "Loops"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:603 ../plugins/LayerSlider/edit.php:616
+msgid ""
+"Number of loops if automatically start slideshow is enabled (0 means "
+"infinite!)"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:606 ../plugins/LayerSlider/edit.php:619
+msgid "Force the number of loops"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:608 ../plugins/LayerSlider/edit.php:621
+msgid ""
+"If enabled, the slider will always stop at the given number of loops even if "
+"the user restarts the slideshow."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:611 ../plugins/LayerSlider/edit.php:624
+msgid "Automatically play videos"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:613 ../plugins/LayerSlider/edit.php:626
+msgid ""
+"If enabled, the slider will automatically play youtube and vimeo videos."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:616 ../plugins/LayerSlider/edit.php:629
+msgid "Automatically pause slideshow"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:620
+msgid "enabled"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:621 ../plugins/LayerSlider/add.php:744
+msgid "disabled"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:624 ../plugins/LayerSlider/edit.php:637
+msgid ""
+"If you enabled automatically play videos, the auto value means that the "
+"slideshow will stop UNTIL the video is playing and after that it continues. "
+"Enabled means slideshow will stop and it won't continue after video is "
+"played."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:627 ../plugins/LayerSlider/edit.php:640
+msgid "Youtube preview"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:630 ../plugins/LayerSlider/edit.php:643
+msgid "Maximum quality"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:631 ../plugins/LayerSlider/edit.php:644
+msgid "High quality"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:632 ../plugins/LayerSlider/edit.php:645
+msgid "Medium quality"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:633 ../plugins/LayerSlider/edit.php:646
+msgid "Default quality"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:636 ../plugins/LayerSlider/edit.php:649
+msgid ""
+"Default thumbnail picture of YouTube videos. Note, that Maximum quaility is "
+"not available to all (not HD) videos."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:639 ../plugins/LayerSlider/edit.php:652
+msgid "Keyboard navigation"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:641 ../plugins/LayerSlider/edit.php:654
+msgid "You can navigate with the left and right arrow keys."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:644 ../plugins/LayerSlider/edit.php:657
+msgid "Touch navigation"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:646 ../plugins/LayerSlider/edit.php:659
+msgid "Touch-control (on mobile devices)."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:653 ../plugins/LayerSlider/edit.php:666
+msgid "Appearance"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:659 ../plugins/LayerSlider/edit.php:672
+msgid "Skin"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:673 ../plugins/LayerSlider/edit.php:686
+msgid ""
+"You can change the skin of the slider. The 'noskin' skin is a border- and "
+"buttonless skin. Your custom skins will appear in the list when you create "
+"their folders as well."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:676 ../plugins/LayerSlider/edit.php:689
+msgid "Background color"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:683 ../plugins/LayerSlider/edit.php:696
+msgid ""
+"Background color of LayerSlider. You can use all CSS methods, like hexa "
+"colors, rgb(r,g,b) method, color names, etc. Note, that background sublayers "
+"are covering the background."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:686 ../plugins/LayerSlider/edit.php:699
+msgid "Background image"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:693 ../plugins/LayerSlider/edit.php:706
+msgid ""
+"Background image of LayerSlider. This will be a fixed background image of "
+"LayerSlider by default. Note, that background sublayers are covering the "
+"global background image."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:696 ../plugins/LayerSlider/edit.php:709
+msgid "Slider style"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:703 ../plugins/LayerSlider/edit.php:716
+msgid "Here you can apply your custom CSS style settings to the slider."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:716 ../plugins/LayerSlider/edit.php:729
+msgid "Prev and Next buttons"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:718 ../plugins/LayerSlider/edit.php:731
+msgid "If disabled, Prev and Next buttons will be invisible."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:721 ../plugins/LayerSlider/edit.php:734
+msgid "Start and Stop buttons"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:723 ../plugins/LayerSlider/edit.php:736
+msgid "If disabled, Start and Stop buttons will be invisible."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:726 ../plugins/LayerSlider/edit.php:739
+msgid "Navigation buttons"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:728 ../plugins/LayerSlider/edit.php:741
+msgid "If disabled, slide buttons will be invisible."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:731 ../plugins/LayerSlider/edit.php:744
+msgid "Prev and next buttons on hover"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:733 ../plugins/LayerSlider/edit.php:746
+msgid ""
+"If enabled, the prev and next buttons will be shown only if you move your "
+"mouse cursor over the slider."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:736 ../plugins/LayerSlider/edit.php:749
+msgid "Bottom navigation on hover"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:738 ../plugins/LayerSlider/edit.php:751
+msgid ""
+"The bottom navigation controls (with also thumbnails) will be shown only if "
+"you move your mouse cursor over the slider."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:741 ../plugins/LayerSlider/edit.php:754
+msgid "Thumbnail navigation"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:745
+msgid "hover"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:746
+msgid "always"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:752 ../plugins/LayerSlider/edit.php:766
+msgid "Thumbnail width"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:754 ../plugins/LayerSlider/edit.php:768
+msgid "The width of the thumbnails in the navigation area."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:757 ../plugins/LayerSlider/edit.php:771
+msgid "Thumbnail height"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:759 ../plugins/LayerSlider/edit.php:773
+msgid "The height of the thumbnails in the navigation area."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:762 ../plugins/LayerSlider/edit.php:776
+msgid "Thumbnail container width"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:764 ../plugins/LayerSlider/edit.php:778
+msgid "The width of the thumbnail navigation area."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:767 ../plugins/LayerSlider/edit.php:781
+msgid "Thumbnail active opacity"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:769 ../plugins/LayerSlider/edit.php:783
+msgid "The selected thumbnail opacity (0-100)."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:772 ../plugins/LayerSlider/edit.php:786
+msgid "Thumbnail inactive opacity"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:774 ../plugins/LayerSlider/edit.php:788
+msgid "The opacity of inactive thumbnails (0-100)."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:787 ../plugins/LayerSlider/edit.php:801
+msgid "Image preload"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:789 ../plugins/LayerSlider/edit.php:803
+msgid "Preloads all images and background-images of the next layer."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:792 ../plugins/LayerSlider/edit.php:806
+msgid "Use relative URLs"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:794 ../plugins/LayerSlider/edit.php:808
+msgid "If enabled, LayerSlider WP will use relative URLs for images."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:801 ../plugins/LayerSlider/add.php:807
+#: ../plugins/LayerSlider/edit.php:815 ../plugins/LayerSlider/edit.php:821
+msgid "YourLogo"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:814 ../plugins/LayerSlider/edit.php:828
+msgid ""
+"This is a fixed layer that will be shown above of LayerSlider container. For "
+"example if you want to display your own logo, etc., you can upload an image "
+"or choose one from the Media Library."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:817 ../plugins/LayerSlider/edit.php:831
+msgid "YourLogo style"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:819 ../plugins/LayerSlider/edit.php:833
+msgid ""
+"You can style your logo. You can use any CSS properties, for example you can "
+"add left and top properties to place the image inside the LayerSlider "
+"container anywhere you want."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:822 ../plugins/LayerSlider/edit.php:836
+msgid "YourLogo link"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:829 ../plugins/LayerSlider/edit.php:843
+msgid ""
+"You can add a link to your logo. Set false is you want to display only an "
+"image without a link."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:832 ../plugins/LayerSlider/edit.php:846
+msgid "YourLogo link target"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:839 ../plugins/LayerSlider/edit.php:853
+msgid "If '_blank', the clicked url will open in a new window."
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:851 ../plugins/LayerSlider/edit.php:868
+msgid "Add new layer"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:1381 ../plugins/LayerSlider/edit.php:1410
+msgid "Publish"
+msgstr ""
+
+#: ../plugins/LayerSlider/add.php:1383 ../plugins/LayerSlider/edit.php:1412
+#: ../plugins/LayerSlider/editor.php:63
+msgid "Save changes"
+msgstr ""
+
+#: ../plugins/LayerSlider/edit.php:494
+msgid "Edit this LayerSlider"
+msgstr ""
+
+#: ../plugins/LayerSlider/edit.php:534
+msgid "Slider width"
+msgstr ""
+
+#: ../plugins/LayerSlider/edit.php:539
+msgid "Slider height"
+msgstr ""
+
+#: ../plugins/LayerSlider/editor.php:30
+msgid "LayerSlider Skin Editor"
+msgstr ""
+
+#: ../plugins/LayerSlider/editor.php:33
+msgid "Your changes has been saved!"
+msgstr ""
+
+#: ../plugins/LayerSlider/editor.php:39
+#: ../plugins/LayerSlider/layerslider.php:373
+msgid "Skin Editor"
+msgstr ""
+
+#: ../plugins/LayerSlider/editor.php:41
+msgid "Choose a skin:"
+msgstr ""
+
+#: ../plugins/LayerSlider/editor.php:61
+msgid ""
+"You need to make this file writable before you can save your changes. See "
+"the <a href=\"http://codex.wordpress.org/Changing_File_Permissions\" target="
+"\"_blank\">Codex</a> for more information."
+msgstr ""
+
+#: ../plugins/LayerSlider/editor.php:64
+msgid ""
+"Modifying a skin could be dangerous, these changes will be permanent, you "
+"can't revert it."
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:371
+msgid "All Sliders"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:372
+#: ../plugins/LayerSlider/list.php:19
+msgid "Add New"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:603
+msgid ""
+"It looks like your files isn't writable, so PHP couldn't make any changes "
+"(CHMOD)."
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:603
+msgid "Cannot write to file"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:618
+msgid "Invalid shortcode"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:638
+msgid "Slider not found"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:670
+msgid "The new version of LayerSlider WP is almost ready!"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:672
+msgid ""
+"For a faster and more reliable solution, LayerSlider WP needs to convert "
+"your data associated with the plugin. Your sliders and settings will remain "
+"still, and it only takes a click on this button."
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:674
+msgid "Convert Data"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:933
+msgid "Insert a slider with LayerSlider WP Widget"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:935
+msgid "LayerSlider WP Widget"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:967
+msgid "LayerSlider"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:983
+msgid "Choose a slider:"
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:996
+msgid "You didn't create any slider yet."
+msgstr ""
+
+#: ../plugins/LayerSlider/layerslider.php:1001
+msgid "Title:"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:18
+msgid "LayerSlider sliders"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:20
+msgid "Import sample sliders"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:28 ../templates/comments-form.php:19
+msgid "Name"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:29
+msgid "Shortcode"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:30
+msgid "Actions"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:31
+msgid "Created"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:32
+msgid "Modified"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:44
+msgid "Edit"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:45
+msgid "Duplicate"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:46
+msgid "Remove"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:55
+msgid "You didn't create a slider yet."
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:63
+msgid "Import sliders"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:66
+msgid "Import"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:83
+msgid "Export sliders"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:86
+msgid ""
+"Place this export code into the import text field in your new site and press "
+"\"Import\"."
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:105
+msgid "The documentation is here"
+msgstr ""
+
+#: ../plugins/LayerSlider/list.php:105
+msgid ""
+"This is a WordPress contextual help menu, we use it to give you fast access "
+"to our documentation. Please keep in mind that because this menu is "
+"contextual, it only shows the relevant information to the page that you are "
+"currently viewing. So if you search something, you should visit the "
+"corresponding page first and then open this help menu."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-library-menu.php:212
+#: ../plugins/shiba-media-library/shiba-media-library.php:299
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:228
+#: ../plugins/shiba-media-library/shiba-tag-metabox.php:49
+msgid "Attachment Tags"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-library-menu.php:225
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:241
+msgid "Search Media"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-library-menu.php:246
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:152
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:262
+msgid "Bulk Actions"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-library-menu.php:247
+#: ../plugins/shiba-media-library/shiba-mlib-helper.php:210
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:263
+msgid "Delete Permanently"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-library-menu.php:248
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:264
+msgid "Attach to a Post"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-library-menu.php:249
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:265
+msgid "Detach from a Post"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-library-menu.php:251
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:267
+msgid "Set/Replace Tags"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-library-menu.php:252
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:268
+msgid "Add Tags"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-media-library.php:300
+msgid ""
+"Associate tags with image attachments to easily include them in multiple "
+"image galleries."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:17
+msgid "Gallery Description"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:41
+#, php-format
+msgid "Gallery updated. <a href=\"%s\">View gallery</a>"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:42
+msgid "Custom field updated."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:43
+msgid "Custom field deleted."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:44
+msgid "Gallery updated."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:46
+#, php-format
+msgid "Gallery restored to revision from %s"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:47
+#, php-format
+msgid "Gallery published. <a href=\"%s\">View gallery</a>"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:48
+msgid "Gallery saved."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:49
+#, php-format
+msgid "Gallery submitted. <a target=\"_blank\" href=\"%s\">Preview gallery</a>"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:50
+#, php-format
+msgid ""
+"Gallery scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview gallery</a>"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:52
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:53
+#, php-format
+msgid ""
+"Gallery draft updated. <a target=\"_blank\" href=\"%s\">Preview gallery</a>"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:54
+msgid "Media removed from gallery."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:55
+msgid "Media permanently deleted."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:56
+#: ../plugins/shiba-media-library/shiba-mlib-helper.php:219
+msgid "Undo"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:56
+msgid "Media moved to the trash. <a href=\""
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:57
+msgid "Media restored from the trash."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:111
+msgid "Add an Image"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:153
+msgid "Detach from Gallery"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:155
+#: ../plugins/shiba-media-library/shiba-mlib-helper.php:218
+msgid "Move to Trash"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-add.php:223
+msgid "Description"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-ajax.php:50
+msgid "No tags found!"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-ajax.php:101
+msgid "No posts found."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-ajax.php:103
+msgid "Time"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-ajax.php:103
+msgid "Status"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-ajax.php:109
+msgid "Published"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-ajax.php:112
+msgid "Scheduled"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-ajax.php:115
+msgid "Pending Review"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-ajax.php:118
+msgid "Unpublished"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-ajax.php:126
+msgid "Y/m/d"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-controls.php:34
+msgid "Shiba Media Tools"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-controls.php:45
+msgid "Image Link Domains: "
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-controls.php:60
+msgid "Shared wp-content domains for multisite: "
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-helper.php:212
+msgid "Delete"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-helper.php:213
+#, php-format
+msgid "You are about to delete <strong>%s</strong>."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-helper.php:214
+msgid "Continue"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-helper.php:215
+#, fuzzy
+msgid "Cancel"
+msgstr "Leave a Reply"
+
+#: ../plugins/shiba-media-library/shiba-mlib-manage.php:30
+msgid "Images"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-manage.php:31
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:58
+msgid "Author"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-manage.php:33
+msgid "Categories"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-manage.php:34
+msgid "Tags"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-manage.php:59
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:99
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:109
+#, php-format
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-manage.php:91
+msgid "Uncategorized"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-manage.php:103
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:82
+msgid "No Tags"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-options.php:26
+msgid "Shiba Media Library settings updated."
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-options.php:33
+msgid "Shiba Media Options"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-permalink.php:34
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-permalink.php:35
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-permalink.php:36
+msgid "New Gallery"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-permalink.php:37
+msgid "View Gallery"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-permalink.php:38
+msgid "Search Gallery"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-permalink.php:39
+msgid "No galleries found"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-permalink.php:40
+msgid "No galleries found in Trash"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-mlib-upload.php:297
+msgid "Show all dates"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-tag-metabox.php:21
+msgid "Add new tag"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-tag-metabox.php:22
+msgid "Add or remove tags"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-tag-metabox.php:23
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-tag-metabox.php:46
+msgid "Post Tags"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-tag-metabox.php:52
+msgid "Gallery Tags"
+msgstr ""
+
+#: ../plugins/shiba-media-library/shiba-tag-metabox.php:54
+msgid "You cannot modify this taxonomy."
+msgstr ""
+
+#: ../templates/comments-form.php:11
+msgid "Leave a Reply"
+msgstr "Leave a Reply"
+
+#: ../templates/comments-form.php:23
+msgid "Email"
+msgstr ""
+
+#: ../templates/comments-form.php:27
+msgid "Website"
+msgstr ""
+
+#: ../templates/comments-form.php:37
+msgid "Submit"
+msgstr ""
+
+#: ../templates/comments-form.php:38
+#, fuzzy
+msgid "Cancel Reply"
+msgstr "Leave a Reply"
