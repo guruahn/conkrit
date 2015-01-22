@@ -206,6 +206,10 @@ if(!empty($pp_seo_meta_key))
 		wp_enqueue_style('google_fonts', get_stylesheet_directory_uri()."/css/gfont.css", false, "", "all");
 	}
 	//End Get Google Webfont
+
+    //Get NanumBarunGothic Webfont
+    wp_enqueue_style('nanum_fonts', "//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css", false, "", "all");
+    //End Get NanumBarunGothic Webfont
 	
 	//Get Theme Layout
 	if(isset($_SESSION['pp_theme_layout']))

@@ -341,7 +341,9 @@ input[type=submit], input[type=button], a.button {
     if(!empty($pp_font_family))
     {
 ?>
-h1, h2, h3, h4, h5, h6, input[type=submit], input[type=button], a.button, #menu_wrapper .nav ul, #menu_wrapper div .nav, .post_header, .member_position, .portfolio_sub_header { font-family: '<?php echo $pp_font_family; ?>'; }	
+h1, h2, h3, h4, h5, h6, input[type=submit], input[type=button], a.button, #menu_wrapper .nav ul, #menu_wrapper div .nav, .post_header, .member_position, .portfolio_sub_header {
+        font-family: '<?php echo $pp_font_family; ?>', "Nanum Barun Gothic";
+}
 <?php
 	}
 ?>
