@@ -465,148 +465,28 @@ if(isset($page->ID))
 				    	
 				    </div>
 				    
-				    <!-- Begin top bar -->
-					<div id="top_bar">
-						
-						<div class="top_bar_wrapper">
-						
-							<div class="top_social">
-				
-								<ul class="social_wrapper">
-							    	<?php
-							    		$pp_flickr_username = get_option('pp_flickr_username');
-							    		
-							    		if(!empty($pp_flickr_username))
-							    		{
-							    	?>
-							    	<li><a title="Flickr" href="http://flickr.com/people/<?php echo $pp_flickr_username; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_dark/flickr.png" alt=""/></a></li>
-							    	<?php
-							    		}
-							    	?>
-							    	<?php
-							    		$pp_youtube_username = get_option('pp_youtube_username');
-							    		
-							    		if(!empty($pp_youtube_username))
-							    		{
-							    	?>
-							    	<li><a title="Youtube" href="http://youtube.com/user/<?php echo $pp_youtube_username; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_dark/youtube.png" alt=""/></a></li>
-							    	<?php
-							    		}
-							    	?>
-							    	<?php
-							    		$pp_vimeo_username = get_option('pp_vimeo_username');
-							    		
-							    		if(!empty($pp_vimeo_username))
-							    		{
-							    	?>
-							    	<li><a title="Vimeo" href="http://vimeo.com/<?php echo $pp_vimeo_username; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_dark/vimeo.png" alt=""/></a></li>
-							    	<?php
-							    		}
-							    	?>
-							    	<?php
-							    		$pp_tumblr_username = get_option('pp_tumblr_username');
-							    		
-							    		if(!empty($pp_tumblr_username))
-							    		{
-							    	?>
-							    	<li><a title="Tumblr" href="http://<?php echo $pp_tumblr_username; ?>.tumblr.com"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_dark/tumblr.png" alt=""/></a></li>
-							    	<?php
-							    		}
-							    	?>
-							    	<?php
-							    		$pp_google_username = get_option('pp_google_username');
-							    		
-							    		if(!empty($pp_google_username))
-							    		{
-							    	?>
-							    	<li><a title="Google+" href="<?php echo $pp_google_username; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_dark/google.png" alt=""/></a></li>
-							    	<?php
-							    		}
-							    	?>
-							    	<?php
-							    		$pp_dribbble_username = get_option('pp_dribbble_username');
-							    		
-							    		if(!empty($pp_dribbble_username))
-							    		{
-							    	?>
-							    	<li><a title="Dribbble" href="http://dribbble.com/<?php echo $pp_dribbble_username; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_dark/dribbble.png" alt=""/></a></li>
-							    	<?php
-							    		}
-							    	?>
-							    	<?php
-							    		$pp_digg_username = get_option('pp_digg_username');
-							    		
-							    		if(!empty($pp_digg_username))
-							    		{
-							    	?>
-							    	<li><a title="Digg" href="http://digg.com/<?php echo $pp_digg_username; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_dark/digg.png" alt=""/></a></li>
-							    	<?php
-							    		}
-							    	?>
-							    	<?php
-							    		$pp_linkedin_username = get_option('pp_linkedin_username');
-							    		
-							    		if(!empty($pp_linkedin_username))
-							    		{
-							    	?>
-							    	<li><a title="Linkedin" href="<?php echo $pp_linkedin_username; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_dark/linkedin.png" alt=""/></a></li>
-							    	<?php
-							    		}
-							    	?>
-							    	<?php
-							    		$pp_twitter_username = get_option('pp_twitter_username');
-							    		
-							    		if(!empty($pp_twitter_username))
-							    		{
-							    	?>
-							    	<li><a title="Twitter" href="http://twitter.com/<?php echo $pp_twitter_username; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_dark/twitter.png" alt=""/></a></li>
-							    	<?php
-							    		}
-							    	?>
-							    	<?php
-							    		$pp_facebook_username = get_option('pp_facebook_username');
-							    		
-							    		if(!empty($pp_facebook_username))
-							    		{
-							    	?>
-							    	<li><a title="Facebook" href="http://facebook.com/<?php echo $pp_facebook_username; ?>"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/social_dark/facebook.png" alt=""/></a></li>
-							    	<?php
-							    		}
-							    	?>
-							    </ul>
-							
-							</div>
-							
-						</div>
-							
-						<div class="top_contact_info">
-						    <ul>
-						    	<?php
-						    		$pp_contact_phone = get_option('pp_contact_phone');
-						    		
-						    		if(!empty($pp_contact_phone))
-						    		{
-						    	?>
-						    		<li><img src="<?php echo get_stylesheet_directory_uri()?>/images/grey_phone_icon.png" alt="" class="middle"><?php echo $pp_contact_phone; ?></li>
-						    	<?php
-						    		}
-						    	?>
-						    	<?php
-						    		$pp_contact_email = get_option('pp_contact_email');
-						    		$pp_contact_email_display = get_option('pp_contact_email_display');
-						    		
-						    		if(!empty($pp_contact_email) && !empty($pp_contact_email_display))
-						    		{	
-						    	?>
-						    		<li><img src="<?php echo get_stylesheet_directory_uri()?>/images/grey_email_icon.png" alt="" class="middle"><?php echo $pp_contact_email; ?></li>
-						    	<?php
-						    		}
-						    	?>
-						    </ul>
-						</div>
-						
-					</div>
-					<!-- End top bar -->
+<!-- Begin top bar -->
+<div id="top_bar">
+	<div class="top_bar_wrapper">
+		<div class="top_social">
+			<form role="search" method="get" id="searchform" class="searchform" action="http://conkrit.com:8080/">
+				<div>
+					<label class="screen-reader-text" for="s">검색:</label>
+					<input type="text" value="" name="s" id="s" title="Enter keywords..." class="blur">
+					<input type="submit" id="searchsubmit" value="검색">
+				</div>
+			</form>
+		</div> <!-- .top_social -->		
+	</div>
+	<div class="top_contact_info">
+	    <ul>
+    		<li><a href="#" class="user_contact">Contact Us</a></li>
+    		<li><a href="#" class="user_login">Log in</a> |</li>
+    	</ul>
+	</div>
+</div>
+<!-- End top bar -->
+					
 				    
 				    <div id="menu_border_wrapper">
 				
