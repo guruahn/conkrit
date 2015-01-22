@@ -9,3 +9,8 @@ License URI: http://themeforest.net/licenses/regular_extended
 */
 
 @import "css/screen.css";
+
+#header_wrapper{
+	background:transparent;
+	border:1px solid red;
+}
