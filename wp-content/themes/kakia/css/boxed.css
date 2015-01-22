@@ -15,12 +15,12 @@ body
 
 #wrapper
 {
-	width: 1020px;
+	width: 1200px;/* 2015-01-22 */
 	padding: 0 0 20px 0;
 	-moz-box-shadow: 0 4px 25px rgba(0,0,0,0.3);
 	-webkit-box-shadow: 0 4px 25px rgba(0,0,0,0.3);
 	box-shadow: 0 4px 25px rgba(0,0,0,0.3);
-	background: #fff;
+	background: none;
 }
 
 #header_wrapper

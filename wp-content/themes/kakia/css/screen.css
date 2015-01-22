@@ -760,7 +760,7 @@ blockquote h3
 {
 	width: 100%;
 	float: left;
-	background: #fff;
+	background: transparent;
 	border: 1px solid #E5E5E5;
 }
 
@@ -771,7 +771,7 @@ body.admin-bar #header_wrapper
 
 .header_bg
 {
-	background: #f9f9f9;
+	background: transparent;
 }
 
 .logo

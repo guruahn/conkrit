@@ -282,7 +282,9 @@ a:active, .top_info a:active { color:<?php echo $pp_active_link_color; ?>; }
 ?>
 input[type=submit], input[type=button], a.button, input[type=submit]:active, input[type=button]:active, a.button:active, .tagline, .portfolio200_overlay .overlay_icon_circle, .portfolio460_overlay .overlay_icon_circle, .portfolio305_overlay .overlay_icon_circle, .portfolio195_overlay .overlay_icon_circle, .post_img_overlay .overlay_icon_circle, .blog_thumb_overlay .overlay_icon_circle, .post_full_img_overlay .overlay_icon_circle, .post_half_img_overlay .overlay_icon_circle, .post_third_img_overlay .overlay_icon_circle, .ls-layer h6, .colorful_bg, .pagination span, .pagination a:hover, .flex-control-nav li a.active, .flex-control-nav li a:hover, .ajax_close, .ajax_close:hover, .ajax_close:active, .ajax_next:hover, .ajax_prev:hover, .portfolio_single_navi a:hover {  background-color: <?php echo $pp_button_bg_color; ?>; }
 
-#wrapper { border-top: 5px solid <?php echo $pp_button_bg_color; ?>; }
+#wrapper {
+        border-top: 0; <!--border-top: 5px solid --><?php /*echo $pp_button_bg_color; */?>
+}
 .ui-tabs .ui-tabs-nav li.ui-tabs-selected { border-top: 3px solid <?php echo $pp_button_bg_color; ?>; }
 
 <?php
