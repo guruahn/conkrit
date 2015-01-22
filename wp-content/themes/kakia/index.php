@@ -8,6 +8,11 @@
 get_header(); 
 ?>
 
+
+
+</div>
+<!-- End header bg -->
+
 <?php
 //Check if enable slider
 $pp_slider_display = get_option('pp_slider_display');
@@ -15,111 +20,108 @@ $pp_slider_display = get_option('pp_slider_display');
 if(!empty($pp_slider_display))
 {
 
-//Check slider engine
-$pp_slider_type = get_option('pp_slider_type');
+    //Check slider engine
+    $pp_slider_type = get_option('pp_slider_type');
 
-if(isset($_SESSION['pp_home_style']) && ($_SESSION['pp_home_style']==5))
-{
-    $pp_slider_type = 'cute';
-}
+    if(isset($_SESSION['pp_home_style']) && ($_SESSION['pp_home_style']==5))
+    {
+        $pp_slider_type = 'cute';
+    }
 
-if(isset($_SESSION['pp_home_style']) && ($_SESSION['pp_home_style']==3))
-{
-    $pp_slider_type = 'revslider';
-}
+    if(isset($_SESSION['pp_home_style']) && ($_SESSION['pp_home_style']==3))
+    {
+        $pp_slider_type = 'revslider';
+    }
 
-//Check if revslider activated
-include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
-$is_revslider_active = is_plugin_active('revslider/revslider.php');
+    //Check if revslider activated
+    include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+    $is_revslider_active = is_plugin_active('revslider/revslider.php');
 
-if($pp_slider_type == 'revslider' && !$is_revslider_active)
-{
-	$pp_slider_type = 'layerslider';
-}
+    if($pp_slider_type == 'revslider' && !$is_revslider_active)
+    {
+        $pp_slider_type = 'layerslider';
+    }
 
-if($pp_slider_type=='layerslider')
-{
-	//Select which layerslider
-	$pp_slider_layerslider_id = get_option('pp_slider_layerslider_id');
-	
-	//Check if demo slider purpose
-	if(isset($_SESSION['pp_home_style']) && ($_SESSION['pp_home_style']==2 OR $_SESSION['pp_home_style']==5))
-	{
-		$pp_slider_layerslider_id = 4; //Select fullwidth slider
-	}
+    if($pp_slider_type=='layerslider')
+    {
+        //Select which layerslider
+        $pp_slider_layerslider_id = get_option('pp_slider_layerslider_id');
 
-	if(!empty($pp_slider_layerslider_id))
-	{
-		//Get WPDB Object
-		global $wpdb;
-		
-		//Table name
-		$table_name = $wpdb->prefix . "layerslider";
-		
-		//Get sliders
-		$slider_obj = $wpdb->get_results( "SELECT * FROM $table_name WHERE flag_hidden = '0' AND flag_deleted = '0' AND id = '$pp_slider_layerslider_id' ORDER BY date_c ASC LIMIT 100" );
-		$slider_data = json_decode($slider_obj[0]->data);
-		
-		$is_fullwidth_slider = FALSE;
-		$slider_css_style = '';
-		$slider_bg_css_style = '';
-		$slider_width = $slider_data->properties->width;
-		$slider_height = $slider_data->properties->height;
-		
-		if(isset($slider_data->properties->forceresponsive))
-		{
-			$is_fullwidth_slider = TRUE;
-			$slider_css_style = 'style="margin-top:0;height:'.$slider_height.'px;"';
-			$slider_bg_css_style = 'style="height:'.$slider_height.'px;background:none;"';
-		}
-		else
-		{
-			$slider_css_style = 'style="width:'.$slider_width.'px;height:'.$slider_height.'px;"';
-			$slider_bg_css_style = 'style="width:'.$slider_width.'px;height:'.($slider_height+50).'px;"';
-		}
-?>
-<div class="slider_wrapper_bg" <?php echo $slider_bg_css_style; ?>>
-	
-	<div id="slider_wrapper" class="layerslider" <?php echo $slider_css_style; ?>>
-		<?php echo do_shortcode('[layerslider id="'.$pp_slider_layerslider_id.'"]'); ?>
-	</div>
-</div>
-<?php
-	}
-}
-elseif($pp_slider_type=='revslider')
-{
-	//Select which revslider
-	$pp_slider_revslider_id = get_option('pp_slider_revslider_id');
-	
-	if(!empty($pp_slider_revslider_id))
-	{
-		putRevSlider($pp_slider_revslider_id);
-	}
-}
-elseif($pp_slider_type=='cute')
-{
-	//Check if slides is empty
-	$slider_arr = get_posts('numberposts=1&order=ASC&orderby=menu_order&post_type=slides');
-?>
-<div class="slider_wrapper_bg">
-	
-	<div id="slider_wrapper" class="cute">
-	
-	    <?php
-	    	include (TEMPLATEPATH . "/templates/template-slider-cuteslider.php");
-	    ?>
-	    
-	</div>
-</div>
-<?php
-} //end if cute slider
+        //Check if demo slider purpose
+        if(isset($_SESSION['pp_home_style']) && ($_SESSION['pp_home_style']==2 OR $_SESSION['pp_home_style']==5))
+        {
+            $pp_slider_layerslider_id = 4; //Select fullwidth slider
+        }
+
+        if(!empty($pp_slider_layerslider_id))
+        {
+            //Get WPDB Object
+            global $wpdb;
+
+            //Table name
+            $table_name = $wpdb->prefix . "layerslider";
+
+            //Get sliders
+            $slider_obj = $wpdb->get_results( "SELECT * FROM $table_name WHERE flag_hidden = '0' AND flag_deleted = '0' AND id = '$pp_slider_layerslider_id' ORDER BY date_c ASC LIMIT 100" );
+            $slider_data = json_decode($slider_obj[0]->data);
+
+            $is_fullwidth_slider = FALSE;
+            $slider_css_style = '';
+            $slider_bg_css_style = '';
+            $slider_width = $slider_data->properties->width;
+            $slider_height = $slider_data->properties->height;
+
+            if(isset($slider_data->properties->forceresponsive))
+            {
+                $is_fullwidth_slider = TRUE;
+                $slider_css_style = 'style="margin-top:0;height:'.$slider_height.'px;"';
+                $slider_bg_css_style = 'style="height:'.$slider_height.'px;background:none;"';
+            }
+            else
+            {
+                $slider_css_style = 'style="width:'.$slider_width.'px;height:'.$slider_height.'px;"';
+                $slider_bg_css_style = 'style="width:'.$slider_width.'px;height:'.($slider_height+50).'px;"';
+            }
+            ?>
+            <div class="slider_wrapper_bg" <?php echo $slider_bg_css_style; ?>>
+
+                <div id="slider_wrapper" class="layerslider" <?php echo $slider_css_style; ?>>
+                    <?php echo do_shortcode('[layerslider id="'.$pp_slider_layerslider_id.'"]'); ?>
+                </div>
+            </div>
+        <?php
+        }
+    }
+    elseif($pp_slider_type=='revslider')
+    {
+        //Select which revslider
+        $pp_slider_revslider_id = get_option('pp_slider_revslider_id');
+
+        if(!empty($pp_slider_revslider_id))
+        {
+            putRevSlider($pp_slider_revslider_id);
+        }
+    }
+    elseif($pp_slider_type=='cute')
+    {
+        //Check if slides is empty
+        $slider_arr = get_posts('numberposts=1&order=ASC&orderby=menu_order&post_type=slides');
+        ?>
+        <div class="slider_wrapper_bg">
+
+            <div id="slider_wrapper" class="cute">
+
+                <?php
+                include (TEMPLATEPATH . "/templates/template-slider-cuteslider.php");
+                ?>
+
+            </div>
+        </div>
+    <?php
+    } //end if cute slider
 
 } //end if enable slider
 ?>
-
-</div>
-<!-- End header bg -->
 
 <?php
 $pp_homepage_enable_header = get_option('pp_homepage_enable_header');
