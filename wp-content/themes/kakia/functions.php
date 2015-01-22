@@ -763,8 +763,9 @@ case 'font':
 	<select name="<?php echo $value['id']; ?>"
 		id="<?php echo $value['id']; ?>">
 		<option value="" data-family="">---- Disable Google Webfonts ----</option>
-		<?php 
-			foreach ($pp_font_arr as $key => $option) { ?>
+		<?php
+			foreach ($pp_font_arr as $key => $option) {
+        ?>
 		<option
 		<?php if (get_option( $value['id'] ) == $option['css-name']) { echo 'selected="selected"'; } ?>
 			value="<?php echo $option['css-name']; ?>" data-family="<?php echo $option['font-name']; ?>"><?php echo $option['font-name']; ?></option>

@@ -199,6 +199,7 @@ if(!empty($pp_seo_meta_key))
 	$pp_font = urlencode($pp_font);
 	if(!empty($pp_font))
 	{
+        if( $pp_font == "Open+Sans+Condensed") $pp_font = "Open+Sans+Condensed:300,700,300italic";
 		wp_enqueue_style('google_fonts', "http://fonts.googleapis.com/css?family=".$pp_font."&subset=latin,cyrillic-ext,greek-ext,cyrillic", false, "", "all");
 	}
 	else

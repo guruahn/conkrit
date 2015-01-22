@@ -44,3 +44,4 @@ Temporary Items
 .idea/scopes/scope_settings.xml
 .idea/workspace.xml
 wp-content/themes/kakia/cache/timthumb_int_e8b5960673762ae550df1bef98e7511e.timthumb.txt
+*.xml
