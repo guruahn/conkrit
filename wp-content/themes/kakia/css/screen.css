@@ -184,7 +184,7 @@ div.divider.two_third
 #footer 
 {
 	width: 100%;
-	background: #2C2F32;
+	/* background: #2C2F32; */
 	border: 0;
 	margin: auto;
 	margin-top: 20px;
@@ -717,7 +717,7 @@ blockquote h3
 #top_bar
 {
 	float: right;
-	height: 50px;
+	height: 62px;
 	width: 70%;
 	font-size: 14px;
 	color: #999;
@@ -726,8 +726,8 @@ blockquote h3
 .top_contact_info
 {
 	float: right;
-	margin-top: 17px;
-	font-family: 'Oswald', "PT Sans", Arial, Helvetica, sans-serif;
+	margin-top: 22px;
+	font-family: helvetica;
 }
 
 .top_contact_info ul
@@ -745,7 +745,7 @@ blockquote h3
 .top_social
 {
 	float: right;
-	margin-top: 15px;
+	margin-top: 16px;
 }
 
 .button.top_contact_button
@@ -777,7 +777,7 @@ body.admin-bar #header_wrapper
 .logo
 {
 	float: left;
-	margin: 15px 10px 20px 0;
+	margin: 36px 10px 0 0;
 }
 
 .search_box input[type=text]
@@ -797,7 +797,7 @@ body.admin-bar #header_wrapper
 #menu_wrapper
 {
 	padding: 0;
-	width: 1000px;
+	width: 1200px;
 	margin: auto;
 }
 
@@ -816,8 +816,9 @@ body.admin-bar #header_wrapper
 	font-family: 'Oswald', "PT Sans", Arial, Helvetica, sans-serif;
 	float: right;
 	text-transform: uppercase;
-	margin-top: 20px;
-	margin-right: -18px;
+	/* margin-top: 20px; */
+	/* margin-right: -18px; */
+	margin-bottom:11px;
 }
 
 #menu_wrapper .nav ul li, #menu_wrapper div .nav li
@@ -847,7 +848,7 @@ body.admin-bar #header_wrapper
 	margin: 0;
 	color: #444;
 	font-size: 14px;
-	padding: 10px 18px 10px 18px;
+	padding: 8px 11px 8px 11px;
 }
 
 #menu_wrapper .nav ul li:first-child a, #menu_wrapper div .nav li:first-child a
@@ -965,6 +966,9 @@ body.admin-bar #header_wrapper
 	width: 1000px;
 	margin: auto;
 	padding-bottom: 0;
+	padding-left:100px;
+	padding-right:100px;
+	background-color:#fff;
 }
 
 body.home #content_wrapper
@@ -3110,8 +3114,8 @@ ul.flickr li
 .slider_wrapper_bg
 {
 	width: 1000px;
-	height: 480px;
-	background: url('../images/slider_shadow.png') bottom center no-repeat;
+	height: 430px !important;
+	/* background: url('../images/slider_shadow.png') bottom center no-repeat; */
 	border-right: 0;
 	border-left: 0;
 	margin: auto;
