@@ -740,6 +740,7 @@ blockquote h3
 {
 	float: right;
 	margin-left: 12px;
+	color:#616161;
 }
 
 .top_contact_info ul li a{
@@ -877,7 +878,8 @@ body.admin-bar #header_wrapper
 
 #menu_wrapper .nav ul li a.hover, #menu_wrapper .nav ul li a:hover, #menu_wrapper div .nav li a.hover, #menu_wrapper div .nav li a:hover
 {
-	color: #9aca42;
+	color: #fff !important;
+	background-color:#333;
 }
 
 #menu_wrapper div .nav li.current-menu-item > a, #menu_wrapper div .nav li.current-menu-parent > a, #menu_wrapper div .nav li.current-menu-ancestor > a
@@ -2489,7 +2491,7 @@ ul.children .comment:first-child
 
 #searchform input[type=text]
 {
-	width: 90%;
+	width: 88%;
 	margin: 0 0 5px 0;
 	background:transparent url(/wp-content/themes/kakia/images/button_search.png) no-repeat 97% 50%;
 }
