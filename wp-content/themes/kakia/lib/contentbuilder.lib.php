@@ -47,7 +47,6 @@ function ppb_service_func($atts, $content) {
 	{
 		$items = -1;
 	}
-
 	//Get service items
 	$args = array(
 	    'numberposts' => $items,
@@ -429,13 +428,12 @@ add_shortcode('ppb_tagline', 'ppb_tagline_func');
 function ppb_portfolio_func($atts, $content) {
 	
 	extract(shortcode_atts(array(
-		'title' => 'Recent Portfolios',
+		'title' => '',
 		'items' => 8,
 		'set_id' => '',
 		'size' => 'one',
 		'portfolio_url' => '',
 	), $atts));
-	
 	if(!is_numeric($items))
 	{
 		$items = -1;
@@ -455,7 +453,7 @@ function ppb_portfolio_func($atts, $content) {
 
 	$recent_portfolios_arr = get_posts($args);
 
-	$return_html = '<div class="'.$size.' ppb_portfolio_wrapper">';
+	$return_html = '<div class="'.$size.' '.$set_id.' ppb_portfolio_wrapper">';
 	
 	if(!empty($title))
 	{
@@ -472,7 +470,7 @@ function ppb_portfolio_func($atts, $content) {
 	$column_class = '';
 	$portfolio_item_size = '';
 	$portfolio_item_img = '';
-	
+
 	if($size=='one')
 	{
 		$column_class = 'one_fourth';
@@ -506,6 +504,7 @@ function ppb_portfolio_func($atts, $content) {
 	
 	foreach($recent_portfolios_arr as $key => $recent_portfolio)
 	{
+        if(($key+1)%4==0 && $size=='one') $column_class.= ' last';
 		$portfolio_type = get_post_meta($recent_portfolio->ID, 'portfolio_type', true);
 	    $portfolio_video_id = get_post_meta($recent_portfolio->ID, 'portfolio_video_id', true);
 	    $portfolio_link_url = get_post_meta($recent_portfolio->ID, 'portfolio_link_url', true);										
@@ -520,11 +519,10 @@ function ppb_portfolio_func($atts, $content) {
 	    }
 
 	    $image_url = '';						
-
 	    if(has_post_thumbnail($recent_portfolio->ID, $portfolio_item_img))
 	    {
 	        $image_id = get_post_thumbnail_id($recent_portfolio->ID);
-	        $image_url = wp_get_attachment_image_src($image_id, $portfolio_item_img, true);
+	        $image_url = wp_get_attachment_image_src($image_id, 1, true);
 	        $large_image_url = wp_get_attachment_image_src($image_id, 'original', true);
 	    }
 

@@ -4531,7 +4531,7 @@ body.single-portfolios #slider_wrapper
     font-size: 47.73px;
     font-weight: 700;
 }
-.home .ppb_title h4 .service-note {
+.home .ppb_title h4 .note {
     font-size: 16.07px;
     display: block;
     font-family: "Nanum Barun Gothic";
@@ -4548,9 +4548,27 @@ body.single-portfolios #slider_wrapper
     margin:0;
     margin-top:10px ;
 }
-.home #content_wrapper .service_cat{
+.home #content_wrapper .main,
+.home #content_wrapper .about-us
+{
     clear: both;
     overflow: hidden;
     background-color: #e4e4e4;
-    padding: 40px 70px;
+    padding: 40px 100px;
 }
+.home #content_wrapper .about-us {
+    background: none;
+    padding: 40px 100px;
+}
+.home .about-us .portfolio_desc { display: none; }
+.home .about-us .one_fourth {
+    width: 24.4%;
+    margin-right: 0.8%;
+}
+.home .about-us .one_fourth.last { margin-right: 0}
+.home .about-us .portfolio200_shadow,
+.home .about-us .portfolio200_overlay{
+    width: 244px;
+    height: 255px;
+}
+.home .about-us .portfolio200_overlay{margin-top: -260px; }
