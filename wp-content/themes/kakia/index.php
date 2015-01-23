@@ -235,14 +235,14 @@ if(!empty($pp_homepage_enable_header))
 	    						{
 	    							//Get Homepage content
 	    					    	$pp_home_content = $obj_home->post_content;
-	    					    	
+
 	    					    	//Assign current page ID
 	    					    	$current_page_id = $pp_homepage;
 	    						}
 	    					    
 	    					    $page_style = get_post_meta($pp_homepage, 'page_style', true);
 	    						$page_sidebar = get_post_meta($pp_homepage, 'page_sidebar', true);
-	    						
+
 	    						if(empty($page_sidebar))
 	    						{
 	    							$page_sidebar = 'Page Sidebar';
@@ -271,7 +271,7 @@ if(!empty($pp_homepage_enable_header))
 	    						{
 	    							$page_class = 'inner_wrapper';
 	    						}
-	    					    
+
 	    		?>
 	    		
 	    	<?php
@@ -307,7 +307,6 @@ if(!empty($pp_homepage_enable_header))
 	    	
 	    	<?php 
 	    		$ppb_enable = get_post_meta($pp_homepage, 'ppb_enable', true);
-	    		
 	    		if(!$ppb_enable)
 	    		{
 	    			echo pp_apply_content($pp_home_content); 

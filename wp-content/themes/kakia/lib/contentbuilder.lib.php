@@ -42,7 +42,7 @@ function ppb_service_func($atts, $content) {
 		'title' => '',
 		'service_cat' => '',
 	), $atts));
-	
+
 	if(!is_numeric($items))
 	{
 		$items = -1;
@@ -73,7 +73,6 @@ function ppb_service_func($atts, $content) {
 			$return_html.= '<div class="ppb_title"><h4>'.$title.'</h4></div>';
 			$return_html.= '<br class="clear"/>';
 		}
-		
 		switch($size)
 		{
 			case 'one':
@@ -91,15 +90,16 @@ function ppb_service_func($atts, $content) {
 				$column_class = 'one';
 			break;
 		}
-		
+		if($items == 5) $column_class = 'one_fifth';
 		foreach($services_arr as $key => $service)
 		{
 			$image_url = '';
 			
-			if(($key+1)%4==0 && $size=='one')
-			{
-				$column_class.= ' last';
-			}
+            if($items == 5 ) {
+                if(($key+1)%5==0 && $size=='one') $column_class.= ' last';
+            }else{
+               if(($key+1)%4==0 && $size=='one') $column_class.= ' last';
+            }
 
 			if(has_post_thumbnail($service->ID, 'full'))
 			{

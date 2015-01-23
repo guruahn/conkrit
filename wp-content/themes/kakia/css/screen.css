@@ -4505,7 +4505,15 @@ body.single-portfolios #slider_wrapper
 	margin: 0 10px 30px 0;
 	float: left;
 }
-
+.home .ppb_title { text-align: center;float: none; }
+.home .ppb_title h4 {
+    font-size: 47.73px;
+    font-weight: 700;
+}
+.home .ppb_title h4 .service-note {
+    font-size: 16.07px;
+    display: block;
+}
 .ppb_desc
 {
 	margin: 9px 10px 20px 0;

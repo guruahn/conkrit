@@ -771,7 +771,7 @@ function pp_apply_content($pp_content) {
 
 function pp_apply_builder($page_id) {
 	$ppb_form_data_order = get_post_meta($page_id, 'ppb_form_data_order');
-	
+
 	if(isset($ppb_form_data_order[0]))
 	{
 	    $ppb_form_item_arr = explode(',', $ppb_form_data_order[0]);
@@ -779,7 +779,7 @@ function pp_apply_builder($page_id) {
 	
 	include (get_template_directory() . "/lib/contentbuilder.shortcode.lib.php");
 	//pp_debug($ppb_shortcodes);
-	
+
 	if(isset($ppb_form_item_arr[0]) && !empty($ppb_form_item_arr[0]))
 	{
 	    $ppb_shortcode_code = '';
@@ -794,8 +794,9 @@ function pp_apply_builder($page_id) {
 	    	
 	    	if(isset($ppb_form_item_data_obj->$ppb_shortcode_content_name))
 	    	{
+
 	    		$ppb_shortcode_code = '['.$ppb_form_item_data_obj->shortcode.' size="'.$ppb_form_item_size[0].'" ';
-	    		
+
 	    		//Get shortcode title
 	    		$ppb_shortcode_title_name = $ppb_form_item_data_obj->shortcode.'_title';
 	    		if(isset($ppb_form_item_data_obj->$ppb_shortcode_title_name))
@@ -820,6 +821,7 @@ function pp_apply_builder($page_id) {
 	    	}
 	    	else
 	    	{
+
 	    		$ppb_shortcode_code = '['.$ppb_form_item_data_obj->shortcode.' size="'.$ppb_form_item_size[0].'" ';
 	    		
 	    		//Get shortcode title
@@ -844,7 +846,6 @@ function pp_apply_builder($page_id) {
 	    		
 	    		$ppb_shortcode_code.= ']';
 	    	}
-	    	
 	    	echo pp_apply_content($ppb_shortcode_code);
 	    	//echo $ppb_shortcode_code.'<hr/>';
         }
