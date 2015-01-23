@@ -989,9 +989,9 @@ body.admin-bar #header_wrapper
 
 body.home #content_wrapper
 {
-
     padding: 0;
     width: 100%;
+    padding-bottom: 60px;
 }
 
 #content_shadow_bottom
@@ -4572,3 +4572,16 @@ body.single-portfolios #slider_wrapper
     height: 255px;
 }
 .home .about-us .portfolio200_overlay{margin-top: -260px; }
+.home .toggle-wrapper, .home .tabs-wrapper {
+    width: 39%;
+    margin-right: 5%;
+}
+.home .toggle-wrapper .ppb_title, .home .tabs-wrapper .ppb_title {
+    margin-bottom: 0;
+}
+.home .toggle-wrapper h4,
+.home .tabs-wrapper h4{
+    font-size: 23px;
+    text-align: left;
+}
+.home .toggle-wrapper { padding-left: 100px}

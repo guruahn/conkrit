@@ -304,11 +304,11 @@ function ppb_tabs_func($atts, $content) {
 	$tabs_arr[4]['content'] = $tab4_content;
 	$tabs_arr[5]['content'] = $tab5_content;
 
-	$return_html = '<div class="'.$size.'">';
+	$return_html = '<div class="'.$size.' tabs-wrapper">';
 	
 	if(!empty($title))
 	{
-	    $return_html.= '<div class="ppb_title"><h4>'.$title.'</h4></div>';
+	    $return_html.= '<div class="ppb_title "><h4>'.$title.'</h4></div>';
 	    $return_html.= '<br class="clear"/>';
 	}
 	
@@ -360,7 +360,6 @@ function ppb_toggle_func($atts, $content) {
 		'title' => '',
 		'size' => 'one',
 	), $atts));
-	
 	$toggles_arr = array();
 	
 	$toggles_arr[1]['title'] = $toggle1_title;
@@ -375,7 +374,7 @@ function ppb_toggle_func($atts, $content) {
 	$toggles_arr[4]['content'] = $toggle4_content;
 	$toggles_arr[5]['content'] = $toggle5_content;
 
-	$return_html = '<div class="'.$size.'">';
+	$return_html = '<div class="'.$size.' toggle-wrapper">';
 	if(!empty($title))
 	{
 		$return_html.= '<div class="ppb_title"><h4>'.$title.'</h4></div>';
