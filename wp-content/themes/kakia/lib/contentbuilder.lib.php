@@ -52,10 +52,9 @@ function ppb_service_func($atts, $content) {
 	$args = array(
 	    'numberposts' => $items,
 	    'order' => 'ASC',
-	    'orderby' => 'menu_order',
+	    'orderby' => 'post_date',
 	    'post_type' => array('services'),
 	);
-	
 	if(!empty($service_cat))
 	{
 		$args['service_cats'] = $service_cat;
@@ -66,7 +65,7 @@ function ppb_service_func($atts, $content) {
 
 	if(!empty($services_arr))
 	{
-		$return_html.= '<div class="'.$size.'">';
+		$return_html.= '<div class="'.$size.' '.$service_cat.'">';
 		
 		if(!empty($title))
 		{
@@ -108,8 +107,8 @@ function ppb_service_func($atts, $content) {
 			}
 
 			$return_html.= '<div class="'.$column_class.' ppb_serivce_wrapper">';
-			$return_html.= '<img src="'.$image_url[0].'" class="alignleft" alt=""/><h5 class="middle">'.$service->post_title.'</h5><br/>';
-			$return_html.= $service->post_content;
+			$return_html.= '<img src="'.$image_url[0].'" class="alignleft" alt=""/><h5 class="middle">'.$service->post_title.'</h5>';
+			$return_html.= "<div>".$service->post_content."</div>";
 			$return_html.= '</div>';
 		}
 	}

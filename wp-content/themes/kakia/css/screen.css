@@ -989,7 +989,9 @@ body.admin-bar #header_wrapper
 
 body.home #content_wrapper
 {
-	padding-top: 30px;
+
+    padding: 0;
+    width: 100%;
 }
 
 #content_shadow_bottom
@@ -4505,15 +4507,7 @@ body.single-portfolios #slider_wrapper
 	margin: 0 10px 30px 0;
 	float: left;
 }
-.home .ppb_title { text-align: center;float: none; }
-.home .ppb_title h4 {
-    font-size: 47.73px;
-    font-weight: 700;
-}
-.home .ppb_title h4 .service-note {
-    font-size: 16.07px;
-    display: block;
-}
+
 .ppb_desc
 {
 	margin: 9px 10px 20px 0;
@@ -4529,4 +4523,34 @@ body.single-portfolios #slider_wrapper
 .ppb_serivce_wrapper
 {
 	margin-bottom: 3%;
+}
+
+/*main custom*/
+.home .ppb_title { text-align: center;float: none; }
+.home .ppb_title h4 {
+    font-size: 47.73px;
+    font-weight: 700;
+}
+.home .ppb_title h4 .service-note {
+    font-size: 16.07px;
+    display: block;
+    font-family: "Nanum Barun Gothic";
+}
+.home .ppb_serivce_wrapper {
+    font-size: 14px;
+    color: #000;
+    text-align: center;
+}
+.home .ppb_serivce_wrapper img { float: none; margin: 0}
+.home .ppb_serivce_wrapper h5 {
+    font-size: 18px;
+    font-weight: 700;
+    margin:0;
+    margin-top:10px ;
+}
+.home #content_wrapper .service_cat{
+    clear: both;
+    overflow: hidden;
+    background-color: #e4e4e4;
+    padding: 40px 70px;
 }
