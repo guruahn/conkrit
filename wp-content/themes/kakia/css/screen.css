@@ -200,7 +200,16 @@ div.divider.two_third
 
 #footer ul.sidebar_widget
 {
+
 	width: 1000px;
+}
+
+#footer ul.sidebar_widget:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
 
 #copyright
@@ -2946,7 +2955,7 @@ table tr th, table tr td
 	width: 900px;
 	margin: auto;
 	list-style: none;
-	padding: 10px 0 30px 0;
+	padding: 0 0 30px 0;
 	text-align: left;
 	font-weight: normal;
 }
@@ -4585,3 +4594,63 @@ body.single-portfolios #slider_wrapper
     text-align: left;
 }
 .home .toggle-wrapper { padding-left: 100px}
+
+/*common footer*/
+.footer_menu_wrap:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.footer_menu_section{
+	float:left;
+	width:25%;
+}
+.footer_menu_section h4{
+	margin-bottom: 7px;
+	font-family: "Century Gothic";
+	font-size: 16px;
+	color:#444;
+}
+#footer .footer_menu_section a{
+	display: block;
+	width:auto;
+	color:#444;
+	font-family: Dotum, "돋움";
+}
+#footer .footer_menu_section a:hover{
+	color:#444;
+}
+.footer_address_wrap{
+	text-align: right;
+}
+.footer_address_wrap select::-ms-expand {
+    display: none;
+}  
+.footer_address_wrap select{
+	padding:5px 13px;
+	border:1px solid #444;
+	background:transparent url(/wp-content/themes/kakia/images/select_arrow.png) no-repeat 100% 50%;
+	color:#444;
+	font-size: 11px;
+	font-family: Dotum, "돋움";
+	font-weight: bold;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 144px; /*Width of select dropdown to give space for arrow image*/
+		text-indent: 0.01px; /* Removes default arrow from firefox*/
+		text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+}
+.footer_logo{
+	margin:26px 0 0;
+	padding:0;
+}
+.footer_address_wrap .copyright{
+	margin:11px 0 0;
+	padding:0;
+	color:#444;
+	font-family:Helvetica;
+	font-size: 12px;
+}
