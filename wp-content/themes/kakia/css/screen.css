@@ -989,7 +989,7 @@ body.admin-bar #header_wrapper
 
 #content_wrapper
 {
-	overflow: hidden;
+	/*overflow: hidden;*/
 	width: 1000px;
 	margin: auto;
 	padding-bottom: 0;
@@ -3148,6 +3148,9 @@ ul.flickr li
 	border-right: 0;
 	border-left: 0;
 	margin: auto;
+	-webkit-box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
+	box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
 }
 
 #slider_wrapper
@@ -4560,6 +4563,9 @@ body.single-portfolios #slider_wrapper
 }
 .home #content_wrapper .main {
     margin: 30px 0;
+    -webkit-box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
+	box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
 }
 .home #content_wrapper .main,
 .home #content_wrapper .about-us
@@ -4571,6 +4577,9 @@ body.single-portfolios #slider_wrapper
 }
 .home #content_wrapper .about-us {
     background: #fff;
+    -webkit-box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
+	-moz-box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
+	box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
 }
 .home .about-us .portfolio_desc { display: none; }
 .home .about-us .one_fourth {
@@ -4600,9 +4609,15 @@ body.single-portfolios #slider_wrapper
 .home .toggle-wrapper {
     padding: 0 3% 0 8.5%;
     margin: 0;
+    -webkit-box-shadow: -3px 3px 5px rgba(0,0,0,0.32);
+	-moz-box-shadow: -3px 3px 5px rgba(0,0,0,0.32);
+	box-shadow: -3px 3px 5px rgba(0,0,0,0.32);
 }
 .home .tabs-wrapper{
     padding: 0 8.5% 0 2%;
+    -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.32);
+	-moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.32);
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.32);
 }
 
 /*common footer*/
