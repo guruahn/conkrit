@@ -59,7 +59,7 @@ $ppb_enable = get_post_meta($current_page_id, 'ppb_enable', true);
 	</div>
 	<br class="clear"/>
 </div>
-<br class="clear"/>
+
 
 <!-- Begin content -->
 <div id="content_wrapper">
