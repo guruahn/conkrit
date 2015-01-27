@@ -995,7 +995,6 @@ body.admin-bar #header_wrapper
 	padding-bottom: 0;
 	padding-left:100px;
 	padding-right:100px;
-	background-color:#fff;
 }
 
 body.home #content_wrapper
@@ -4559,6 +4558,9 @@ body.single-portfolios #slider_wrapper
     margin:0;
     margin-top:10px ;
 }
+.home #content_wrapper .main {
+    margin: 30px 0;
+}
 .home #content_wrapper .main,
 .home #content_wrapper .about-us
 {
@@ -4568,8 +4570,7 @@ body.single-portfolios #slider_wrapper
     padding: 40px 100px;
 }
 .home #content_wrapper .about-us {
-    background: none;
-    padding: 40px 100px;
+    background: #fff;
 }
 .home .about-us .portfolio_desc { display: none; }
 .home .about-us .one_fourth {
@@ -4585,7 +4586,8 @@ body.single-portfolios #slider_wrapper
 .home .about-us .portfolio200_overlay{margin-top: -260px; }
 .home .toggle-wrapper, .home .tabs-wrapper {
     width: 39%;
-    margin-right: 5%;
+    height: 400px;
+    background-color: #fff;
 }
 .home .toggle-wrapper .ppb_title, .home .tabs-wrapper .ppb_title {
     margin-bottom: 0;
@@ -4595,7 +4597,13 @@ body.single-portfolios #slider_wrapper
     font-size: 23px;
     text-align: left;
 }
-.home .toggle-wrapper { padding-left: 100px}
+.home .toggle-wrapper {
+    padding: 0 3% 0 8.5%;
+    margin: 0;
+}
+.home .tabs-wrapper{
+    padding: 0 8.5% 0 2%;
+}
 
 /*common footer*/
 .footer_menu_wrap:after{
