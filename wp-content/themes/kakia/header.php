@@ -467,7 +467,7 @@ if(isset($page->ID))
 				    
 <!-- Begin top bar -->
 <div id="top_bar">
-	<div class="top_bar_wrapper">
+	<!-- <div class="top_bar_wrapper">
 		<div class="top_social">
 			<form role="search" method="get" id="searchform" class="searchform" action="http://conkrit.com:8080/">
 				<div>
@@ -476,14 +476,14 @@ if(isset($page->ID))
 					<input type="submit" id="searchsubmit" value="검색">
 				</div>
 			</form>
-		</div> <!-- .top_social -->		
+		</div> 
 	</div>
 	<div class="top_contact_info">
 	    <ul>
     		<li><a href="#" class="user_contact">Contact Us</a></li>
     		<li><a href="#" class="user_login">Log in</a> |</li>
     	</ul>
-	</div>
+	</div> -->
 </div>
 <!-- End top bar -->
 					

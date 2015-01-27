@@ -847,7 +847,7 @@ body.admin-bar #header_wrapper
 }
 
 #menu_wrapper .nav a{
-	font-family:"helvetica";
+	font-family:"helvetica", "nanum barun gothic", "나눔바른고딕";
 	font-weight:bold;
 	letter-spacing:-1px;
 }
@@ -885,7 +885,8 @@ body.admin-bar #header_wrapper
 	
 }
 
-#menu_wrapper .nav ul li a.hover, #menu_wrapper .nav ul li a:hover, #menu_wrapper div .nav li a.hover, #menu_wrapper div .nav li a:hover
+#menu_wrapper .nav ul li a.hover, #menu_wrapper .nav ul li a:hover, #menu_wrapper div .nav li a.hover, #menu_wrapper div .nav li a:hover,
+#menu_wrapper div .nav li.current-menu-item a, #menu_wrapper div .nav li.current-menu-parent a, #menu_wrapper div .nav li.current-menu-ancestor > a
 {
 	color: #fff !important;
 	background-color:#333;
@@ -4641,8 +4642,8 @@ body.single-portfolios #slider_wrapper
     -moz-appearance: none;
     appearance: none;
     width: 144px; /*Width of select dropdown to give space for arrow image*/
-		text-indent: 0.01px; /* Removes default arrow from firefox*/
-		text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
+	text-indent: 0.01px; /* Removes default arrow from firefox*/
+	text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
 }
 .footer_logo{
 	margin:26px 0 0;
