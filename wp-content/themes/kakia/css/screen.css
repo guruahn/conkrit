@@ -1043,7 +1043,7 @@ body.home #content_wrapper
 	padding: 9px 0 0 0;
 	text-align: center;
 	border-bottom: 1px solid #E5E5E5;
-	margin-bottom: 12px;
+	margin-bottom: 0;
 	-webkit-box-shadow: 4px 4px 0px 0px rgba(150, 150, 150, 0.05);
 	-moz-box-shadow: 4px 4px 0px 0px rgba(150, 150, 150, 0.05);
 	box-shadow: 4px 4px 0px 0px rgba(150, 150, 150, 0.05);
