@@ -988,6 +988,7 @@ body.admin-bar #header_wrapper
 
 #content_wrapper
 {
+	overflow: hidden;
 	width: 1000px;
 	margin: auto;
 	padding-bottom: 0;
