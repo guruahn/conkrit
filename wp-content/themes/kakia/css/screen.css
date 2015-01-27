@@ -995,6 +995,7 @@ body.admin-bar #header_wrapper
 	padding-bottom: 0;
 	padding-left:100px;
 	padding-right:100px;
+    background-color: #fff;
 }
 
 body.home #content_wrapper
@@ -4539,6 +4540,7 @@ body.single-portfolios #slider_wrapper
 }
 
 /*main custom*/
+.home #content_wrapper { background: none; }
 .home .ppb_title { text-align: center;float: none; }
 .home .ppb_title h4 {
     font-size: 47.73px;
