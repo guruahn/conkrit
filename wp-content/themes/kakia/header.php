@@ -332,6 +332,7 @@ if(!empty($pp_seo_meta_key))
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/ie.css?v=<?php echo $pp_theme_version; ?>.css" type="text/css" media="all"/>
 <![endif]-->
 
+
 <?php
 if(isset($_SESSION['pp_skin']) && !empty($_SESSION['pp_skin']))
 {
@@ -390,6 +391,10 @@ if(!empty($pp_advance_responsive))
 	 */
 	wp_head();
 ?>
+
+<!--[if IE 9]>
+  <link rel="stylesheet" type="text/css" media="all" href="<?php echo get_stylesheet_directory_uri(); ?>/css/ie9.css" />
+<![endif]-->
 </head>
 
 <?php

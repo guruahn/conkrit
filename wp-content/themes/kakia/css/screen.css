@@ -4627,6 +4627,8 @@ body.single-portfolios #slider_wrapper
 .footer_address_wrap{
 	text-align: right;
 }
+
+
 .footer_address_wrap select::-ms-expand {
     display: none;
 }  
@@ -4645,6 +4647,10 @@ body.single-portfolios #slider_wrapper
 	text-indent: 0.01px; /* Removes default arrow from firefox*/
 	text-overflow: "";  /*Removes default arrow from firefox*/ /*My custom style for fonts*/
 }
+
+/*ie8 핵사용 - ie9 핵 적용 안됨, 조건부 주석 사용 ie9.css*/
+.footer_address_wrap select{background-image:none\0/IE8; }
+
 .footer_logo{
 	margin:26px 0 0;
 	padding:0;
