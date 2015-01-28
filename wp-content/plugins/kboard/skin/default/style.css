@@ -46,8 +46,9 @@ img { border: 0; }
 #kboard-default-list .kboard-pagination { float: left; padding: 15px 0; width: 100%; }
 #kboard-default-list .kboard-pagination .kboard-pagination-pages { float: left; margin: 0; padding: 0 0 1px 0; width: 100%; list-style: none; text-align: center; border: 0; }
 #kboard-default-list .kboard-pagination .kboard-pagination-pages li { display: inline; margin: 0; padding: 0 1px; background: none; border: 0; list-style: none; }
-#kboard-default-list .kboard-pagination .kboard-pagination-pages li a { padding: 6px 11px; border: 1px solid #dddddd; text-decoration: none; font-size: 13px; line-height: 27px; color: #999999; background-color: white; }
-#kboard-default-list .kboard-pagination .kboard-pagination-pages li.active a { border: 1px solid #d9534f; color: white; background-color: #d9534f; text-decoration: none; }
+
+#kboard-default-list .kboard-pagination .kboard-pagination-pages li a { padding: 8px 12px; border: 1px solid #dddddd; text-decoration: none; font-size: 13px; line-height: 27px; color: #999999; background-color: white; }
+#kboard-default-list .kboard-pagination .kboard-pagination-pages li.active a { border: 1px solid #555; color: white; background-color: #555; text-decoration: none; font-weight: bold;}
 #kboard-default-list .kboard-control { float: left; padding: 15px 0 1px 0; width: 100%; text-align: right; }
 
 #kboard-default-editor { margin: 0 auto; width: 99%; }
