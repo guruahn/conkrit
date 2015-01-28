@@ -1,0 +1,25 @@
+@charset "utf-8";
+/**
+ * @author http://www.cosmosfarm.com/
+ */
+
+.kbstore-thumbnail { width: 100px; }
+.kbstore-title { width: 250px; }
+.kbstore-category { width: 150px; }
+.kbstore-version { width: 150px; }
+
+#kbstore-products-list td { border: 0; border-bottom: 1px solid #e1e1e1; }
+#kbstore-products-list tr:last-child td { border: 0; }
+#kbstore-products-list .kbstore-thumbnail-img { width: 100px; height: 100px; }
+
+#kboard-dashboard-options { margin: 0; padding: 0; }
+#kboard-dashboard-options li { float: left; margin: 0 10px 20px 10px; padding: 10px; background-color: #fafafa; border: 1px solid #e5e5e5; }
+#kboard-dashboard-options li:hover { border: 1px solid #00aeef; }
+#kboard-dashboard-options li h4 { font-weight: bold; }
+
+.tab-kboard-setting { display: none; }
+.tab-kboard-setting-active { display: block; }
+
+.kboard-admin-pagination li { float: left; padding-left: 3px; }
+.kboard-admin-pagination li a { display: block; padding: 0 10px 3px; background: #eee; background: rgba(0,0,0,.05); text-decoration: none; }
+.kboard-admin-pagination li.active a { font-weight: bold; }
