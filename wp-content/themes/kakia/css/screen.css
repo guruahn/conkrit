@@ -996,6 +996,7 @@ body.admin-bar #header_wrapper
 	padding-left:100px;
 	padding-right:100px;
     background-color: #fff;
+    padding-top: 59px;
 }
 
 body.home #content_wrapper
@@ -4740,4 +4741,16 @@ body.single-portfolios #slider_wrapper
 	color:#444;
 	font-family:Helvetica;
 	font-size: 12px;
+}
+
+/*서브페이지 타이틀*/
+.page .title .cufon span{
+	font-weight:bold;
+}
+.page .title .cufon span:before{
+	content: "";
+	display: block;
+	margin-bottom: 10px;
+	border-top:4px solid #000;
+	width:60px;
 }
