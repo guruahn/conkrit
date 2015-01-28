@@ -42,20 +42,15 @@ $ppb_enable = get_post_meta($current_page_id, 'ppb_enable', true);
 </div>
 
 <div class="page_caption">
-	<div class="caption_inner">
-		<div class="caption_header">
-			<h1 class="cufon"><span><?php the_title(); ?></span></h1>
-			<?php
-			$page_description = get_post_meta($current_page_id, 'page_description', true);
-			
-			if(!empty($page_description))
-			{
-			?>
-				<span class="page_description"><?php echo $page_description; ?></span>
-			<?php
-			}
-			?>
-		</div>
+	<div class="caption_header">
+        <div class="caption_bg">
+            <?php if ( has_post_thumbnail() ) : ?>
+                <?php the_post_thumbnail(); ?>
+            <?php endif; ?>
+        </div>
+        <?php
+        echo anchorage_get_breadcrumbs();
+        ?>
 	</div>
 	<br class="clear"/>
 </div>
@@ -70,7 +65,20 @@ $ppb_enable = get_post_meta($current_page_id, 'ppb_enable', true);
     	<div class="inner_wrapper">
     	
     		<div class="standard_wrapper">
-    	
+                <div class="title">
+                    <h1 class="cufon"><span><?php the_title(); ?></span></h1>
+                    <?php
+                    $page_description = get_post_meta($current_page_id, 'page_description', true);
+
+                    if(!empty($page_description))
+                    {
+                        ?>
+                        <span class="page_description"><?php echo $page_description; ?></span>
+                    <?php
+                    }
+                    ?>
+                </div>
+
 <?php
 }
 ?>		
