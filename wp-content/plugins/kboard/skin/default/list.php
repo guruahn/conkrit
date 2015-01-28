@@ -56,7 +56,7 @@
 			<tbody>
 				<?php while($content = $list->hasNextNotice()):?>
 				<tr class="kboard-list-notice">
-					<td class="kboard-list-uid"><?php echo __('Notice', 'kboard')?></td>
+					<td class="kboard-list-uid">중요</td>
 					<td class="kboard-list-title"><div class="cut_strings">
 							<a href="<?php echo $url->set('uid', $content->uid)->set('mod', 'document')->toString()?>"><?php echo $content->title?></a>
 							<?php echo $content->getCommentsCount()?>
