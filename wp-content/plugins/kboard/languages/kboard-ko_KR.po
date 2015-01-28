@@ -529,7 +529,7 @@ msgstr "검색"
 #: C:\Users\Âù\Documents\workspace\KBoard-wordpress-plugin\plugins\kboard/skin/download/list.php:49
 #: C:\Users\Âù\Documents\workspace\KBoard-wordpress-plugin\plugins\kboard/skin/thumbnail/list.php:49
 msgid "Number"
-msgstr "번호"
+msgstr "No."
 
 #: C:\Users\Âù\Documents\workspace\KBoard-wordpress-plugin\plugins\kboard/skin/avatar/list.php:112
 #: C:\Users\Âù\Documents\workspace\KBoard-wordpress-plugin\plugins\kboard/skin/customer/list.php:100

@@ -46,7 +46,7 @@
 		<table>
 			<thead>
 				<tr>
-					<td class="kboard-list-uid"><?php echo __('Number', 'kboard')?></td>
+					<td class="kboard-list-uid">No.</td>
 					<td class="kboard-list-title"><?php echo __('Title', 'kboard')?></td>
 					<td class="kboard-list-user"><?php echo __('Author', 'kboard')?></td>
 					<td class="kboard-list-date"><?php echo __('Date', 'kboard')?></td>
@@ -102,7 +102,5 @@
 	<!-- 버튼 끝 -->
 	<?php endif?>
 	
-	<div class="kboard-default-poweredby">
-		<a href="http://www.cosmosfarm.com/products/kboard" onclick="window.open(this.href); return false;" title="<?php echo __('KBoard is the best community software available for WordPress', 'kboard')?>">Powered by KBoard</a>
-	</div>
+
 </div>
