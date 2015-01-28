@@ -1002,7 +1002,6 @@ body.home #content_wrapper
 {
     padding: 0;
     width: 100%;
-    padding-bottom: 60px;
 }
 
 #content_shadow_bottom
@@ -4543,13 +4542,14 @@ body.single-portfolios #slider_wrapper
 .home #content_wrapper { background: none; }
 .home .ppb_title { text-align: center;float: none; }
 .home .ppb_title h4 {
-    font-size: 47.73px;
+    font-size: 48px;
     font-weight: 700;
 }
 .home .ppb_title h4 .note {
     font-size: 16.07px;
     display: block;
     font-family: "Nanum Barun Gothic";
+    font-weight:normal;
 }
 .home .ppb_serivce_wrapper {
     font-size: 14px;
@@ -4562,6 +4562,11 @@ body.single-portfolios #slider_wrapper
     font-weight: 700;
     margin:0;
     margin-top:10px ;
+    line-height: 100%;
+}
+.home .ppb_serivce_wrapper div{
+	font-size: 17px;
+	font-family: "Open Sans Condensed";
 }
 .home #content_wrapper .main {
     margin: 30px 0;
