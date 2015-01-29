@@ -4,7 +4,8 @@
 	3.페이지 로케이션(빵부스러기)
 */
 
-/*1.상단 비쥬얼 타이틀 영역*/
+/* 1.상단 비쥬얼 타이틀 영역
+----------------------------------*/
 .page_caption
 {
 	margin: auto;
@@ -31,7 +32,8 @@
 	height:226px;
 }
 
-/*2.페이지 타이틀*/
+/* 2.페이지 타이틀
+----------------------------------*/
 .page .title .cufon span{
 	font-weight:bold;
 }
@@ -43,7 +45,8 @@
 	width:60px;
 }
 
-/*3.페이지 로케이션(빵부스러기)*/
+/* 3.페이지 로케이션(빵부스러기)
+----------------------------------*/
 .breadcrumbs
 {
 	width: 100%;
@@ -58,12 +61,17 @@
 	border:0;
 	height:0;
 }
+
 .breadcrumbs .breadcrumbs-link{
 	display: inline-block;
 	padding:0 41px;
 	height:44px;
 	border-right: 1px solid #ddd;
+	line-height: 44px;
+	font-size: 12px;
+	color:#6d6d6e;
 }
+
 .breadcrumbs a:first-child{
 	display: inline-block;
 	padding:0;
@@ -71,10 +79,12 @@
 	height:44px;
 	background: url(/wp-content/themes/kakia/images/icon_home.gif) no-repeat 50% 50%;
 }
+
 .breadcrumbs a:first-child span{
 	display:block;	
 	text-indent: -9999px;
 }
+
 .breadcrumbs > span{
 	display: inline-block;
 	height:44px;
@@ -86,6 +96,7 @@
 	font-weight: bold;
 	vertical-align: top;
 }
+
 .breadcrumbs > span:after{
 	content:"";
 	display: inline-block;
@@ -94,9 +105,11 @@
 	padding-left: 11px;
 	background:url(/wp-content/themes/kakia/images/breadcrumbs_arrow.gif) no-repeat 11px 0;
 }
+
 .breadcrumbs .breadcrumbs-arrow{
 	display: none;
 }
+
 .breadcrumbs .inner
 {
 	width: 895px;

@@ -36,18 +36,18 @@ img { border: 0; }
 #kboard-default-list .kboard-list table td.kboard-list-user { display:none; width: 0px;  }
 #kboard-default-list .kboard-list table td.kboard-list-date { width: 130px; }
 #kboard-default-list .kboard-list table td.kboard-list-view { width: 100px; }
-#kboard-default-list .kboard-list thead tr td { padding:19px 0 24px; font-weight: bold; color: #333; border: 0; border-bottom: 2px solid #e3e3e3; background-color:#d7d7d7;}
-#kboard-default-list .kboard-list tbody tr td { word-break: break-all; border: 0; border-bottom: 1px solid #e3e3e3; }
+#kboard-default-list .kboard-list thead tr td { padding:19px 0 24px; font-weight: bold; color: #333; border: 0; background-color:#d7d7d7;}
+#kboard-default-list .kboard-list tbody tr td { word-break: break-all; border: 0; border-bottom: 1px solid #eee; }
 #kboard-default-list .kboard-list tbody tr:hover { background-color: #f7f7f7; }
 #kboard-default-list .kboard-list tbody tr.kboard-list-notice { background-color: #fff; }
 #kboard-default-list .kboard-list tbody tr.kboard-list-notice td.kboard-list-uid { color: #515151; }
 #kboard-default-list .kboard-list tbody td.kboard-list-title { text-align: left; }
 #kboard-default-list .kboard-list tbody td.kboard-list-title img { display: inline; vertical-align: text-bottom; }
-#kboard-default-list .kboard-pagination { float: left; padding: 15px 0; width: 100%; }
+#kboard-default-list .kboard-pagination { float: left; margin-top: 40px; padding: 15px 0; width: 100%; }
 #kboard-default-list .kboard-pagination .kboard-pagination-pages { float: left; margin: 0; padding: 0 0 1px 0; width: 100%; list-style: none; text-align: center; border: 0; }
 #kboard-default-list .kboard-pagination .kboard-pagination-pages li { display: inline; margin: 0; padding: 0 1px; background: none; border: 0; list-style: none; }
 
-#kboard-default-list .kboard-pagination .kboard-pagination-pages li a { padding: 8px 12px; border: 1px solid #dddddd; text-decoration: none; font-size: 13px; line-height: 27px; color: #999999; background-color: white; }
+#kboard-default-list .kboard-pagination .kboard-pagination-pages li a { padding: 8px 12px; border: 1px solid #dddddd; text-decoration: none; font-size: 13px; line-height: 33px; color: #999999; background-color: white; }
 #kboard-default-list .kboard-pagination .kboard-pagination-pages li.active a { border: 1px solid #555; color: white; background-color: #555; text-decoration: none; font-weight: bold;}
 #kboard-default-list .kboard-control { float: left; padding: 15px 0 1px 0; width: 100%; text-align: right; }
 
@@ -75,8 +75,8 @@ img { border: 0; }
 
 #kboard-default-document { margin: 0 auto; width: 99%; }
 #kboard-default-document .kboard-header { float: left; margin-top: 0; width: 100%; }
-#kboard-default-document .kboard-document-wrap { float: left; width: 100%; background-color: white; }
-#kboard-default-document .kboard-title { float: left; width: 100%; }
+#kboard-default-document .kboard-document-wrap { float: left; margin-top:50px; width: 100%; background-color: white; }
+#kboard-default-document .kboard-title { float: left; width: 100%; border-top:1px solid #eee;}
 #kboard-default-document .kboard-title p { margin: 0; padding: 12px 22px; color: #545861; font-weight: bold; font-size: 33px; font-weight: 300; }
 #kboard-default-document .kboard-detail { clear: both; float: left; width: 100%; border-top: 1px solid #e3e3e3; border-bottom: 1px solid #e3e3e3; background-color: #f9f9f9; font-size: 12px; }
 #kboard-default-document .kboard-detail .detail-attr { display: inline-block; float: left; margin: 0; padding: 12px 35px 12px 22px; }
@@ -84,7 +84,7 @@ img { border: 0; }
 #kboard-default-document .kboard-detail .detail-attr .detail-value { float: left; padding-left: 20px; color: #545861; }
 #kboard-default-document .kboard-detail .detail-attr .detail-value img { vertical-align: middle; }
 #kboard-default-document .kboard-content { clear: both; float: left; width: 100%; min-height: 200px; }
-#kboard-default-document .kboard-content .content-view { margin: 0; padding: 22px; }
+#kboard-default-document .kboard-content .content-view { margin: 0; padding: 22px; font-family: "Nanum Gothic" }
 #kboard-default-document .kboard-content .content-view img { max-width: 100%; }
 #kboard-default-document .kboard-content .content-view .thumbnail-area { text-align: center; }
 #kboard-default-document .kboard-attach { padding: 0 0 5px 22px; font-size: 12px; }
