@@ -154,6 +154,7 @@ if(!empty($pp_seo_meta_key))
 			    get_template_directory().'/js/mediaelement/mediaelementplayer.css',
 			    get_template_directory().'//templates/custom-caption-css.php',
 			);
+
 			
    			$cssmin->addFiles($css_arr);
  			
@@ -177,6 +178,9 @@ if(!empty($pp_seo_meta_key))
 		wp_enqueue_style("fancybox_css", get_stylesheet_directory_uri()."/js/fancybox/jquery.fancybox.css", false, $pp_theme_version, "all");
 		wp_enqueue_style("mediaelementplayer_css", get_stylesheet_directory_uri()."/js/mediaelement/mediaelementplayer.css", false, $pp_theme_version, "all");
 		wp_enqueue_style("cute_caption", get_stylesheet_directory_uri()."/templates/custom-caption-css.php", false, $pp_theme_version, "all");
+        if(is_page()){
+            wp_enqueue_style("page_css", get_stylesheet_directory_uri()."/css/page.css", false, $pp_theme_version, "all");
+        }
 	}
 ?>
 
