@@ -185,12 +185,23 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 
 /* 7.단락 스타일
 ----------------------------------*/
-.text_block{
-	
-}
 .text_block .under_line{
 	display: block;
 	width:22px;
 	margin-bottom: 15px;
 	border-top:1px solid #333;
 }
+
+/*콘크릿 소개*/
+.page-id-6401 .intro_text{
+	font-size: 39.48px;
+	color:#111;
+	line-height: 140%;
+}
+.page-id-6401 .intro_text strong{
+	font-size: 50.75px;
+	color:#000;
+}
+.page-id-6401 .identity{}
+.page-id-6401 .doing{}
+.page-id-6401 .more_conkrit{}
