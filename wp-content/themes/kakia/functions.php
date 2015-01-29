@@ -1107,5 +1107,49 @@ function get_debug_print($var, $title = NULL){
     $title_style = "color: darkred;";
     return get_printr($var, $title, $style, $title_style);
 }
+/**
+ * return (array)breadcrumbs html
+ * @param
+ */
+function breadcrumbs($menu_slug, $menu = null, $menu_items = null, $depth = 0){
+    global $post;
+    if($menu == null){
+        if ( ( $locations = get_nav_menu_locations() ) && isset( $locations[ $menu_slug ] ) ) {
+            $menu = wp_get_nav_menu_object( $locations[ $menu_slug ] );
+            $menu_items = wp_get_nav_menu_items($menu->term_id);
+            $menu = wp_get_nav_menu_items($menu->term_id,array(
+                'posts_per_page' => -1,
+                'meta_key' => '_menu_item_object_id',
+                'meta_value' => $post->ID // the currently displayed post
+            ));
+        }
+
+    }
+
+    if($menu){
+
+        if(!$menu[$depth]->post_title){
+            $menu[$depth]->post_title = get_the_title( $menu[$depth]->object_id );
+        }
+        if(!empty($menu[$depth]->menu_item_parent) && $menu[$depth]->menu_item_parent != ''){
+            foreach($menu_items as $item){
+                if( $item->ID == $menu[$depth]->menu_item_parent){
+                    $menu[] = $item;
+                }
+            }
+            breadcrumbs($menu_slug, $menu, $menu_items, $depth+1);
+        }else{
+            echo '<div class="breadcrumbs">';
+            echo '<a href="/"></a>';
+            for($i=count($menu)-1 ; $i >= 0 ; $i--){
+                $breadcrumb = '<span>'.$menu[$i]->post_title.'</span>';
+                if($menu[$i]->url && $i != 0) $breadcrumb = '<a href="'.$menu[$i]->url.'" >'.$breadcrumb.'</a>';
+                echo $breadcrumb;
+            }
+            echo '</div>';
+        }
+    }
+
+}
 
 ?>

@@ -49,7 +49,6 @@ $ppb_enable = get_post_meta($current_page_id, 'ppb_enable', true);
             </div>
         <?php endif; ?>
         <?php
-        //printr(get_nav_menu_locations());
         if ( ( $locations = get_nav_menu_locations() ) && isset( $locations[ 'primary-menu' ] ) ) {
             $menu = wp_get_nav_menu_object( $locations[ 'primary-menu' ] );
             $menu_items = wp_get_nav_menu_items($menu->term_id);
@@ -87,21 +86,9 @@ $ppb_enable = get_post_meta($current_page_id, 'ppb_enable', true);
             $menu[] = $parent_of_parent;
             //printr($menu);
         }
-
+        breadcrumbs('primary-menu');
         ?>
-        <div class="breadcrumbs">
-            <a href="/" ><span>home</span></a>
-            <?php
-            for($i=count($menu)-1 ; $i >= 0 ; $i--){
-                $breadcrumb = '<span>'.$menu[$i]->post_title.'</span>';
-                if($menu[$i]->url && $i != 0) $breadcrumb = '<a href="'.$menu[$i]->url.'" >'.$breadcrumb.'</a>';
-                echo $breadcrumb;
-            }
-            foreach($menu as $item){
 
-            }
-            ?>
-        </div>
 	</div>
 	<br class="clear"/>
 </div>
