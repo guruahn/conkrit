@@ -1043,419 +1043,69 @@ if (isset($_GET['activated']) && $_GET['activated']){
 }
 
 /**
- * Get a breadcrumb nav.
- *
- * @return string A breadcrumb nav.
- *
- * @since anchorage 1.0
+ * 변수의 구성요소를 리턴받는다.
  */
-if( ! function_exists( 'anchorage_get_breadcrumbs' ) ) {
-    function anchorage_get_breadcrumbs() {
+function get_printr ($var, $title = NULL, $style = NULL, $title_style = NULL) {
 
-        $out = '';
-
-        /**
-         * Determine what sort of page view this is.
-         * Based on that, we might grab parent posts, parent terms, or just a home link.
-         */
-
-        // If we're viewing a term archive, denote that resource type.
-        if( anchorage_is_termish() ) {
-
-            $resource_type = 'taxonomy';
-            $object_type = get_queried_object() -> taxonomy;
-            $object_id = get_queried_object() -> term_id;
-
-            // Or, if we're viewing a single post or page, get more specific.
-        } elseif( anchorage_is_singlish() ) {
-
-            $object_id = get_the_ID();
-            $object_type = get_post_type();
-            $post_type_obj = get_post_type_object( $object_type );
-
-            // If it's a hierarchial post type, that's our resource type.
-            if( is_post_type_hierarchical( $object_type ) ) {
-                $resource_type = 'hierarchical_post_type';
-
-                // If it's a custom post type, that's our resource.
-            } elseif( anchorage_is_custom_post_type( $object_type ) ) {
-                $resource_type = 'flat_custom_post_type';
-
-            } else {
-                $resource_type = 'flat_post_type';
-            }
-
-            // Of if it's a post type archive, that's our resource.
-        } elseif( is_post_type_archive() ) {
-
-            $resource_type = 'post_type_archive';
-            $object_type = get_post_type();
-            $post_type_obj = get_post_type_object( $object_type );
-
-        }
-
-        // Start an array to hold the breadcrumbs, starting with a string to denote the homepage.
-        $crumb_array = array( 'home' );
-
-        // If it's a tax or nested post type, we can use the get_ancestors() function.
-        if( ( $resource_type == 'taxonomy' ) || ( $resource_type == 'hierarchical_post_type' ) ) {
-            $get_ancestors = get_ancestors( $object_id, $object_type );
-
-            // If it's a flat custom post type, we'll add a string to denote that.
-        } elseif( $resource_type == 'flat_custom_post_type' ) {
-            $crumb_array []= 'post_type_archive';
-
-            // And if it's a flat standard post type, again we can use get_ancestors(), but we'll do so with the first category.
-        } elseif( $resource_type == 'flat_post_type' ) {
-            $post_categories = get_the_category();
-            $first_category = $post_categories[0];
-            $get_ancestors = get_ancestors( $first_category -> term_id, 'category' );
-
-            // We also have to add that first category in at the end.
-            $get_ancestors []= $first_category -> term_id;
-
-        }
-
-        // If we did a call to get_ancestors(), we want to remove empty elements, reverse the order, and merge it in with the rest of the breadcrumbs.
-        if( isset( $get_ancestors ) ) {
-            $get_ancestors = array_filter( $get_ancestors );
-            $get_ancestors = array_reverse( $get_ancestors );
-            $crumb_array = array_merge( $crumb_array, $get_ancestors );
-        }
-
-        // Add a string to denote the current page.
-        $crumb_array []= 'current';
-
-        /**
-         * Let's see if the current view has child terms or child posts.
-         */
-        $children = '';
-
-        // If we are browsing a term, look for child terms.
-        if( $resource_type == 'taxonomy' ) {
-
-            $get_children = get_term_children( $object_id, $object_type );
-
-            // If we find child terms, build them into an array.
-            if( is_array( $get_children ) ) {
-                foreach( $get_children as $c ) {
-
-                    $child = array();
-                    $term = get_term( $c, $object_type );
-                    $title = $term -> name;
-                    $href = get_term_link( $term -> term_id, $object_type );
-                    $child []= $title;
-                    $child []= $href;
-                    $children []= $child;
-
-                }
-            }
-
-            // If we are browsing a post, look for child posts.
-        } elseif( $resource_type == 'hierarchical_post_type' ) {
-
-            $args = array(
-                'post_parent' => $object_id,
-                'post_type'   => $object_type,
-                'posts_per_page' => get_option( 'posts_per_page' ),
-                'post_status' => 'publish'
-            );
-            $get_children = get_children( $args );
-
-            // If we found some child posts, build them into an array.
-            if( is_array( $get_children ) ) {
-                foreach( $get_children as $c ) {
-                    $child = array();
-                    $title = get_the_title( $c -> ID );
-                    $href = get_permalink( $c -> ID );
-                    $child []= $title;
-                    $child []= $href;
-                    $children []= $child;
-                }
-            }
-        }
-
-        // If we had some children, add that to the crumbs.
-        if( ! empty( $get_children ) ) {
-            $crumb_array []= 'children';
-        }
-
-        // We'll put an arrow between each breadcrumb.
-        $arrow = anchorage_get_arrow( 'right', array( 'breadcrumbs-arrow' ), false );
-
-        // Grab a count of the ancestors so we know when to stop adding arrows.
-        $count = count( $crumb_array );
-
-        // For each parent, output a breacrumb link, to include microformat.
-        $i = 0;
-        foreach ( $crumb_array as $crumb ) {
-
-            $crumb_link = '';
-            $crumb_title = '';
-            $this_crumb = '';
-
-            $i++;
-
-            // Provide a link to the home page.
-            if( $crumb == 'home' ) {
-
-                $crumb_title = esc_html__( 'Home', 'anchorage' );
-                $crumb_link = home_url();
-
-                // Provide the title of the current page, unlinked.
-            } elseif( $crumb == 'current' ) {
-
-                if( anchorage_is_singlish() ) {
-                    $crumb_title = get_the_title();
-
-                } elseif( is_404() ) {
-                    $crumb_title = esc_html__( '404', 'anchorage' );
-
-                } elseif( is_author() ) {
-                    $crumb_title = get_the_author();
-
-                } elseif( is_search() ) {
-                    $crumb_title = esc_html__( 'Search', 'anchorage' );
-
-                } elseif( $resource_type == 'post_type_archive' ) {
-
-                    $crumb_title = $post_type_obj -> labels -> name;
-
-                } else {
-                    $term = get_queried_object();
-                    $crumb_title = wp_kses_post( $term -> name );
-                }
-
-                // If this is the crumb for child links, output each child, comma-seperated.
-            } elseif( $crumb == 'children' ) {
-                if( is_array( $children ) ) {
-
-                    // Grab a comma.
-                    $comma = esc_html__( ', ', 'anchorage' );
-
-                    $child_count = count( $children );
-                    $child_i = 0;
-                    foreach( $children as $child ) {
-
-                        $child_i++;
-                        $crumb_title = $child[0];
-                        $crumb_link = $child[1];
-                        $this_crumb .= anchorage_get_breadcrumb( $crumb_title, $crumb_link );
-
-                        // If we're not at the end, add a comma.
-                        if( $child_count != $child_i ) {
-                            $this_crumb .= $comma;
-                        }
-                    }
-                }
-
-                // If this breadcrumb is not for one of our special strings, dig into it and output the correct data.
-            } else {
-
-                // If it's a taxonomy resource or a flat post type resource, then the breadcrumbs are term links.
-                if( ( $resource_type == 'taxonomy' ) || ( $resource_type == 'flat_post_type' ) ) {
-
-                    $obj = get_category( $crumb );
-                    $crumb_title = $obj -> name;
-                    $crumb_link = get_term_link( $obj -> term_id, 'category' );
-
-                    // If it's a flat custom post type, just link back to the post type archive.
-                } elseif( $resource_type == 'flat_custom_post_type' ) {
-
-                    $crumb_title = $post_type_obj -> labels -> name;
-                    $crumb_link = get_post_type_archive_link( $object_type );
-
-                    // For anything else, grab the title and permalink.
-                } else {
-
-                    $crumb_title = get_the_title( $crumb );
-                    $crumb_link =  get_permalink( $crumb );
-
-                }
-
-            }
-
-            if( empty( $this_crumb ) ) {
-                $this_crumb = anchorage_get_breadcrumb( $crumb_title, $crumb_link );
-            }
-
-            $out .= $this_crumb;
-
-            // Unless we're at the end of the crumbs, add an arrow.
-            if( $i != $count ) {
-                $out .= $arrow;
-            }
-
-        }
-
-        if( empty ( $out ) ) { return false; }
-
-        $class = "breadcrumbs breadcrumbs-$resource_type";
-
-        $out .= anchorage_get_hard_rule();
-
-        // Wrap the breadcrumbs.
-        $out = "
-			<nav itemscope itemtype='http://data-vocabulary.org/Breadcrumb' rel='navigation' class='breadcrumbs breadcrumbs-$resource_type'>
-				$out
-			</nav>
-		";
-
-        return $out;
-
+    if( ! $style){
+        $style = "background-color:#000; color:#00ff00; padding:5px; font-size:14px; margin: 5px 0";
     }
+
+    if( ! $title_style){
+        $title_style = "color:#fff";
+    }
+
+    $dump = '';
+    $dump .= '<div style="text-align: left;">';
+    $dump .= "<pre style='$style'>";
+    if ($title) {
+        $dump .= "<strong style='{$title_style}'>{$title} :</strong> \n";
+    }
+    if($var === null){
+        $dump .= "`null`";
+    }else if($var === true){
+        $dump .= "`(bool) true`";
+    }else if($var === false){
+        $dump .= "`(bool) false`";
+    }else{
+        $dump .= print_r($var, TRUE);
+    }
+    $dump .= '</pre>';
+    $dump .= '</div>';
+    return $dump;
 }
 
 /**
- * Wrap the crumb.
- * @see https://schema.org/breadcrumb
+ * 변수의 구성요소를 출력한다.
  */
-if( ! function_exists( 'anchorage_get_breadcrumb' ) ) {
-    function anchorage_get_breadcrumb( $crumb_title, $crumb_link ) {
-
-        $crumb_title = wp_kses_post( $crumb_title );
-        $crumb_link = esc_url( $crumb_link );
-
-        $out = "<span itemprop='title'>$crumb_title</span>";
-
-        // Unless it's a crumb to the current page, link it.
-        if( ! empty( $crumb_link ) ) {
-            $out = "<a href='$crumb_link' class='breadcrumbs-link' itemprop='url'>$out</a>";
-        }
-
-        return $out;
-
-    }
+function printr ($var, $title = NULL, $style = NULL, $title_style = NULL) {
+    $dump = get_printr($var, $title, $style, $title_style);
+    echo $dump;
 }
 
 /**
- * Determine if a post type supports a taxonomy.
- *
- * @param  string $post_type The name of a post type.
- * @return  boolean Returns true if the given post type supports the given taxonomy, else false.
+ * 변수의 구성요소를 출력하고 멈춘다.
  */
-if( ! function_exists( 'anchorage_post_type_has_tax' ) ) {
-    function anchorage_post_type_has_tax( $post_type, $taxonomy_name ) {
-
-        if( ( $post_type == 'post' ) && ( ( $taxonomy_name == 'post_tag' ) || ( $taxonomy_name == 'category' ) ) ) { return true; }
-
-
-        $post_type_object = get_post_type_object( $post_type );
-        $taxonomies = $post_type_object -> taxonomies;
-        if( empty( $taxonomies ) ) { return false; }
-        if( in_array( $taxonomy_name, $taxonomies ) ) {
-            return true;
-        }
-        return false;
-    }
+function printr2 ($var, $title = NULL, $style = NULL, $title_style = NULL) {
+    printr($var, $title,  $style, $title_style);
+    exit;
 }
 
 /**
- * Determine if a post type is custom or not.
- *
- * @param  string $post_type The name of a post type.
- * @return  boolean Returns true if the given post type is custom, else false.
+ * printr은 임시로 쓰고 지우는 놈인데 이놈은 코드 안에 남겨 둘 생각으로 만든 놈.
+ * @param $var
+ * @param null $title
  */
-if( ! function_exists( 'anchorage_is_custom_post_type' ) ) {
-    function anchorage_is_custom_post_type( $post_type ) {
-
-        $all_custom_post_types = get_post_types( array ( '_builtin' => FALSE ) );
-
-        // there are no custom post types
-        if ( empty ( $all_custom_post_types ) ) {
-            return false;
-        }
-
-        $custom_types = array_keys( $all_custom_post_types );
-
-        if( in_array( $post_type, $custom_types ) ) {
-            return true;
-        }
-        return false;
-    }
+function debug_print($var, $title = NULL){
+    $style = "background-color: #ddd; color: #000; padding: 5px; font-size: 14px; margin: 5px 0";
+    $title_style = "color: darkred;";
+    printr($var, $title, $style, $title_style);
 }
 
-/**
- * Determine if the current view is tax, tag, or cat.
- *
- * @return boolean Returns true if current view is tax, tag, or cat, otherwise false.
- */
-if( ! function_exists( 'anchorage_is_termish' ) ) {
-    function anchorage_is_termish() {
-        if( is_tax() ||  is_tag() || is_category() ) {
-            return true;
-        }
-        return false;
-    }
-}
-
-/**
- * Determine if the current view is single, singular, or page.
- *
- * @return boolean Returns true if is single, singular, or page, otherwise false.
- */
-if( ! function_exists( 'anchorage_is_singlish' ) ) {
-    function anchorage_is_singlish() {
-        if( is_single() || is_singular() || is_page() ) {
-            return true;
-        }
-        return false;
-    }
-}
-
-/**
- * Get an HTML <hr /> with classes expected by our stylesheet.
- *
- * @param array $classes An array of HTML classes.
- * @return  string An HTML <hr /> with classes expected by our stylesheet.
- *
- * @since  anchorage 1.0
- */
-if( ! function_exists( 'anchorage_get_hard_rule' ) ) {
-    function anchorage_get_hard_rule( $classes = array() ) {
-
-        $classes     = array_map( 'sanitize_html_class', $classes );
-        $classes   []= 'break';
-        $classes_str = implode( ' ', $classes );
-
-        $out = "<hr class='$classes_str' />";
-        return $out;
-    }
-}
-
-
-/**
- * Grab the unicode char for an arrow in a given direction, with classes and an href.
- *
- * @param  string $direction The direction in which the arrow will point.
- * @param  array  $classes   An array of HTML classes for the arrow.
- * @param  string $href      Link the arrow to a url.
- * @return string The arrow, with classes, wrapped in either a link or span.
- *
- * @since  anchorage 1.0
- */
-if( ! function_exists( 'anchorage_get_arrow' ) ) {
-    function anchorage_get_arrow( $direction = 'down', $classes = array(), $href = '#' ) {
-
-
-        // Build the classes.
-        $classes = array_map( 'sanitize_html_class', $classes );
-        $classes = implode( ' ', $classes );
-        $classes = " class='$classes arrow' ";
-
-
-        // If there's an href, wrap the arrow in a link.
-        $href = esc_attr( $href );
-        if( ! empty( $href ) ) {
-            $out = "<a href='$href' $classes>$out</a>";
-
-            // Else, if there are classes, wrap it in a span.
-        } elseif( ! empty( $classes ) ) {
-            $out = "<span $classes>$out</span>";
-        }
-
-        return $out;
-    }
+function get_debug_print($var, $title = NULL){
+    $style = "background-color: #ddd; color: #000; padding: 5px; font-size: 14px; margin: 5px 0";
+    $title_style = "color: darkred;";
+    return get_printr($var, $title, $style, $title_style);
 }
 
 ?>
