@@ -54,11 +54,15 @@ body
 {
 	background: #fff;
 	font-size: 13px;
-	font-family: 'Open Sans Condensed', "Nanum Barun Gothic", dotum, Arial,Tahoma,Verdana,sans-serif;
+	font-family: "Nanum Gothic", 'Open Sans Condensed', dotum, Arial,Tahoma,Verdana,sans-serif;
 	padding: 0;
 	margin: 0;
 	color: #777;
 	overflow-x: hidden;
+}
+
+input, textarea, keygen, select, button{
+	font-family: "Nanum Gothic";
 }
 
 span.custom_font
@@ -2643,9 +2647,9 @@ table tr th, table tr td
  	margin:0;
 	margin-bottom: 10px;
 	border-bottom: 1px solid #E5E5E5;
-	-webkit-box-shadow: 0 4px 0px 0px rgba(150, 150, 150, 0.05);
+	/*-webkit-box-shadow: 0 4px 0px 0px rgba(150, 150, 150, 0.05);
 	-moz-box-shadow: 0 4px 0px 0px rgba(150, 150, 150, 0.05);
-	box-shadow: 0 4px 0px 0px rgba(150, 150, 150, 0.05);
+	box-shadow: 0 4px 0px 0px rgba(150, 150, 150, 0.05);*/
 }
 
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus
@@ -2675,7 +2679,7 @@ table tr th, table tr td
 	font-weight: normal;
 	display: block;
 	position: relative;
-	font-family: Arial,Tahoma,Verdana,sans-serif;
+	/*font-family: "Nanum Gothic";*/
 }
 
 .pp_accordion
@@ -2740,8 +2744,9 @@ table tr th, table tr td
 
 .ui-tabs .ui-tabs-nav li a 
 {
-	padding: 8px 30px 7px 30px;
+	padding: 11px 30px 11px 30px;
 	font-size: 12px;
+	font-weight: bold;
 }
 
 .tabs .ui-state-active
@@ -3777,10 +3782,10 @@ body.single-portfolios #slider_wrapper
 }
 .ui-accordion .ui-accordion-header a
 {
-	font-size: 14px;
+	font-size: 13px;
 	text-transform: none;
 	letter-spacing: 0;
-	margin: 5px 0 5px 10px;
+	margin: 11px 0 11px 10px;
 }
 
 .ui-accordion .ui-accordion-content

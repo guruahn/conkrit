@@ -57,12 +57,12 @@
 	text-align: left;
 }
 
-.breadcrumbs hr{
+/*.breadcrumbs hr{
 	border:0;
 	height:0;
-}
+}*/
 
-.breadcrumbs .breadcrumbs-link{
+.breadcrumbs a{
 	display: inline-block;
 	padding:0 41px;
 	height:44px;
@@ -106,13 +106,23 @@
 	background:url(/wp-content/themes/kakia/images/breadcrumbs_arrow.gif) no-repeat 11px 0;
 }
 
-.breadcrumbs .breadcrumbs-arrow{
-	display: none;
-}
-
-.breadcrumbs .inner
+/*.breadcrumbs .inner
 {
 	width: 895px;
 	margin: auto;
 	padding: 10px 0 10px 0;
+}*/
+
+/* 4.FAQ accodian
+----------------------------------*/
+.ui-icon { 
+	display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; 
+}
+
+.ui-state-default .ui-icon{
+	background: transparent url('../images/icon_question.png') no-repeat;
+}
+
+.ui-state-active .ui-icon{
+	background: transparent url('../images/icon_answer.png') no-repeat;
 }
