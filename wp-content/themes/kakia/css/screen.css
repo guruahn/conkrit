@@ -4515,6 +4515,7 @@ body.single-portfolios #slider_wrapper
 .home .ppb_title h4 {
     font-size: 48px;
     font-weight: 700;
+    font-family: "Open Sans Condensed" 
 }
 .home .ppb_title h4 .note {
     font-size: 16.07px;
@@ -4534,6 +4535,7 @@ body.single-portfolios #slider_wrapper
     margin:0;
     margin-top:10px ;
     line-height: 100%;
+    font-family: "Open Sans Condensed";
 }
 .home .ppb_serivce_wrapper div{
 	font-size: 17px;
@@ -4572,15 +4574,18 @@ body.single-portfolios #slider_wrapper
 }
 .home .about-us .portfolio200_overlay{margin-top: -260px; }
 .home .toggle-wrapper, .home .tabs-wrapper {
-    width: 39%;
+    width: 40%;
     height: 400px;
     background-color: #fff;
 }
-.home .toggle-wrapper .ppb_title, .home .tabs-wrapper .ppb_title {
+.home .toggle-wrapper .ppb_title, 
+.home .tabs-wrapper .ppb_title,
+.additional_service_wrapper .ppb_title {
     margin-bottom: 0;
 }
 .home .toggle-wrapper h4,
-.home .tabs-wrapper h4{
+.home .tabs-wrapper h4,
+.home .additional_service_wrapper h4{
     font-size: 23px;
     text-align: left;
 }
@@ -4592,7 +4597,7 @@ body.single-portfolios #slider_wrapper
 	box-shadow: -3px 3px 5px rgba(0,0,0,0.32);
 }
 .home .tabs-wrapper{
-    padding: 0 8.5% 0 2%;
+    padding: 0 8% 0 2%;
     -webkit-box-shadow: 3px 3px 5px rgba(0,0,0,0.32);
 	-moz-box-shadow: 3px 3px 5px rgba(0,0,0,0.32);
 	box-shadow: 3px 3px 5px rgba(0,0,0,0.32);
@@ -4664,3 +4669,37 @@ body.single-portfolios #slider_wrapper
 	font-size: 12px;
 }
 
+/* main Additional service list */
+.ppb_portfolio_wrapper + .one_half{
+	width:50%;
+	height:400px;
+	margin-right:0;
+	background-color: #fff;
+	-webkit-box-shadow: -3px 3px 5px rgba(0,0,0,0.32);
+	-moz-box-shadow: -3px 3px 5px rgba(0,0,0,0.32);
+	box-shadow: -3px 3px 5px rgba(0,0,0,0.32);
+}
+.additional_service_wrapper{
+	padding-left:16.66%;
+}
+#content_wrapper ul.additional_service_list{
+	list-style: none;
+	margin-left: 0;
+	width:92%;
+	padding-top: 8px;
+}
+.additional_service_list li{
+	position:relative;
+	padding:10px 0 10px 30px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.additional_service_list li i{
+	position: absolute;
+	left:0;
+}
+.additional_service_list li a{
+	overflow: hidden;
+	display: block;
+	max-height: 36px;
+	font-weight: bold;
+}

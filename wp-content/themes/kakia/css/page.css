@@ -74,7 +74,10 @@
 	font-size: 12px;
 	color:#6d6d6e;
 }
-
+.breadcrumbs a,
+.breadcrumbs span{
+	vertical-align: top;
+}
 .breadcrumbs a:first-child{
 	display: inline-block;
 	padding:0;
