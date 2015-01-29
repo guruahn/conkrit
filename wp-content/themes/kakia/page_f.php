@@ -43,11 +43,11 @@ $ppb_enable = get_post_meta($current_page_id, 'ppb_enable', true);
 
 <div class="page_caption">
 	<div class="caption_header">
-        <div class="caption_bg">
-            <?php if ( has_post_thumbnail() ) : ?>
+        <?php if ( has_post_thumbnail() ) : ?>
+            <div class="caption_bg">
                 <?php the_post_thumbnail(); ?>
-            <?php endif; ?>
-        </div>
+            </div>
+        <?php endif; ?>
         <?php
         //printr(get_nav_menu_locations());
         if ( ( $locations = get_nav_menu_locations() ) && isset( $locations[ 'primary-menu' ] ) ) {
