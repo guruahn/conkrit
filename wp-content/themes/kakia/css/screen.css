@@ -54,7 +54,7 @@ body
 {
 	background: #fff;
 	font-size: 13px;
-	font-family: "Nanum Gothic", 'Open Sans Condensed', dotum, Arial,Tahoma,Verdana,sans-serif;
+	font-family: "Nanum Gothic", 'Helvetica', dotum, Arial,Tahoma,Verdana,sans-serif;
 	padding: 0;
 	margin: 0;
 	color: #777;
@@ -358,7 +358,7 @@ label
 	text-align: center;
 }
 
-input[type=submit], input[type=button], a.button
+/*input[type=submit], input[type=button], a.button
 {
 	display: inline-block;
 	outline: none;
@@ -377,7 +377,7 @@ input[type=submit], input[type=button], a.button
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-}
+}*/
 
 #footer input[type=submit], #footer input[type=button]
 {
@@ -3990,7 +3990,7 @@ strong.line
 	margin: 0 0 20px 0;
 }
 
-.tagline
+/*.tagline
 {
 	float: left;
 	width: 100%;
@@ -4013,7 +4013,7 @@ strong.line
 {
 	font-size: 26px;
 	font-weight: 500;
-}
+}*/
 
 .caption_inner
 {
@@ -4513,9 +4513,9 @@ body.single-portfolios #slider_wrapper
 .home #content_wrapper { background: none; }
 .home .ppb_title { text-align: center;float: none; }
 .home .ppb_title h4 {
-    font-size: 48px;
+    font-size: 43px;
     font-weight: 700;
-    font-family: "Open Sans Condensed" 
+    font-family: "helvetica"; 
 }
 .home .ppb_title h4 .note {
     font-size: 16.07px;
@@ -4530,16 +4530,16 @@ body.single-portfolios #slider_wrapper
 }
 .home .ppb_serivce_wrapper img { float: none; margin: 0}
 .home .ppb_serivce_wrapper h5 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     margin:0;
     margin-top:10px ;
     line-height: 100%;
-    font-family: "Open Sans Condensed";
+    font-family: "helvetica";
 }
 .home .ppb_serivce_wrapper div{
-	font-size: 17px;
-	font-family: "Open Sans Condensed";
+	font-size: 13px;
+	font-family: "helvetica";
 }
 .home #content_wrapper .main {
     margin: 20px 0;
@@ -4586,7 +4586,7 @@ body.single-portfolios #slider_wrapper
 .home .toggle-wrapper h4,
 .home .tabs-wrapper h4,
 .home .additional_service_wrapper h4{
-    font-size: 23px;
+    font-size: 20px;
     text-align: left;
 }
 .home .toggle-wrapper {
@@ -4625,7 +4625,6 @@ body.single-portfolios #slider_wrapper
 	display: block;
 	width:auto;
 	color:#444;
-	font-family: Dotum, "돋움";
 }
 #footer .footer_menu_section a:hover{
 	color:#444;
@@ -4644,7 +4643,6 @@ body.single-portfolios #slider_wrapper
 	background:transparent url(/wp-content/themes/kakia/images/select_arrow.png) no-repeat 100% 50%;
 	color:#444;
 	font-size: 11px;
-	font-family: Dotum, "돋움";
 	font-weight: bold;
 	-webkit-appearance: none;
     -moz-appearance: none;

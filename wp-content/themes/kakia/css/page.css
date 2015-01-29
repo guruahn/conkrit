@@ -35,7 +35,7 @@
 /* 2.페이지 타이틀
 ----------------------------------*/
 .page .title h1{
-	font-family: "Open Sans Condensed", "Nanum Barun Gothic";
+	font-family: "Nanum Barun Gothic";
 }
 .page .title .cufon span{
 	font-weight:bold;
@@ -112,13 +112,6 @@
 	background:url(/wp-content/themes/kakia/images/breadcrumbs_arrow.gif) no-repeat 11px 0;
 }
 
-/*.breadcrumbs .inner
-{
-	width: 895px;
-	margin: auto;
-	padding: 10px 0 10px 0;
-}*/
-
 /* 4.FAQ accodian
 ----------------------------------*/
 .ui-icon { 
@@ -149,4 +142,55 @@
 }
 .tabs .ui-state-default a{
 	color: #333;
+}
+
+/* 5.TagLine 스타일 변경
+----------------------------------*/
+.tagline{
+	border-left:4px solid #fe413d;
+	background-color: transparent !important;
+}
+
+.tagline h2{
+	padding-left: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'helvetica', 'Nanum Barun Gothic';
+	color:#111;
+	line-height: 100%;
+}
+
+/* 6.button 스타일 변경
+----------------------------------*/
+input[type=submit], input[type=button], a.button{
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15.89px;
+	padding: .5em 1em .6em 1em;
+	padding:18px 50px 17px;
+	color: #111 !important;
+	font-weight: 500;
+	border: solid 1px #111;
+	background-color: #fff !important;
+	margin-right: 5px;
+	font-weight: bold;	
+}
+input[type=submit]:hover, input[type=button]:hover, a.button:hover{
+	background-color: #000 !important;
+	color:#fff !important;
+}
+
+/* 7.단락 스타일
+----------------------------------*/
+.text_block{
+	
+}
+.text_block .under_line{
+	display: block;
+	width:22px;
+	margin-bottom: 15px;
+	border-top:1px solid #333;
 }
