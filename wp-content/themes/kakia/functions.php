@@ -1134,11 +1134,14 @@ function breadcrumbs($menu_slug, $menu = null, $menu_items = null, $depth = 0){
         if(!empty($menu[$depth]->menu_item_parent) && $menu[$depth]->menu_item_parent != ''){
             foreach($menu_items as $item){
                 if( $item->ID == $menu[$depth]->menu_item_parent){
-                    $menu[] = $item;
+                    $menu[$depth+1] = $item;
+                    break;
                 }
             }
+
             breadcrumbs($menu_slug, $menu, $menu_items, $depth+1);
         }else{
+
             echo '<div class="breadcrumbs">';
             echo '<a href="/"></a>';
             for($i=count($menu)-1 ; $i >= 0 ; $i--){
