@@ -2646,7 +2646,7 @@ table tr th, table tr td
 {
  	margin:0;
 	margin-bottom: 10px;
-	border-bottom: 1px solid #E5E5E5;
+	border-bottom: 1px solid #eee;
 	/*-webkit-box-shadow: 0 4px 0px 0px rgba(150, 150, 150, 0.05);
 	-moz-box-shadow: 0 4px 0px 0px rgba(150, 150, 150, 0.05);
 	box-shadow: 0 4px 0px 0px rgba(150, 150, 150, 0.05);*/
