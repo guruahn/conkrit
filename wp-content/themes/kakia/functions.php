@@ -1123,7 +1123,18 @@ function breadcrumbs($menu_slug, $menu = null, $menu_items = null, $depth = 0){
                 'meta_value' => $post->ID // the currently displayed post
             ));
         }
+        foreach ( $menu_items as $menu_item ) {
 
+            if ($menu_item->current ) {
+                $GLOBALS['currentMenuTitle'] = $menu_item->title;
+                $GLOBALS['currentMenuID'] = $menu_item->ID;
+
+
+
+                break;
+            }
+        }
+        //printr($menu_items);
     }
 
     if($menu){
@@ -1131,7 +1142,7 @@ function breadcrumbs($menu_slug, $menu = null, $menu_items = null, $depth = 0){
         if(!$menu[$depth]->post_title){
             $menu[$depth]->post_title = get_the_title( $menu[$depth]->object_id );
         }
-        if(!empty($menu[$depth]->menu_item_parent) && $menu[$depth]->menu_item_parent != ''){
+        if(!empty($menu[$depth]->menu_item_parent) && isset($menu[$depth]->menu_item_parent)){
             foreach($menu_items as $item){
                 if( $item->ID == $menu[$depth]->menu_item_parent){
                     $menu[$depth+1] = $item;
