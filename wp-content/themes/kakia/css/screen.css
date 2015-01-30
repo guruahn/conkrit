@@ -2193,7 +2193,7 @@ ul.children .comment:first-child
 .portfolio_desc h6 a, .posts.blog h6 a, .portfolio_desc h5 a, .posts.blog h5 a, .portfolio_desc h6, .portfolio_desc h5
 {
 	text-transform: none;
-	font-family: Arial,Tahoma,Verdana,sans-serif;
+	font-family: "Nanum Gothic";
 }
 
 .portfolio_desc_200

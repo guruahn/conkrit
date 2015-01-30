@@ -185,7 +185,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 
 /* 7.단락 스타일
 ----------------------------------*/
-.text_block .newline{
+.new_line{
 	display: block;
 	width:22px;
 	margin-bottom: 15px;
@@ -203,7 +203,9 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	font-size: 50.75px;
 	color:#000;
 }
-.page-id-6401 p{
+.page-id-6401 .text_box{
+	margin-top:0;
+	padding-top:0;
 	font-size: 14px;
 	color:#666;
 }
@@ -224,8 +226,43 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	text-align: center;
 }
 
-/* 9.테스팅 사례
+/* 9.테스팅 사례 (포트폴리오 2colum filter)
 ----------------------------------*/
+.page-id-6447 #content_wrapper{
+	padding-left:153px;
+	padding-right:153px;
+	width:894px;
+}
 .page-id-6447 #content_wrapper ul.filter{
 	margin-top:48px;
+}
+.portfolio460_shadow{
+	width:423px;
+	height:261px;
+	border:1px solid #464646;
+	border-bottom:0;
+}
+.portfolio_desc_460{
+	width:387px;
+}
+.portfolio_desc{
+	border:1px solid #464646;
+	border-top:0;
+	color:#333;
+	padding:21px 18px 20px;
+	text-align: left;
+}
+.portfolio460_overlay
+{
+	width:423px;
+	height:261px;
+	position: relative;
+	margin-top: -266px;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	display: none;
+	overflow-x: hidden;
+}
+.portfolio460_overlay .overlay_icon_circle{
+	background-color: #888 !important;
 }
