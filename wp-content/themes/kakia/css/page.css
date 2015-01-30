@@ -153,11 +153,11 @@
 
 .tagline h2{
 	padding-left: 10px;
-	font-size: 20px;
+	font-size: 21px;
 	font-weight: bold;
-	font-family: 'helvetica', 'Nanum Barun Gothic';
+	font-family: 'Nanum Barun Gothic';
 	color:#111;
-	line-height: 100%;
+	line-height: 105%;
 }
 
 /* 6.button 스타일 변경
@@ -265,4 +265,13 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 }
 .portfolio460_overlay .overlay_icon_circle{
 	background-color: #888 !important;
+}
+
+/* 10.공지사항 & FAQ
+----------------------------------*/
+.page-id-6389 #content_wrapper,
+.page-id-6409 #content_wrapper{
+	padding-left:153px;
+	padding-right:153px;
+	width:894px;
 }
