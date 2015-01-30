@@ -2606,7 +2606,7 @@ function new_line_func($atts, $content) {
 
 	
 
-	$return_html.= '<br class="clear"/>';
+	$return_html.= '<span class="new_line"></span>';
 
 	
 
