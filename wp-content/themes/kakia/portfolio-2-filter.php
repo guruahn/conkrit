@@ -48,7 +48,6 @@ if(!isset($hide_header) OR !$hide_header)
     </div>
     <br class="clear"/>
 </div>
-<br class="clear"/>
 
 <!-- Begin content -->
 <div id="content_wrapper">
