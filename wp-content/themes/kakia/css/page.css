@@ -185,7 +185,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 
 /* 7.단락 스타일
 ----------------------------------*/
-.text_block .under_line{
+.text_block .newline{
 	display: block;
 	width:22px;
 	margin-bottom: 15px;
@@ -202,6 +202,23 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	font-size: 50.75px;
 	color:#000;
 }
-.page-id-6401 .identity{}
+.page-id-6401 p{
+	font-size: 14px;
+	color:#666;
+}
+.page-id-6401 .identity{
+
+}
 .page-id-6401 .doing{}
-.page-id-6401 .more_conkrit{}
+.page-id-6401 .more_conkrit{
+	margin:0;
+	margin-bottom:5px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#111;
+}
+
+/*버튼 가운데 정렬*/
+.btns_center{
+	text-align: center;
+}
