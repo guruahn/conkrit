@@ -43,7 +43,7 @@
 .page .title .cufon span:before{
 	content: "";
 	display: block;
-	margin-bottom: 10px;
+	margin-bottom: 14px;
 	border-top:4px solid #000;
 	width:60px;
 }
@@ -192,7 +192,8 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	border-top:1px solid #333;
 }
 
-/*콘크릿 소개*/
+/* 8.콘크릿 소개
+----------------------------------*/
 .page-id-6401 .intro_text{
 	font-size: 39.48px;
 	color:#111;
@@ -221,4 +222,10 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 /*버튼 가운데 정렬*/
 .btns_center{
 	text-align: center;
+}
+
+/* 9.테스팅 사례
+----------------------------------*/
+.page-id-6447 #content_wrapper ul.filter{
+	margin-top:48px;
 }
