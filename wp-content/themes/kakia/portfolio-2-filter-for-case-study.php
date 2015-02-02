@@ -112,8 +112,23 @@ if(empty($pp_portfolio_items))
 
 $temp = $wp_query;
 $wp_query = null;
-$wp_query = new WP_Query();
-$wp_query->query('showposts='.$pp_portfolio_items.'&post_type=portfolios&orderby=menu_order&order=ASC'.'&paged='.$paged);
+
+$args = array(
+    'post_type' => 'portfolios',
+    'tax_query' => array(
+        array(
+            'taxonomy' => 'portfoliosets',
+            'field'    => 'id',
+            'terms'    => '56',
+        ),
+    'showposts' => $pp_portfolio_items,
+    'orderby' => 'menu_order',
+    'order' => 'ASC',
+    'paged' => $paged,
+    ),
+);
+$wp_query = new WP_Query($args);
+//$wp_query->query('showposts='.$pp_portfolio_items.'&post_type=portfolios&orderby=menu_order&order=ASC&taxonomy=portfoliosets&term_id=56'.'&paged='.$paged);
 
 //Check featured content display setting
 $pp_portfolio_enable_feat = get_option('pp_portfolio_enable_feat');

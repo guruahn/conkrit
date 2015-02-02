@@ -23,19 +23,77 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/header.php">
+      <file leaf-file-name="kboard_setting.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/pages/kboard_setting.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="340" column="82" selection-start="9364" selection-end="9364" vertical-scroll-proportion="-6.285714" vertical-offset="6208" max-vertical-offset="12844">
+            <state line="145" column="98" selection-start="7329" selection-end="7329" vertical-scroll-proportion="-0.0" vertical-offset="1885" max-vertical-offset="4823">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom-css.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/templates/custom-css.php">
+      <file leaf-file-name="list.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/skin/default/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="284" column="10" selection-start="6416" selection-end="6416" vertical-scroll-proportion="0.36978132" vertical-offset="5210" max-vertical-offset="9842">
+            <state line="58" column="50" selection-start="2836" selection-end="2836" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="1443">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="183" column="5" selection-start="4527" selection-end="4527" vertical-scroll-proportion="0.0" vertical-offset="2379" max-vertical-offset="7514">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="portfolio-2-filter.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/portfolio-2-filter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="25" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.0" vertical-offset="1157" max-vertical-offset="6929">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="portfolio-2-filter-for-case-study.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/portfolio-2-filter-for-case-study.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="107" column="16" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.29017857" vertical-offset="1066" max-vertical-offset="7072">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1134" column="13" selection-start="34526" selection-end="34526" vertical-scroll-proportion="-14.136364" vertical-offset="14431" max-vertical-offset="15327">
+              <folding>
+                <marker date="1422610932794" expanded="false" signature="32228:32245" placeholder="..." />
+                <marker date="1422610932794" expanded="false" signature="32276:32282" placeholder="..." />
+                <marker date="1422610932794" expanded="false" signature="32338:32352" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/css/page.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="144" column="0" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="3666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kboard-ko_KR.po" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/languages/kboard-ko_KR.po">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="387" column="13" selection-start="28267" selection-end="28267" vertical-scroll-proportion="0.0" vertical-offset="4846" max-vertical-offset="7787">
               <folding />
             </state>
           </provider>
@@ -55,15 +113,38 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/kakia/templates/custom-css.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/cache/gg_fonts.cache" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/lib/custom.lib.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/lib/contentbuilder.lib.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/css/screen.css" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kboard/pages/kboard_setting.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kboard/skin/avatar/document.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kboard/skin/avatar/list.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kboard/skin/customer/document.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kboard/skin/customer/list.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kboard/skin/default/document.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kboard/skin/thumbnail/document.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kboard/skin/thumbnail/list.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kboard/languages/kboard-ko_KR.po" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kboard/skin/default/list.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/header.php" />
+        <option value="$PROJECT_DIR$/wp-includes/nav-menu.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/page_f.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/lib/shortcode.lib.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/portfolio-2-filter.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/kakia/portfolio-2-filter-for-case-study.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1221" />
-    <option name="y" value="234" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -91,6 +172,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,18 +267,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="functions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conkrit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conkrit" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wit-in-project" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -224,23 +324,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1221" y="234" width="1400" height="1000" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295838" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32910052" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -264,16 +364,309 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/page_f.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="1158" selection-end="1158" vertical-scroll-proportion="0.0" vertical-offset="521" max-vertical-offset="1456" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="340" column="82" selection-start="9364" selection-end="9364" vertical-scroll-proportion="-6.285714" vertical-offset="6208" max-vertical-offset="12844">
+        <state line="86" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7371">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="254" column="32" selection-start="7294" selection-end="7294" vertical-scroll-proportion="0.0" vertical-offset="3302" max-vertical-offset="5109" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/lib/custom.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="529" column="88" selection-start="15885" selection-end="15892" vertical-scroll-proportion="0.0" vertical-offset="6877" max-vertical-offset="11973" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="993" column="24" selection-start="16160" selection-end="16160" vertical-scroll-proportion="0.0" vertical-offset="12909" max-vertical-offset="59696" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="43" selection-start="1241" selection-end="1253" vertical-scroll-proportion="0.0" vertical-offset="845" max-vertical-offset="2691" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/lib/contentbuilder.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="376" column="56" selection-start="8420" selection-end="8420" vertical-scroll-proportion="0.0" vertical-offset="4888" max-vertical-offset="10257" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post-thumbnail-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="46" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1838" column="9" selection-start="65307" selection-end="65307" vertical-scroll-proportion="0.0" vertical-offset="23894" max-vertical-offset="76076">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="767" column="10" selection-start="24293" selection-end="24293" vertical-scroll-proportion="0.0" vertical-offset="9971" max-vertical-offset="13637">
+          <folding>
+            <marker date="1422610932794" expanded="false" signature="32228:32245" placeholder="..." />
+            <marker date="1422610932794" expanded="false" signature="32276:32282" placeholder="..." />
+            <marker date="1422610932794" expanded="false" signature="32338:32352" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/cache/gg_fonts.cache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30070" selection-start="30070" selection-end="30070" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="78" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7371">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="14" selection-start="3635" selection-end="3635" vertical-scroll-proportion="0.0" vertical-offset="1534" max-vertical-offset="5122" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/templates/custom-css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="284" column="10" selection-start="6416" selection-end="6416" vertical-scroll-proportion="0.0" vertical-offset="3692" max-vertical-offset="6760" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="767" column="10" selection-start="24293" selection-end="24293" vertical-scroll-proportion="0.0" vertical-offset="9971" max-vertical-offset="13637">
+          <folding>
+            <marker date="1422610932794" expanded="false" signature="32228:32245" placeholder="..." />
+            <marker date="1422610932794" expanded="false" signature="32276:32282" placeholder="..." />
+            <marker date="1422610932794" expanded="false" signature="32338:32352" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/cache/gg_fonts.cache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30070" selection-start="30070" selection-end="30070" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="78" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="340" column="71" selection-start="9449" selection-end="9449" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8918">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/templates/custom-css.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="284" column="10" selection-start="6416" selection-end="6416" vertical-scroll-proportion="0.36978132" vertical-offset="5210" max-vertical-offset="9842">
+        <state line="284" column="10" selection-start="6416" selection-end="6416" vertical-scroll-proportion="0.0" vertical-offset="3692" max-vertical-offset="6760" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/js/cufon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="16" selection-start="3079" selection-end="3079" vertical-scroll-proportion="0.33278418" vertical-offset="1371" max-vertical-offset="18837" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/cache/gg_fonts.cache">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30070" selection-start="30070" selection-end="30070" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="78" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="697" selection-end="697" vertical-scroll-proportion="-21.863636" vertical-offset="0" max-vertical-offset="1404" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/templates/custom-css.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="284" column="10" selection-start="6416" selection-end="6416" vertical-scroll-proportion="0.058035713" vertical-offset="3692" max-vertical-offset="6838" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post-thumbnail-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="46" selection-start="442" selection-end="442" vertical-scroll-proportion="0.014508928" vertical-offset="130" max-vertical-offset="1820" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/lib/custom.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="529" column="88" selection-start="15885" selection-end="15892" vertical-scroll-proportion="-3.3085105" vertical-offset="9676" max-vertical-offset="11973" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="54" selection-start="4721" selection-end="4741" vertical-scroll-proportion="0.0" vertical-offset="2275" max-vertical-offset="5109" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/css/screen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4547" column="27" selection-start="71048" selection-end="71048" vertical-scroll-proportion="0.0" vertical-offset="59111" max-vertical-offset="61087" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="8" selection-start="5554" selection-end="5557" vertical-scroll-proportion="0.6465721" vertical-offset="1845" max-vertical-offset="2691" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/pages/kboard_setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="98" selection-start="7329" selection-end="7329" vertical-scroll-proportion="0.0" vertical-offset="1885" max-vertical-offset="4823">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/lib/contentbuilder.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="398" column="1" selection-start="8953" selection-end="8953" vertical-scroll-proportion="-6.5" vertical-offset="3497" max-vertical-offset="8827" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/skin/avatar/document.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="0" selection-start="3760" selection-end="3760" vertical-scroll-proportion="-22.454546" vertical-offset="533" max-vertical-offset="1118" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/skin/avatar/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="0" selection-start="5295" selection-end="5295" vertical-scroll-proportion="-22.454546" vertical-offset="1014" max-vertical-offset="1599" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/skin/customer/document.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="0" selection-start="3790" selection-end="3790" vertical-scroll-proportion="-22.454546" vertical-offset="546" max-vertical-offset="1131" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/skin/customer/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="0" selection-start="4799" selection-end="4799" vertical-scroll-proportion="-22.454546" vertical-offset="858" max-vertical-offset="1443" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/skin/default/document.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="3522" selection-end="3522" vertical-scroll-proportion="-21.454546" vertical-offset="477" max-vertical-offset="1040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/skin/thumbnail/document.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="0" selection-start="3536" selection-end="3536" vertical-scroll-proportion="-21.454546" vertical-offset="477" max-vertical-offset="1040" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/skin/thumbnail/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="4" selection-start="5212" selection-end="5212" vertical-scroll-proportion="1.3384615" vertical-offset="621" max-vertical-offset="1495" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/languages/kboard-ko_KR.po">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="387" column="13" selection-start="28267" selection-end="28267" vertical-scroll-proportion="0.0" vertical-offset="4846" max-vertical-offset="7787">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kboard/skin/default/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="50" selection-start="2836" selection-end="2836" vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="1443">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="5" selection-start="4527" selection-end="4527" vertical-scroll-proportion="0.0" vertical-offset="2379" max-vertical-offset="7514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="9" selection-start="904" selection-end="904" vertical-scroll-proportion="0.34151787" vertical-offset="84" max-vertical-offset="61061" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4305" column="9" selection-start="142588" selection-end="142588" vertical-scroll-proportion="0.34151787" vertical-offset="55711" max-vertical-offset="57356">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="461" column="11" selection-start="15686" selection-end="15699" vertical-scroll-proportion="0.34151787" vertical-offset="5609" max-vertical-offset="76011">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/Core_d.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="299" column="8" selection-start="7649" selection-end="7649" vertical-scroll-proportion="0.34151787" vertical-offset="3581" max-vertical-offset="4719">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/css/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="0" selection-start="2587" selection-end="2587" vertical-scroll-proportion="0.0" vertical-offset="1188" max-vertical-offset="3666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/page_f.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="22" selection-start="1268" selection-end="1779" vertical-scroll-proportion="0.0" vertical-offset="1040" max-vertical-offset="1573" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/nav-menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="539" column="9" selection-start="16318" selection-end="16318" vertical-scroll-proportion="0.34151787" vertical-offset="6623" max-vertical-offset="11700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/portfolio-2-filter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="25" selection-start="2007" selection-end="2007" vertical-scroll-proportion="0.0" vertical-offset="1157" max-vertical-offset="6929">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/lib/contentbuilder.shortcode.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="16" selection-start="1215" selection-end="1226" vertical-scroll-proportion="0.051487416" vertical-offset="644" max-vertical-offset="4082">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1134" column="13" selection-start="34526" selection-end="34526" vertical-scroll-proportion="-14.136364" vertical-offset="14431" max-vertical-offset="15327">
+          <folding>
+            <marker date="1422610932794" expanded="false" signature="32228:32245" placeholder="..." />
+            <marker date="1422610932794" expanded="false" signature="32276:32282" placeholder="..." />
+            <marker date="1422610932794" expanded="false" signature="32338:32352" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/lib/shortcode.lib.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2660" column="19" selection-start="36573" selection-end="36573" vertical-scroll-proportion="0.27566963" vertical-offset="34580" max-vertical-offset="39689">
+          <folding>
+            <marker date="1422600130856" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/kakia/portfolio-2-filter-for-case-study.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="16" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.29017857" vertical-offset="1066" max-vertical-offset="7072">
           <folding />
         </state>
       </provider>
