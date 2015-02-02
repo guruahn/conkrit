@@ -77,6 +77,7 @@ if(!isset($hide_header) OR !$hide_header)
 
 <?php
 $sets_arr = get_terms('portfoliosets', 'hide_empty=0&hierarchical=0&parent=57');
+$case_study_terms = array();
 
 if(!empty($sets_arr) && empty($term))
 {
@@ -89,6 +90,7 @@ if(!empty($sets_arr) && empty($term))
         <?php
         foreach($sets_arr as $key => $set_item)
         {
+            $case_study_terms[] = $set_item->term_id;
             ?>
             <li class="cat-item <?php echo $set_item->slug; ?>" data-type="<?php echo $set_item->slug; ?>" style="clear:none">
                 <a data-filter=".<?php echo $set_item->slug; ?>" href="javascript:;" title="<?php echo $set_item->name; ?>"><?php echo $set_item->name; ?></a>
@@ -119,7 +121,7 @@ $args = array(
         array(
             'taxonomy' => 'portfoliosets',
             'field'    => 'id',
-            'terms'    => '56',
+            'terms'    => $case_study_terms,
         ),
     'showposts' => $pp_portfolio_items,
     'orderby' => 'menu_order',
