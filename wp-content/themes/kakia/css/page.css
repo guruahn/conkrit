@@ -275,3 +275,43 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	padding-right:153px;
 	width:894px;
 }
+
+/* 11. O2 Test Manager
+----------------------------------*/
+.page-id-6461 .otm_text{
+	font-size: 40px;
+	line-height: 1.2;
+	color:#000;
+}
+.page-id-6461 .otm_text em{
+	display: inline-block;
+	margin-bottom:10px;
+	padding:3px 17px 4px;
+	background-color: black;
+	font-size:24px;
+	color:#fff;
+	font-family: "helvetica";
+}
+.page-id-6461 .otm_text strong{
+	display: inline-block;
+	padding-top:7px;
+	font-size: 55px;
+	font-family: "Nanum Barun Gothic";
+	font-weight: normal;
+}
+.page-id-6461 .otm_bg{
+	padding-top: 142px;
+}
+.page-id-6461 .basic_list{
+	margin-top:18px;
+}
+
+/* 12. list style
+----------------------------------*/
+.basic_list{}
+.basic_list li{
+	padding:1px 0;
+	list-style-type:square;
+	color:#666;
+	font-size:14px;
+}
