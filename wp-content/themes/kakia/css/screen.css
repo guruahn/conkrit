@@ -2206,6 +2206,7 @@ ul.children .comment:first-child
 {
 	text-transform: none;
 	font-family: "Nanum Gothic";
+	font-weight:bold;
 }
 
 .portfolio_desc_200
@@ -4383,6 +4384,7 @@ a.classic
 
 .ajax_portfolio_wrapper
 {
+	padding-top:40px;
 	padding-bottom: 5px;
 	display: none;
 }
