@@ -917,7 +917,7 @@ body.admin-bar #header_wrapper
 {
 	color: #111;
 }
-
+#menu_wrapper div .nav li.current-menu-ancestor > a { color: #fff !important; }
 #menu_wrapper .nav ul li ul, #menu_wrapper div .nav li ul
 {
 	display: none;
