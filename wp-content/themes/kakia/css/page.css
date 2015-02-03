@@ -1,7 +1,19 @@
 /*
+	*** common style ***
 	1.상단 비쥬얼 타이틀 영역
 	2.페이지 타이틀
 	3.페이지 로케이션(빵부스러기)
+	4.FAQ accodian
+	5.TagLine 스타일 변경
+	6.button 스타일 변경
+	7.단락 스타일
+
+	*** page style ***
+	8.콘크릿 소개
+	9.테스팅 사례 (포트폴리오 2colum filter)
+	10.공지사항 & FAQ
+	11. O2 Test Manager
+	12.서비스 제공 프로세스
 */
 
 /* 1.상단 비쥬얼 타이틀 영역
@@ -182,6 +194,10 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	background-color: #000 !important;
 	color:#fff !important;
 }
+/*버튼 가운데 정렬*/
+.btns_center{
+	text-align: center;
+}
 
 /* 7.단락 스타일
 ----------------------------------*/
@@ -190,6 +206,19 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	width:22px;
 	margin-bottom: 15px;
 	border-top:1px solid #333;
+}
+
+/* 12. list style
+----------------------------------*/
+.basic_list{
+	margin-top:18px;
+	margin-left:15px !important;
+}
+.basic_list li{
+	padding:1px 0;
+	list-style-type:square;
+	color:#666;
+	font-size:14px;
 }
 
 /* 8.콘크릿 소개
@@ -209,21 +238,12 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	font-size: 14px;
 	color:#666;
 }
-.page-id-6401 .identity{
-
-}
-.page-id-6401 .doing{}
 .page-id-6401 .more_conkrit{
 	margin:0;
 	margin-bottom:5px;
 	font-size: 14px;
 	font-weight: bold;
 	color:#111;
-}
-
-/*버튼 가운데 정렬*/
-.btns_center{
-	text-align: center;
 }
 
 /* 9.테스팅 사례 (포트폴리오 2colum filter)
@@ -320,12 +340,23 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	margin-right:18px;
 }
 
-/* 12. list style
+/* 12.서비스 제공 프로세스
 ----------------------------------*/
-.basic_list{}
-.basic_list li{
-	padding:1px 0;
-	list-style-type:square;
-	color:#666;
-	font-size:14px;
+.page-id-6478 .process_text{
+	font-size:25px;
+	color:#111;
+}
+.page-id-6478 .process_text2{
+	padding:62px 0 0 95px;
+	font-size:24px;
+	color:#111;
+}
+.page-id-6478 .process_text2 strong{
+	font-size: 30px;
+}
+.page-id-6478 .process_img{
+	padding:10px 0 50px 0;
+}
+.page-id-6478 .process_list{
+	margin-bottom: 120px;
 }
