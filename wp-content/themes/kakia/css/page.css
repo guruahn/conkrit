@@ -301,9 +301,23 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 }
 .page-id-6461 .otm_bg{
 	padding-top: 142px;
+	margin-bottom:50px;
 }
 .page-id-6461 .basic_list{
 	margin-top:18px;
+	margin-left:15px !important;
+}
+.page-id-6461 .point{
+	margin-bottom: 60px;
+}
+.page-id-6461 .major{
+	margin-bottom:120px;
+}
+.page-id-6461 .btns_center{
+	margin-top:100px;
+}
+.page-id-6461 .btns_center a:first-child{
+	margin-right:18px;
 }
 
 /* 12. list style
