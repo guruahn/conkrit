@@ -14,6 +14,7 @@
 	10.공지사항 & FAQ
 	11. O2 Test Manager
 	12.서비스 제공 프로세스
+	13.기타 서비스 소개
 */
 
 /* 1.상단 비쥬얼 타이틀 영역
@@ -262,6 +263,10 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	border:1px solid #464646;
 	border-bottom:0;
 }
+.portfolio460_shadow > a > img{
+	width:423px;
+	height:261px;
+}
 .portfolio_desc_460{
 	width:387px;
 }
@@ -359,4 +364,17 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 }
 .page-id-6478 .process_list{
 	margin-bottom: 120px;
+}
+
+/* 13.기타 서비스 소개
+----------------------------------*/
+.page-id-6492 #content_wrapper{
+	padding-left:153px;
+	padding-right:153px;
+	width:894px;
+}
+.ajax_portfolio_wrapper .portfolio_single_img{
+	width:870px;
+	height:389px;
+	border:1px solid #474546;
 }
