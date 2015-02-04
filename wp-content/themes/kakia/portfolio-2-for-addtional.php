@@ -168,9 +168,9 @@ foreach($ajax_portfolios_arr as $key => $portfolio_item)
 
     <div id="ajax_<?php echo $portfolio_item['ID']; ?>" class="ajax_portfolio_wrapper">
         <h4 class="portfolio_single_title"><?php echo $portfolio_item['title']; ?></h4>
-        <a class="ajax_close" data-rel="<?php echo $portfolio_item['ID']; ?>">x</a>
-        <a class="ajax_next ajax_portfolio_direction" data-rel="<?php echo $portfolio_next_id; ?>">→</a>
-        <a class="ajax_prev ajax_portfolio_direction" data-rel="<?php echo $portfolio_prev_id; ?>">←</a>
+        <a class="ajax_close" data-rel="<?php echo $portfolio_item['ID']; ?>">X</a>
+        <a class="ajax_next ajax_portfolio_direction" data-rel="<?php echo $portfolio_next_id; ?>">&gt;</a>
+        <a class="ajax_prev ajax_portfolio_direction" data-rel="<?php echo $portfolio_prev_id; ?>">&lt;</a>
         <?php
         if(!empty($pp_portfolio_enable_feat))
         {

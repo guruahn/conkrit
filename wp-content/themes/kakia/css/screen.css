@@ -903,11 +903,9 @@ body.admin-bar #header_wrapper
 	background-color:#333; /*gnb hover style*/
 }
 
-#menu_wrapper div .nav li.current-menu-item > a, 
-#menu_wrapper div .nav li.current-menu-parent > a, 
-#menu_wrapper div .nav li.current-menu-ancestor > a
+#menu_wrapper div .nav > li.current-menu-ancestor > a
 {
-	color: #9aca42;
+	color: #fff !important;
 }
 #menu_wrapper div .nav li.current-menu-item > a{
 	font-weight:bold;
@@ -917,7 +915,7 @@ body.admin-bar #header_wrapper
 {
 	color: #111;
 }
-#menu_wrapper div .nav li.current-menu-ancestor > a { color: #fff !important; }
+/*#menu_wrapper div .nav li.current-menu-ancestor > a { color: #fff !important; }*/
 #menu_wrapper .nav ul li ul, #menu_wrapper div .nav li ul
 {
 	display: none;
@@ -3991,7 +3989,7 @@ strong.line
 {
 	width: 1000px;
 	height: 400px;
-	margin-bottom: 20px;
+	margin-bottom: 6px;
 	background: url('../images/slider_shadow.png') bottom center no-repeat;
 }
 
@@ -4396,8 +4394,9 @@ a.classic
 
 .ajax_close, .ajax_close:active, .ajax_next, .ajax_next:active, .ajax_prev, .ajax_prev:active, .portfolio_single_navi a, .portfolio_single_navi a:active
 {
-	padding: 3px 8px 3px 8px;
-	width: 10px;
+	width:32px;
+	height:32px;
+	/*padding: 3px 8px 3px 8px;*/
 	color: #777777;
 	background: #EBEBEB;
 	display: block;
@@ -4407,6 +4406,8 @@ a.classic
 	margin-bottom: 20px;
 	right: -5px;
 	margin-left: 3px;
+	font-size: 17px;
+	line-height: 32px;
 }
 
 .ajax_close, .ajax_close:hover, .ajax_close:active, .ajax_next:hover, .ajax_prev:hover, .portfolio_single_navi a:hover

@@ -1,23 +1,25 @@
 /*
 	*** common style ***
-	1.상단 비쥬얼 타이틀 영역
-	2.페이지 타이틀
-	3.페이지 로케이션(빵부스러기)
-	4.FAQ accodian
-	5.TagLine 스타일 변경
-	6.button 스타일 변경
-	7.단락 스타일
+	a-1.상단 비쥬얼 타이틀 영역
+	a-2.페이지 타이틀
+	a-3.페이지 로케이션(빵부스러기)
+	a-4.TagLine 스타일 변경
+	a-5.button 스타일 변경
+	a-6.단락 스타일
+	a-7.list style
+	a-8.포트폴리오 상세보기 타이틀 스타일
 
 	*** page style ***
-	8.콘크릿 소개
-	9.테스팅 사례 (포트폴리오 2colum filter)
-	10.공지사항 & FAQ
-	11. O2 Test Manager
-	12.서비스 제공 프로세스
-	13.기타 서비스 소개
+	1.콘크릿 소개
+	2.테스팅 사례 (포트폴리오 2colum filter)
+	3.공지사항 & FAQ
+	4. O2 Test Manager
+	5.서비스 제공 프로세스
+	6.기타 서비스 소개
+	7.포트폴리오 타이틀 스타일
 */
 
-/* 1.상단 비쥬얼 타이틀 영역
+/* a-1.상단 비쥬얼 타이틀 영역
 ----------------------------------*/
 .page_caption
 {
@@ -45,7 +47,7 @@
 	height:226px;
 }
 
-/* 2.페이지 타이틀
+/* a-2.페이지 타이틀
 ----------------------------------*/
 .page .title h1{
 	font-family: "Nanum Barun Gothic";
@@ -61,7 +63,7 @@
 	width:60px;
 }
 
-/* 3.페이지 로케이션(빵부스러기)
+/* a-3.페이지 로케이션(빵부스러기)
 ----------------------------------*/
 .breadcrumbs
 {
@@ -72,12 +74,6 @@
 	border-width: 1px 0;
 	text-align: left;
 }
-
-/*.breadcrumbs hr{
-	border:0;
-	height:0;
-}*/
-
 .breadcrumbs a{
 	display: inline-block;
 	padding:0 41px;
@@ -125,39 +121,7 @@
 	background:url(/wp-content/themes/kakia/images/breadcrumbs_arrow.gif) no-repeat 11px 0;
 }
 
-/* 4.FAQ accodian
-----------------------------------*/
-.ui-icon { 
-	width: 20px; 
-	height: 24px;
-}
-.ui-state-default .ui-icon{
-	background: transparent url('../images/icon_question.png') no-repeat;
-}
-
-.ui-state-active .ui-icon{
-	background: transparent url('../images/icon_answer.png') no-repeat;
-}
-.ui-accordion .ui-accordion-header .ui-icon{
-	left: 15px;
-	margin-top: -11px; 
-}
-.ui-accordion .ui-accordion-header a
-{
-	margin-left:39px;
-}
-.ui-accordion .ui-accordion-content{
-	margin-left: 0;
-	padding-left: 55px;
-	border-top:1px solid #eee;
-	background-color: #f7f7f7;
-	color:#333;
-}
-.tabs .ui-state-default a{
-	color: #333;
-}
-
-/* 5.TagLine 스타일 변경
+/* a-4.TagLine 스타일 변경
 ----------------------------------*/
 .tagline{
 	border-left:4px solid #fe413d;
@@ -173,7 +137,7 @@
 	line-height: 105%;
 }
 
-/* 6.button 스타일 변경
+/* a-5.button 스타일 변경
 ----------------------------------*/
 input[type=submit], input[type=button], a.button{
 	display: inline-block;
@@ -195,12 +159,11 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	background-color: #000 !important;
 	color:#fff !important;
 }
-/*버튼 가운데 정렬*/
-.btns_center{
+.btns_center{ /*버튼 가운데 정렬*/
 	text-align: center;
 }
 
-/* 7.단락 스타일
+/* a-6.단락 스타일
 ----------------------------------*/
 .new_line{
 	display: block;
@@ -209,7 +172,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	border-top:1px solid #333;
 }
 
-/* 12. list style
+/* a-7.list style
 ----------------------------------*/
 .basic_list{
 	margin-top:18px;
@@ -222,7 +185,16 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	font-size:14px;
 }
 
-/* 8.콘크릿 소개
+/* a-8.포트폴리오 상세보기 타이틀 스타일
+----------------------------------*/
+.portfolio_single_title{
+	padding:1px 16px;
+	font-family: "Nanum Barun Gothic";
+	color:#fff;
+	background-color: #000;
+}
+
+/* 1.콘크릿 소개
 ----------------------------------*/
 .page-id-6401 .intro_text{
 	font-size: 39.48px;
@@ -247,7 +219,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	color:#111;
 }
 
-/* 9.테스팅 사례 (포트폴리오 2colum filter)
+/* 2.테스팅 사례 (포트폴리오 2colum filter)
 ----------------------------------*/
 .page-id-6447 #content_wrapper{
 	padding-left:153px;
@@ -302,7 +274,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	color:#333;
 }
 
-/* 10.공지사항 & FAQ
+/* 3.공지사항 & FAQ
 ----------------------------------*/
 .page-id-6389 #content_wrapper,
 .page-id-6409 #content_wrapper{
@@ -310,8 +282,37 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	padding-right:153px;
 	width:894px;
 }
+.page-id-6409 .ui-icon { 
+	width: 20px; 
+	height: 24px;
+}
+.page-id-6409 .ui-state-default .ui-icon{
+	background: transparent url('../images/icon_question.png') no-repeat;
+}
 
-/* 11. O2 Test Manager
+.page-id-6409 .ui-state-active .ui-icon{
+	background: transparent url('../images/icon_answer.png') no-repeat;
+}
+.page-id-6409 .ui-accordion .ui-accordion-header .ui-icon{
+	left: 15px;
+	margin-top: -11px; 
+}
+.page-id-6409 .ui-accordion .ui-accordion-header a
+{
+	margin-left:39px;
+}
+.page-id-6409 .ui-accordion .ui-accordion-content{
+	margin-left: 0;
+	padding-left: 55px;
+	border-top:1px solid #eee;
+	background-color: #f7f7f7;
+	color:#333;
+}
+.tabs .ui-state-default a{
+	color: #333;
+}
+
+/* 4. O2 Test Manager
 ----------------------------------*/
 .page-id-6461 .otm_text{
 	font-size: 40px;
@@ -355,7 +356,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	margin-right:18px;
 }
 
-/* 12.서비스 제공 프로세스
+/* 5.서비스 제공 프로세스
 ----------------------------------*/
 .page-id-6478 .process_text{
 	font-size:25px;
@@ -376,7 +377,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	margin-bottom: 120px;
 }
 
-/* 13.기타 서비스 소개
+/* 6.기타 서비스 소개(포트폴리오 스타일)
 ----------------------------------*/
 .page-id-6492 .title{
 	margin-bottom:50px;
@@ -398,12 +399,51 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 .ajax_content .basic_list{
 	margin-top:0;
 }
+.ajax_content .ui-accordion .ui-accordion-header a{
+	margin-top:6px;
+	margin-bottom: 6px;
+}
+.ajax_content .ui-accordion .ui-accordion-content{
+	margin-left: 0;
+	padding-left: 27px;
+	border-top:1px solid #eee;
+	background-color: #f7f7f7;
+	color:#333;
+}
 
-/* 14.포트폴리오 타이틀 스타일
+/* 7.상담문의
 ----------------------------------*/
-.portfolio_single_title{
-	padding:1px 16px;
+.page-id-6524 .contact_text{
+	padding-bottom: 0;
+	font-size:25px;
+	font-weight:bold;
+	color:#111;
+}
+.page-id-6524 .contact_address h3,
+.page-id-6524 .contact_email h3,
+.page-id-6524 .contact_telephone h3{
+	font-size:21px;
 	font-family: "Nanum Barun Gothic";
-	color:#fff;
-	background-color: #000;
+	font-weight: bold;
+}
+.page-id-6524 .contact_address p,
+.page-id-6524 .contact_email p,
+.page-id-6524 .contact_telephone p{
+	margin-top:0;
+	padding-top:0;
+	font-size:14px;
+	color:#666;
+}
+.page-id-6524 .contact_form_title{
+	margin-top:70px;
+	font-size: 25px;
+	font-weight:bold;
+}
+.page-id-6524 .contact_form_text{
+	margin-top:0.5em;
+}
+.page-id-6524 #contact_form.style1 input[type=text]{
+	border-color:#fff;
+	border-bottom-color:#111;
+	box-shadow: none;
 }

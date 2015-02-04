@@ -87,10 +87,12 @@ if(!isset($hide_header) OR !$hide_header)
 				if(!empty($pp_contact_email) OR !empty($pp_contact_email_display) OR !empty($pp_contact_phone) OR !empty($pp_contact_address))
 				{
 			?>
+				<p class="contact_text">콘크릿에 대해 더 궁금하시다면 언제든지 연락 주세요!</p>
 	    		<div class="contact_style1_info">
 	    			<h2>
 	    			<?php
-					   	if(!empty($pp_contact_email) && !empty($pp_contact_email_display))
+					   	/*
+						if(!empty($pp_contact_email) && !empty($pp_contact_email_display))
 					   	{	
 					   		echo $pp_contact_email.' ';
 					   	}
@@ -99,13 +101,16 @@ if(!isset($hide_header) OR !$hide_header)
 					   	{
 					   		echo _e( 'Tel. ', THEMEDOMAIN ).' '.$pp_contact_phone;
 					   	}
+					   	*/
 					?>
 	    			</h2>
 	    			<?php
-	    			   	if(!empty($pp_contact_address))
+	    			   	/*
+						if(!empty($pp_contact_address))
 	    			   	{
 					   		echo $pp_contact_address;
 					   	}
+	    			   	*/
 					?>
 	    		</div>
 	    	<?php
@@ -138,7 +143,7 @@ if(!isset($hide_header) OR !$hide_header)
 }
 ?>
 
-			<div class="sidebar_wrapper">
+			<!-- <div class="sidebar_wrapper">
 			    
 			    <div class="sidebar">
 			    	
@@ -155,9 +160,9 @@ if(!isset($hide_header) OR !$hide_header)
 					
 			    <div class="sidebar_bottom"></div>
 			
-			</div>
+			</div> -->
 				
-			<div class="sidebar_content">
+			<div class="">
 			
 				<?php 
 				    if ( have_posts() ) while ( have_posts() ) : the_post(); ?>		
@@ -180,14 +185,14 @@ if(!isset($hide_header) OR !$hide_header)
 			    				{
 			    					case 1:
 			    	?>
-			        				<input id="your_name" name="your_name" type="text" title="<?php echo _e( 'Name*', THEMEDOMAIN ); ?>" style="width:28%"/>	
+			        				<div><input id="your_name" name="your_name" type="text" title="<?php echo _e( '담당자', THEMEDOMAIN ); ?>" style="width:40%"/></div>	
 			    	<?php
 			    					break;
 			    					
 			    					case 2:
 			    	?>
 			    					
-			        				<input id="email" name="email" type="text" title="<?php echo _e( 'Email*', THEMEDOMAIN ); ?>" style="width:28%"/>			
+			        				<div><input id="email" name="email" type="text" title="<?php echo _e( '이메일', THEMEDOMAIN ); ?>" style="width:40%"/></div>			
 			    	<?php
 			    					break;
 			    					
@@ -201,7 +206,7 @@ if(!isset($hide_header) OR !$hide_header)
 			    					case 5:
 			    	?>
 			    					
-			        				<input id="phone" name="phone" type="text" title="<?php echo _e( 'Phone', THEMEDOMAIN ); ?>" style="width:28%"/>		
+			        				<div><input id="phone" name="phone" type="text" title="<?php echo _e( '전화번호', THEMEDOMAIN ); ?>" style="width:40%"/></div>		
 			    	<?php
 			    					break;
 			    					
@@ -215,7 +220,7 @@ if(!isset($hide_header) OR !$hide_header)
 			    					case 7:
 			    	?>
 			    					
-			        				<input id="company" name="company" type="text" title="<?php echo _e( 'Company Name', THEMEDOMAIN ); ?>" style="width:28%"/>			
+			        				<div><input id="company" name="company" type="text" title="<?php echo _e( '고객사', THEMEDOMAIN ); ?>" style="width:40%"/></div>			
 			    	<?php
 			    					break;
 			    					
@@ -229,7 +234,7 @@ if(!isset($hide_header) OR !$hide_header)
 			    					case 3:
 			    	?>
 			    					
-			        				<textarea id="message" name="message" rows="7" cols="10" title="<?php echo _e( 'Message', THEMEDOMAIN ); ?>" style="width:94%"></textarea>				
+			        				<textarea id="message" name="message" rows="7" cols="10" title="<?php echo _e( '프로젝트 문의', THEMEDOMAIN ); ?>" style="width:40%"></textarea>				
 			    	<?php
 			    					break;
 			    				}
@@ -263,7 +268,7 @@ if(!isset($hide_header) OR !$hide_header)
 					?>
 			
 			        <br class="clear"/><br/>
-			    	<input type="submit" value="<?php echo _e( 'Send Message', THEMEDOMAIN ); ?>"/><br/>
+			    	<div class="btns_center"><input type="submit" value="<?php echo _e( '상담문의 남기기', THEMEDOMAIN ); ?>" /></div><br/>
 			    </form>
 			    <div id="reponse_msg"></div>
 			    <br/><br/><br/>
