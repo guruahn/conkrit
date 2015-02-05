@@ -202,7 +202,6 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	line-height: 140%;
 }
 .page-id-6401 .intro_text strong{
-	font-size: 50.75px;
 	color:#000;
 }
 .page-id-6401 .text_box{
@@ -324,14 +323,13 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	margin-bottom:10px;
 	padding:3px 17px 4px;
 	background-color: black;
-	font-size:24px;
+	font-size:25px;
 	color:#fff;
 	font-family: "helvetica";
 }
 .page-id-6461 .otm_text strong{
 	display: inline-block;
 	padding-top:7px;
-	font-size: 55px;
 	font-family: "Nanum Barun Gothic";
 	font-weight: normal;
 }
@@ -364,11 +362,8 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 }
 .page-id-6478 .process_text2{
 	padding:62px 0 0 95px;
-	font-size:24px;
+	font-size:25px;
 	color:#111;
-}
-.page-id-6478 .process_text2 strong{
-	font-size: 30px;
 }
 .page-id-6478 .process_img{
 	padding:10px 0 50px 0;
@@ -441,9 +436,20 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 }
 .page-id-6524 .contact_form_text{
 	margin-top:0.5em;
+	margin-bottom:28px;
+	font-size: 14px;
 }
 .page-id-6524 #contact_form.style1 input[type=text]{
 	border-color:#fff;
 	border-bottom-color:#111;
 	box-shadow: none;
+}
+.page-id-6524 #contact_form .btns_center input{
+	float:none;
+}
+.page-id-6524 #contact_form input{
+	margin-bottom:6px;
+}
+.page-id-6524 .btns_center{
+	margin-top:29px;
 }

@@ -273,7 +273,8 @@ input[type=text], input[type=password], textarea
 	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
 	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
 	border: 1px solid #333;
-	font-family: Arial,Tahoma,Verdana,sans-serif;
+	font-family: "Nanum Gothic";
+	font-size: 14px;
 }
 
 #footer input[type=text], #footer input[type=password], #footer textarea

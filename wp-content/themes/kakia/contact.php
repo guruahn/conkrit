@@ -176,6 +176,7 @@ if(!isset($hide_header) OR !$hide_header)
 			    	$pp_contact_form = unserialize(get_option('pp_contact_form_sort_data'));
 			    ?>
 			    <form id="contact_form" class="style1" method="post" action="<?php echo curPageURL(); ?>">
+			    <div class="one_half">
 			    	<?php 
 			    		if(is_array($pp_contact_form) && !empty($pp_contact_form))
 			    		{
@@ -185,14 +186,14 @@ if(!isset($hide_header) OR !$hide_header)
 			    				{
 			    					case 1:
 			    	?>
-			        				<div><input id="your_name" name="your_name" type="text" title="<?php echo _e( '담당자', THEMEDOMAIN ); ?>" style="width:40%"/></div>	
+			        				<input id="your_name" name="your_name" type="text" title="<?php echo _e( '담당자', THEMEDOMAIN ); ?>" style="width:90%"/>	
 			    	<?php
 			    					break;
 			    					
 			    					case 2:
 			    	?>
 			    					
-			        				<div><input id="email" name="email" type="text" title="<?php echo _e( '이메일', THEMEDOMAIN ); ?>" style="width:40%"/></div>			
+			        				<input id="email" name="email" type="text" title="<?php echo _e( '이메일', THEMEDOMAIN ); ?>" style="width:90%"/>		
 			    	<?php
 			    					break;
 			    					
@@ -206,7 +207,7 @@ if(!isset($hide_header) OR !$hide_header)
 			    					case 5:
 			    	?>
 			    					
-			        				<div><input id="phone" name="phone" type="text" title="<?php echo _e( '전화번호', THEMEDOMAIN ); ?>" style="width:40%"/></div>		
+			        				<input id="phone" name="phone" type="text" title="<?php echo _e( '전화번호', THEMEDOMAIN ); ?>" style="width:90%"/>		
 			    	<?php
 			    					break;
 			    					
@@ -220,21 +221,21 @@ if(!isset($hide_header) OR !$hide_header)
 			    					case 7:
 			    	?>
 			    					
-			        				<div><input id="company" name="company" type="text" title="<?php echo _e( '고객사', THEMEDOMAIN ); ?>" style="width:40%"/></div>			
+			        				<input id="company" name="company" type="text" title="<?php echo _e( '고객사', THEMEDOMAIN ); ?>" style="width:90%"/>			
 			    	<?php
 			    					break;
 			    					
 			    					case 8:
 			    	?>
 			    					
-			        				<input id="country" name="country" type="text" title="<?php echo _e( 'Country', THEMEDOMAIN ); ?>" style="width:28%"/>			
+			        				<input id="country" name="country" type="text" title="<?php echo _e( 'Country', THEMEDOMAIN ); ?>" style="width:28%;"/>			
 			    	<?php
 			    					break;
 			    					
 			    					case 3:
 			    	?>
 			    					
-			        				<textarea id="message" name="message" rows="7" cols="10" title="<?php echo _e( '프로젝트 문의', THEMEDOMAIN ); ?>" style="width:40%"></textarea>				
+			        				</div><div class="one_half last"><textarea id="message" name="message" rows="7" cols="10" title="<?php echo _e( '프로젝트 문의', THEMEDOMAIN ); ?>" style="width:95%;height:147px"></textarea></div>				
 			    	<?php
 			    					break;
 			    				}
