@@ -854,7 +854,6 @@ body.admin-bar #header_wrapper
 #menu_wrapper .nav a{
 	font-family:"helvetica", "nanum barun gothic", "나눔바른고딕";
 	font-weight:bold;
-	letter-spacing:-1px;
 }
 
 #menu_wrapper .nav ul li ul li, #menu_wrapper div .nav li ul li
