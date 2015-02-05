@@ -99,7 +99,7 @@
 	padding:0;
 	width:47px;
 	height:44px;
-	background: url(/wp-content/themes/kakia/images/icon_home.gif) no-repeat 50% 50%;
+	background: url(../images/icon_home.gif) no-repeat 50% 50%;
 }
 
 .breadcrumbs a:first-child span{
@@ -125,7 +125,7 @@
 	width:13px;
 	height:8px;
 	padding-left: 11px;
-	background:url(/wp-content/themes/kakia/images/breadcrumbs_arrow.gif) no-repeat 11px 0;
+	background:url(../images/breadcrumbs_arrow.gif) no-repeat 11px 0;
 }
 
 /* a-4.TagLine 스타일 변경
@@ -236,7 +236,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	margin-right:0;
 }
 .page-id-6401 .one_third .doing{
-	background: url(/wp-content/themes/kakia/images/bg_line.gif) no-repeat 100% 50%;
+	background: url(../images/bg_line.gif) no-repeat 100% 50%;
 	text-align: center;
 }
 .page-id-6401 .one_third.last .doing{
@@ -502,7 +502,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 }
 .page-id-6543 .testing_area{
 	margin-top:80px;
-	background: url(/wp-content/themes/kakia/images/bg_line.gif) no-repeat 100% 50%;
+	background: url(../images/bg_line.gif) no-repeat 100% 50%;
 	text-align:center;
 }
 .page-id-6543 .one_fourth.last .testing_area{
@@ -585,29 +585,29 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 /* 8-1.테스팅 서비스 : Functional Testing
 ----------------------------------*/
 .page-id-6594 #content_wrapper{
-	background:#fff url(/wp-content/themes/kakia/images/functional_testing_bg.jpg) no-repeat 100% 0;
+	background:#fff url(../images/functional_testing_bg.jpg) no-repeat 100% 0;
 }
 
 /* 8-2.테스팅 서비스 : Usability Testing
 ----------------------------------*/
 .page-id-6596 #content_wrapper{
-	background:#fff url(/wp-content/themes/kakia/images/usability_testing_bg.jpg) no-repeat 100% 0;
+	background:#fff url(../images/usability_testing_bg.jpg) no-repeat 100% 0;
 }
 
 /* 8-3.테스팅 서비스 : Globalization Testing
 ----------------------------------*/
 .page-id-6598 #content_wrapper{
-	background:#fff url(/wp-content/themes/kakia/images/globalization_testing_bg.jpg) no-repeat 100% 0;
+	background:#fff url(../images/globalization_testing_bg.jpg) no-repeat 100% 0;
 }
 
 /* 8-4.테스팅 서비스 : Performance Testing
 ----------------------------------*/
 .page-id-6600 #content_wrapper{
-	background:#fff url(/wp-content/themes/kakia/images/performance_testing_bg.jpg) no-repeat 100% 0;
+	background:#fff url(../images/performance_testing_bg.jpg) no-repeat 100% 0;
 }
 
 /* 8-5.테스팅 서비스 : Security Testing
 ----------------------------------*/
 .page-id-6602 #content_wrapper{
-	background:#fff url(/wp-content/themes/kakia/images/security_testing_bg.jpg) no-repeat 100% 0;
+	background:#fff url(../images/security_testing_bg.jpg) no-repeat 100% 0;
 }
