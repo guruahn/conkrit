@@ -8,6 +8,7 @@
 	a-6.단락 스타일
 	a-7.list style
 	a-8.포트폴리오 상세보기 타이틀 스타일
+	a-9.타이틀 및 설명
 
 	*** page style ***
 	1.콘크릿 소개
@@ -17,6 +18,12 @@
 	5.서비스 제공 프로세스
 	6.기타 서비스 소개
 	7.포트폴리오 타이틀 스타일
+	8.테스팅 서비스
+		8-1.테스팅 서비스 : Functional Testing
+		8-2.테스팅 서비스 : Usability Testing
+		8-3.테스팅 서비스 : Globalization Testing
+		8-4.테스팅 서비스 : Performance Testing
+		8-5.테스팅 서비스 : Security Testing
 */
 
 /* a-1.상단 비쥬얼 타이틀 영역
@@ -194,6 +201,14 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	background-color: #000;
 }
 
+/* a-9.타이틀 및 설명
+----------------------------------*/
+.title_desc{
+	font-size:40px;
+	line-height: 1.3;
+	color:#111;
+}
+
 /* 1.콘크릿 소개
 ----------------------------------*/
 .page-id-6401 .intro_text{
@@ -216,6 +231,26 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	font-size: 14px;
 	font-weight: bold;
 	color:#111;
+}
+.page-id-6401 .one_third{
+	margin-right:0;
+}
+.page-id-6401 .one_third .doing{
+	background: url(/wp-content/themes/kakia/images/bg_line.gif) no-repeat 100% 50%;
+	text-align: center;
+}
+.page-id-6401 .one_third.last .doing{
+	background: none;
+}
+.page-id-6401 .doing h3{
+	margin-top: 11px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.page-id-6401 .doing p{
+	margin-top: 0;
+	padding-top: 0.3em;
+	font-size: 14px;
 }
 
 /* 2.테스팅 사례 (포트폴리오 2colum filter)
@@ -452,4 +487,127 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 }
 .page-id-6524 .btns_center{
 	margin-top:29px;
+}
+
+/* 8.테스팅 서비스
+----------------------------------*/
+.page-id-6543 .one_fourth{
+	width:25%;
+	margin-right:0;
+}
+.page-id-6543 .testing_text{
+	font-size: 40px;
+	color:#111;
+	line-height: 1.3;
+}
+.page-id-6543 .testing_area{
+	margin-top:80px;
+	background: url(/wp-content/themes/kakia/images/bg_line.gif) no-repeat 100% 50%;
+	text-align:center;
+}
+.page-id-6543 .one_fourth.last .testing_area{
+	background: none;
+}
+.page-id-6543 .testing_area h3{
+	margin-top:11px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.page-id-6543 .testing_area p{
+	margin-top:0;
+	padding-top:0.3em;
+	font-size: 14px;
+}
+.page-id-6543 ul.testing_kind_wrap{
+	overflow: hidden;
+	margin-top:43px;
+	list-style:none;
+}
+.page-id-6543 .testing_kind_wrap li{
+	float:left;
+	width:286px;
+	height:328px;
+	margin-left: 37px;
+}
+.page-id-6543 .testing_kind.performance,
+.page-id-6543 .testing_kind.security{
+	margin-top:-16px;
+}
+.page-id-6543 .testing_kind.performance{
+	padding-left:163px;
+}
+.page-id-6543 .testing_kind a{
+	position:relative;
+	display: block;
+	width:100%;
+	height:100%;
+}
+.page-id-6543 .testing_kind img{
+	position: absolute;
+}
+.page-id-6543 .testing_kind a img.overlay{
+	opacity:0;
+}
+.page-id-6543 .testing_kind a:hover img.overlay{
+	opacity:1;
+	transition: opacity .2s ease-in .2s;
+}
+.page-id-6543 .testing_kind_title{
+	margin-top:60px;
+}
+
+.parent-pageid-6543 ul{
+	margin-bottom:45px;
+}
+.parent-pageid-6543 .testing_effect li:first-child strong{
+	margin-top:0;
+}
+.parent-pageid-6543 .testing_effect strong{
+	display: block;
+	margin-top:10px;
+	padding-bottom:1px;
+}
+.parent-pageid-6543 .testing_process{
+	overflow: hidden;
+	list-style: none;
+	font-size: 14px;
+}
+.parent-pageid-6543 .testing_process li{
+	float:left;
+	margin-top:25px;
+	margin-right:27px;
+	text-align:center;
+}
+.parent-pageid-6543 .testing_process li img{
+	margin-bottom:10px;
+}
+
+/* 8-1.테스팅 서비스 : Functional Testing
+----------------------------------*/
+.page-id-6594 #content_wrapper{
+	background:#fff url(/wp-content/themes/kakia/images/functional_testing_bg.jpg) no-repeat 100% 0;
+}
+
+/* 8-2.테스팅 서비스 : Usability Testing
+----------------------------------*/
+.page-id-6596 #content_wrapper{
+	background:#fff url(/wp-content/themes/kakia/images/usability_testing_bg.jpg) no-repeat 100% 0;
+}
+
+/* 8-3.테스팅 서비스 : Globalization Testing
+----------------------------------*/
+.page-id-6598 #content_wrapper{
+	background:#fff url(/wp-content/themes/kakia/images/globalization_testing_bg.jpg) no-repeat 100% 0;
+}
+
+/* 8-4.테스팅 서비스 : Performance Testing
+----------------------------------*/
+.page-id-6600 #content_wrapper{
+	background:#fff url(/wp-content/themes/kakia/images/performance_testing_bg.jpg) no-repeat 100% 0;
+}
+
+/* 8-5.테스팅 서비스 : Security Testing
+----------------------------------*/
+.page-id-6602 #content_wrapper{
+	background:#fff url(/wp-content/themes/kakia/images/security_testing_bg.jpg) no-repeat 100% 0;
 }
