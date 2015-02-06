@@ -192,7 +192,7 @@ if(!isset($hide_header) OR !$hide_header)
 			    				switch($form_input)
 			    				{
 			    					case 1:
-			    	?>
+                                        			    	?>
 			        				<input id="your_name" name="your_name" type="text" title="<?php echo _e( '담당자', THEMEDOMAIN ); ?>" style="width:90%"/>	
 			    	<?php
 			    					break;

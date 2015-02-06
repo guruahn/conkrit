@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+	<head profile="http://gmpg.org/xfn/11">
+		<link rel="stylesheet" href="/style.css" type="text/css" media="screen"> 
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="jquery.countdown.package-2.0.2/jquery.plugin.min.js"></script> 
+		<script type="text/javascript" src="jquery.countdown.package-2.0.2/jquery.countdown.min.js"></script> 
+		<title> Landis WordPress theme demo</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold" rel="stylesheet" type="text/css">
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    var time = new Date();
+				time = new Date(2015, 2-1, 16);
+				$('#defaultCountdown').countdown({until: time});
+				$('#removeCountdown').toggle(function() {
+					$(this).text('Re-attach');
+					$('#defaultCountdown').countdown('destroy');
+				},
+				function() {
+					$(this).text('Remove');
+					$('#defaultCountdown').countdown({until: time});
+				});
+				$('.show').fadeIn(600);
+			});
+		</script> 	
+	</head>
+
+	<body class="home blog bodyclass" data-twttr-rendered="true" data-feedly-mini="yes">
+		<div id="header-holder">
+			<div id="header" class="show" style="display: block;">
+			<div id="logo"> 
+				<a href="">
+					<img src="logo-comming.png" alt="CONKRIT logo">
+				</a>
+			</div>
+			<div class="Page_title">더욱 단단한 서비스를 위해 준비중입니다.</div>
+				<!-- <div class="Page_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div> -->
+			</div>
+			<div id="front_page_container">
+				<div id="front_page">
+					<div class="container">
+						<div id="front_left_cell" class="show" style="display: block;"> 
+							<!-- <span id="countdowntext">Our amazing new site will launch in</span>  -->
+							<span id="defaultCountdown" class="countdown hasCountdown">
+								<span class="countdown_row countdown_show4">
+									
+								</span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+
+		<div id="footer">
+			<div id="copyright">
+				<div id="copyright-wrap">
+					© 2015 Conkrit. All Rights Reserved.
+				</div>
+			</div>
+			<div class="container">
+				<div id="footer_content">
+					<div id="footer_wrap"></div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
