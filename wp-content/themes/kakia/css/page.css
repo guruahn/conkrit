@@ -490,6 +490,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	font-size: 14px;
 }
 .page-id-6524 #contact_form.style1 input[type=text]{
+	margin-top:1px;
 	border-color:#fff;
 	border-bottom-color:#111;
 	box-shadow: none;
