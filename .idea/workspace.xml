@@ -26,7 +26,7 @@
       <file leaf-file-name="update.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp/wp-includes/update.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="296" column="5" selection-start="10497" selection-end="10497" vertical-scroll-proportion="0.56473213" vertical-offset="3303" max-vertical-offset="9087">
+            <state line="268" column="0" selection-start="9137" selection-end="9147" vertical-scroll-proportion="0.14397322" vertical-offset="3303" max-vertical-offset="9087">
               <folding />
             </state>
           </provider>
@@ -267,7 +267,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp/wp-includes/update.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="296" column="5" selection-start="10497" selection-end="10497" vertical-scroll-proportion="0.56473213" vertical-offset="3303" max-vertical-offset="9087">
+        <state line="268" column="0" selection-start="9137" selection-end="9147" vertical-scroll-proportion="0.14397322" vertical-offset="3303" max-vertical-offset="9087">
           <folding />
         </state>
       </provider>
