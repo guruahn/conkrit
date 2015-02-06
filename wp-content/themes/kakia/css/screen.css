@@ -928,7 +928,7 @@ body.admin-bar #header_wrapper
  	z-index: 1000; 
 	text-transform: none;
 	margin: 0 0 0 0;
-	border: 1px solid #E5E5E5;
+	/*border: 1px solid #E5E5E5;*/
 	border-top: 3px solid #9aca42;
 	-webkit-box-shadow: 4px 4px 0px 0px rgba(150, 150, 150, 0.05);
 	-moz-box-shadow: 4px 4px 0px 0px rgba(150, 150, 150, 0.05);
@@ -965,9 +965,9 @@ body.admin-bar #header_wrapper
 
 #menu_wrapper .nav ul li ul li a, #menu_wrapper div .nav li ul li a, #menu_wrapper div .nav li.current-menu-parent ul li a
 {
-	width: 185px;
+	width: 205px;
 	display: block;
-	margin-left: 10px;
+	padding-left: 10px;
 	border-bottom: 1px solid #ebebeb;
 	border-top: 0;
 	font-weight: normal;

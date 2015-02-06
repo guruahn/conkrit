@@ -28,6 +28,12 @@
 
 /* a-1.상단 비쥬얼 타이틀 영역
 ----------------------------------*/
+/* 페이지 그림자 */
+#content_wrapper{
+	-webkit-box-shadow: 0 5px 8px 2px rgba(0,0,0,0.32);
+	-moz-box-shadow: 	0 5px 8px 2px rgba(0,0,0,0.32);
+	box-shadow: 		0 5px 8px 2px rgba(0,0,0,0.32);
+}
 .page_caption
 {
 	margin: auto;
@@ -38,9 +44,9 @@
 	text-align: center;
 	border-bottom: 0;
 	margin-bottom: 0;
-	-webkit-box-shadow: 4px 4px 0px 0px rgba(150, 150, 150, 0.05);
-	-moz-box-shadow: 4px 4px 0px 0px rgba(150, 150, 150, 0.05);
-	box-shadow: 4px 4px 0px 0px rgba(150, 150, 150, 0.05);
+	-webkit-box-shadow: 0 1px 8px 2px rgba(0,0,0,0.32);
+	-moz-box-shadow: 	0 1px 8px 2px rgba(0,0,0,0.32);
+	box-shadow: 		0 1px 8px 2px rgba(0,0,0,0.32);
 }
 
 .page_caption p
@@ -546,10 +552,10 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	position: absolute;
 }
 .page-id-6543 .testing_kind a img.overlay{
-	opacity:0;
+	opacity:1;
 }
 .page-id-6543 .testing_kind a:hover img.overlay{
-	opacity:1;
+	opacity:0;
 	transition: opacity .2s ease-in .2s;
 }
 .page-id-6543 .testing_kind_title{
