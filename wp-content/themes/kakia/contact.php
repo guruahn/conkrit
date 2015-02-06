@@ -49,24 +49,19 @@ if(!isset($hide_header) OR !$hide_header)
 </div>
 
 <div class="page_caption">
-	<div class="caption_inner">
-		<div class="caption_header">
-			<h1 class="cufon"><span><?php the_title(); ?></span></h1>
-			<?php
-			$page_description = get_post_meta($current_page_id, 'page_description', true);
-			
-			if(!empty($page_description))
-			{
-			?>
-				<span class="page_description"><?php echo $page_description; ?></span>
-			<?php
-			}
-			?>
-		</div>
-	</div>
-	<br class="clear"/>
+    <div class="caption_header">
+        <?php if ( has_post_thumbnail() ) : ?>
+            <div class="caption_bg">
+                <?php the_post_thumbnail(); ?>
+            </div>
+        <?php endif; ?>
+        <?php
+        breadcrumbs('primary-menu');
+        ?>
+
+    </div>
+    <br class="clear"/>
 </div>
-<br class="clear"/>
 
 <!-- Begin content -->
 <div id="content_wrapper">
@@ -77,7 +72,19 @@ if(!isset($hide_header) OR !$hide_header)
     	<div class="inner_wrapper">
     	
     	<div class="standard_wrapper">
-    	
+            <div class="title">
+                <h1 class="cufon"><span><?php the_title(); ?></span></h1>
+                <?php
+                $page_description = get_post_meta($current_page_id, 'page_description', true);
+
+                if(!empty($page_description))
+                {
+                    ?>
+                    <span class="page_description"><?php echo $page_description; ?></span>
+                <?php
+                }
+                ?>
+            </div>
     		<?php
 	    		$pp_contact_email = get_option('pp_contact_email');
 				$pp_contact_email_display = get_option('pp_contact_email_display');
