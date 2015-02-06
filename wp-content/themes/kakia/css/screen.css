@@ -2501,7 +2501,7 @@ ul.children .comment:first-child
 {
 	width: 88%;
 	margin: 0 0 5px 0;
-	background:transparent url(/wp-content/themes/kakia/images/button_search.png) no-repeat 97% 50%;
+	background:transparent url(../images/button_search.png) no-repeat 97% 50%;
 }
 
 #searchform input[type=submit]
@@ -4659,7 +4659,7 @@ body.single-portfolios #slider_wrapper
 .footer_address_wrap select{
 	padding:5px 13px;
 	border:1px solid #444;
-	background:transparent url(/wp-content/themes/kakia/images/select_arrow.png) no-repeat 100% 50%;
+	background:transparent url(../images/select_arrow.png) no-repeat 100% 50%;
 	color:#444;
 	font-size: 11px;
 	font-weight: bold;

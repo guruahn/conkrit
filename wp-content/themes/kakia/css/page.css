@@ -258,6 +258,9 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	padding-top: 0.3em;
 	font-size: 14px;
 }
+.page-id-6401 .btns_center p .button:first-child{
+	margin-right:18px;
+}
 
 /* 2.테스팅 사례 (포트폴리오 2colum filter)
 ----------------------------------*/
@@ -412,6 +415,12 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 .page-id-6478 .process_list{
 	margin-bottom: 120px;
 }
+.page-id-6478 .btns_center{
+	margin-top:50px;
+}
+.page-id-6478 .btns_center .button:first-child{
+	margin-right:18px;
+} 
 
 /* 6.기타 서비스 소개(포트폴리오 스타일)
 ----------------------------------*/
