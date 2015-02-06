@@ -3312,7 +3312,7 @@ body.single-portfolios #slider_wrapper
 	height:160px;
 	position: relative;
 	margin-top: -165px;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.8);
 	text-align: center;
 	display: none;
 	overflow: hidden;
@@ -4566,6 +4566,8 @@ body.single-portfolios #slider_wrapper
 	-moz-box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
 	box-shadow: 0 2px 4px 2px rgba(0,0,0,0.32);
 }
+
+/*main about us*/
 .home #content_wrapper .main,
 .home #content_wrapper .about-us
 {
@@ -4596,6 +4598,9 @@ body.single-portfolios #slider_wrapper
     width: 40%;
     height: 400px;
     background-color: #fff;
+}
+.portfolio200_overlay .overlay_icon_circle{
+	background-color: #888 !important;
 }
 .home .toggle-wrapper .ppb_title, 
 .home .tabs-wrapper .ppb_title,
