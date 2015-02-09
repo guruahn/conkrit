@@ -18,7 +18,7 @@
 	5.서비스 제공 프로세스
 	6.기타 서비스 소개
 	7.포트폴리오 타이틀 스타일
-	8.테스팅 서비스
+	8.콘크릿 서비스 소개
 		8-1.테스팅 서비스 : Functional Testing
 		8-2.테스팅 서비스 : Usability Testing
 		8-3.테스팅 서비스 : Globalization Testing
@@ -491,8 +491,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 }
 .page-id-6524 #contact_form.style1 input[type=text]{
 	margin-top:1px;
-	border-color:#fff;
-	border-bottom-color:#111;
+	border-color:#111;
 	box-shadow: none;
 }
 .page-id-6524 #contact_form .btns_center input{
@@ -505,7 +504,7 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	margin-top:29px;
 }
 
-/* 8.테스팅 서비스
+/* 8.콘크릿 서비스 소개
 ----------------------------------*/
 .page-id-6543 .one_fourth{
 	width:25%;
@@ -534,9 +533,10 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	padding-top:0.3em;
 	font-size: 14px;
 }
-.page-id-6543 ul.testing_kind_wrap{
+.page-id-6543 #content_wrapper ul.testing_kind_wrap{
 	overflow: hidden;
 	margin-top:43px;
+	margin-left:0;
 	list-style:none;
 }
 .page-id-6543 .testing_kind_wrap li{
@@ -571,7 +571,9 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 .page-id-6543 .testing_kind_title{
 	margin-top:60px;
 }
-
+.page-id-6543 .btns_center{
+	margin-top:50px;
+}
 .parent-pageid-6543 ul{
 	margin-bottom:45px;
 }
@@ -591,8 +593,13 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 .parent-pageid-6543 .testing_process li{
 	float:left;
 	margin-top:25px;
-	margin-right:27px;
+	padding-left:35px;
 	text-align:center;
+	background: url(../images/testing_line_bg.gif) no-repeat 0 0;
+}
+.parent-pageid-6543 .testing_process li:first-child{
+	padding-left:0;
+	background:none;
 }
 .parent-pageid-6543 .testing_process li img{
 	margin-bottom:10px;
