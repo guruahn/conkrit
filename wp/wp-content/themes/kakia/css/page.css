@@ -123,6 +123,7 @@
 	font-size: 12px;
 	font-weight: bold;
 	vertical-align: top;
+	border-right: 1px solid #ddd;
 }
 
 .breadcrumbs > span:after{
@@ -574,34 +575,38 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 .page-id-6543 .btns_center{
 	margin-top:50px;
 }
-.parent-pageid-6543 ul{
+.page-id-6594 ul,
+.page-id-6596 ul,
+.page-id-6598 ul,
+.page-id-6600 ul,
+.page-id-6602 ul{
 	margin-bottom:45px;
 }
-.parent-pageid-6543 .testing_effect li:first-child strong{
+.testing_effect li:first-child strong{
 	margin-top:0;
 }
-.parent-pageid-6543 .testing_effect strong{
+.testing_effect strong{
 	display: block;
 	margin-top:10px;
 	padding-bottom:1px;
 }
-.parent-pageid-6543 .testing_process{
+ol.testing_process{
 	overflow: hidden;
 	list-style: none;
 	font-size: 14px;
 }
-.parent-pageid-6543 .testing_process li{
+ol.testing_process li{
 	float:left;
 	margin-top:25px;
 	padding-left:35px;
 	text-align:center;
 	background: url(../images/testing_line_bg.gif) no-repeat 0 0;
 }
-.parent-pageid-6543 .testing_process li:first-child{
+ol.testing_process li:first-child{
 	padding-left:0;
 	background:none;
 }
-.parent-pageid-6543 .testing_process li img{
+ol.testing_process li img{
 	margin-bottom:10px;
 }
 

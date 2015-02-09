@@ -4718,6 +4718,8 @@ body.single-portfolios #slider_wrapper
 .additional_service_list li i{
 	position: absolute;
 	left:0;
+	color:#222;
+	font-size:7px;
 }
 .additional_service_list li a{
 	overflow: hidden;
