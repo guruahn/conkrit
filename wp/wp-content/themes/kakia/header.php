@@ -267,6 +267,7 @@ if(!empty($pp_seo_meta_key))
 			wp_enqueue_style('boxed', get_stylesheet_directory_uri()."/css/empty.css", false, "", "all");
 		}
 	}
+    wp_enqueue_style('font_awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css', false, "", "all");
 	//End Get Theme Layout
 	
 	//Get all theme javascripts
