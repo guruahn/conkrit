@@ -15,36 +15,36 @@ include (get_template_directory() . "/lib/fallback.home.lib.php");
 if(!isset($_POST['your_name']))
 {
 
-if(!isset($hide_header) OR !$hide_header)
-{
-	get_header(); 
-}
+    if(!isset($hide_header) OR !$hide_header)
+    {
+        get_header();
+    }
 
-/**
-*	Get Current page object
-**/
-$page = get_page($post->ID);
+    /**
+    *	Get Current page object
+    **/
+    $page = get_page($post->ID);
 
-/**
-*	Get current page id
-**/
+    /**
+    *	Get current page id
+    **/
 
-if(!isset($current_page_id) && isset($page->ID))
-{
-    $current_page_id = $page->ID;
-}
+    if(!isset($current_page_id) && isset($page->ID))
+    {
+        $current_page_id = $page->ID;
+    }
 
-//Get page Sidebar
-$page_sidebar = get_post_meta($current_page_id, 'page_sidebar', true);
-if(empty($page_sidebar))
-{
-	$page_sidebar = 'Contact Sidebar';
-}
+    //Get page Sidebar
+    $page_sidebar = get_post_meta($current_page_id, 'page_sidebar', true);
+    if(empty($page_sidebar))
+    {
+        $page_sidebar = 'Contact Sidebar';
+    }
 
-//If display on homepage then disable header
-if(!isset($hide_header) OR !$hide_header)
-{
-?>
+    //If display on homepage then disable header
+    if(!isset($hide_header) OR !$hide_header)
+    {
+    ?>
 		
 </div>
 
@@ -85,6 +85,117 @@ if(!isset($hide_header) OR !$hide_header)
                 }
                 ?>
             </div>
+
+        <div class="">
+
+            <h4 class="contact_form_title">콘크릿 서비스와 관련한 상담이 필요하신가요?</h4>
+            <p class="contact_form_text">필요한 서비스와 함께 상담문의를 남겨주시면 정성껏 답변해 드리겠습니다. </p>
+
+            <?php
+            //Begin contact form
+            $pp_contact_form = unserialize(get_option('pp_contact_form_sort_data'));
+            ?>
+            <form id="contact_form" class="style1" method="post" action="<?php echo curPageURL(); ?>">
+                <div class="one_half">
+                    <?php
+                    if(is_array($pp_contact_form) && !empty($pp_contact_form))
+                    {
+                    foreach($pp_contact_form as $form_input)
+                    {
+                    switch($form_input)
+                    {
+                    case 1:
+                        ?>
+                        <input id="your_name" name="your_name" type="text" title="<?php echo _e( '담당자', THEMEDOMAIN ); ?>" style="width:90%"/>
+                        <?php
+                        break;
+
+                    case 2:
+                        ?>
+
+                        <input id="email" name="email" type="text" title="<?php echo _e( '이메일', THEMEDOMAIN ); ?>" style="width:90%"/>
+                        <?php
+                        break;
+
+                    case 4:
+                        ?>
+
+                        <input id="address" name="address" type="text" title="<?php echo _e( 'Address', THEMEDOMAIN ); ?>" style="width:28%"/>
+                        <?php
+                        break;
+
+                    case 5:
+                        ?>
+
+                        <input id="phone" name="phone" type="text" title="<?php echo _e( '전화번호', THEMEDOMAIN ); ?>" style="width:90%"/>
+                        <?php
+                        break;
+
+                    case 6:
+                        ?>
+
+                        <input id="mobile" name="mobile" type="text" title="<?php echo _e( 'Mobile', THEMEDOMAIN ); ?>" style="width:28%"/>
+                        <?php
+                        break;
+
+                    case 7:
+                        ?>
+
+                        <input id="company" name="company" type="text" title="<?php echo _e( '고객사', THEMEDOMAIN ); ?>" style="width:90%"/>
+                        <?php
+                        break;
+
+                    case 8:
+                        ?>
+
+                        <input id="country" name="country" type="text" title="<?php echo _e( 'Country', THEMEDOMAIN ); ?>" style="width:28%;"/>
+                        <?php
+                        break;
+
+                    case 3:
+                    ?>
+
+                </div><div class="one_half last"><textarea id="message" name="message" rows="7" cols="10" title="<?php echo _e( '프로젝트 문의', THEMEDOMAIN ); ?>" style="width:95%;height:147px"></textarea></div>
+                <?php
+                break;
+                }
+                }
+                }
+                ?>
+
+                <?php
+                $pp_contact_enable_captcha = get_option('pp_contact_enable_captcha');
+
+                if(!empty($pp_contact_enable_captcha))
+                {
+                    ?>
+
+                    <br class="clear"/>
+                    <div id="captcha-wrap">
+                        <div class="captcha-box">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/get_captcha.php" alt="" id="captcha" />
+                        </div>
+                        <div class="text-box">
+                            <label>Type the two words:</label>
+                            <input name="captcha-code" type="text" id="captcha-code">
+                        </div>
+                        <div class="captcha-action">
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/refresh.jpg"  alt="" id="captcha-refresh" />
+                        </div>
+                    </div>
+
+                <?php
+                }
+                ?>
+
+                <br class="clear"/><br/>
+                <div class="btns_center"><input type="submit" value="<?php echo _e( '상담문의 남기기', THEMEDOMAIN ); ?>" /></div><br/>
+            </form>
+            <div id="reponse_msg"></div>
+            <br/><br/><br/>
+
+        </div>
+
     		<?php
 	    		$pp_contact_email = get_option('pp_contact_email');
 				$pp_contact_email_display = get_option('pp_contact_email_display');
@@ -123,7 +234,7 @@ if(!isset($hide_header) OR !$hide_header)
 	    	<?php
 	    		}
 	    	?>
-    	
+
     		<?php
 			    //Check if display contact map
 			    $pp_contact_display_map = get_option('pp_contact_display_map');
@@ -146,142 +257,17 @@ if(!isset($hide_header) OR !$hide_header)
 			    }
 			?>
 					
-<?php
-}
-?>
+    <?php
+    }
+    ?>
 
-			<!-- <div class="sidebar_wrapper">
-			    
-			    <div class="sidebar">
-			    	
-			    	<div class="content">
-			    	
-			    		<ul class="sidebar_widget">
-			    		<?php dynamic_sidebar($page_sidebar); ?>
-			    		</ul>
-			    		
-			    	</div>
-			    
-			    </div>
-			    <br class="clear"/>
-					
-			    <div class="sidebar_bottom"></div>
-			
-			</div> -->
-				
-			<div class="">
-			
-				<?php 
-				    if ( have_posts() ) while ( have_posts() ) : the_post(); ?>		
-				
-				    		<?php the_content(); break; ?>
-				
-				<?php endwhile; ?>
-			    
-			    <?php
-			    	//Begin contact form
-			    	$pp_contact_form = unserialize(get_option('pp_contact_form_sort_data'));
-			    ?>
-			    <form id="contact_form" class="style1" method="post" action="<?php echo curPageURL(); ?>">
-			    <div class="one_half">
-			    	<?php 
-			    		if(is_array($pp_contact_form) && !empty($pp_contact_form))
-			    		{
-			    			foreach($pp_contact_form as $form_input)
-			    			{
-			    				switch($form_input)
-			    				{
-			    					case 1:
-                                        			    	?>
-			        				<input id="your_name" name="your_name" type="text" title="<?php echo _e( '담당자', THEMEDOMAIN ); ?>" style="width:90%"/>	
-			    	<?php
-			    					break;
-			    					
-			    					case 2:
-			    	?>
-			    					
-			        				<input id="email" name="email" type="text" title="<?php echo _e( '이메일', THEMEDOMAIN ); ?>" style="width:90%"/>		
-			    	<?php
-			    					break;
-			    					
-			    					case 4:
-			    	?>
-			    					
-			        				<input id="address" name="address" type="text" title="<?php echo _e( 'Address', THEMEDOMAIN ); ?>" style="width:28%"/>		
-			    	<?php
-			    					break;
-			    					
-			    					case 5:
-			    	?>
-			    					
-			        				<input id="phone" name="phone" type="text" title="<?php echo _e( '전화번호', THEMEDOMAIN ); ?>" style="width:90%"/>		
-			    	<?php
-			    					break;
-			    					
-			    					case 6:
-			    	?>
-			    					
-			        				<input id="mobile" name="mobile" type="text" title="<?php echo _e( 'Mobile', THEMEDOMAIN ); ?>" style="width:28%"/>			
-			    	<?php
-			    					break;
-			    					
-			    					case 7:
-			    	?>
-			    					
-			        				<input id="company" name="company" type="text" title="<?php echo _e( '고객사', THEMEDOMAIN ); ?>" style="width:90%"/>			
-			    	<?php
-			    					break;
-			    					
-			    					case 8:
-			    	?>
-			    					
-			        				<input id="country" name="country" type="text" title="<?php echo _e( 'Country', THEMEDOMAIN ); ?>" style="width:28%;"/>			
-			    	<?php
-			    					break;
-			    					
-			    					case 3:
-			    	?>
-			    					
-			        				</div><div class="one_half last"><textarea id="message" name="message" rows="7" cols="10" title="<?php echo _e( '프로젝트 문의', THEMEDOMAIN ); ?>" style="width:95%;height:147px"></textarea></div>				
-			    	<?php
-			    					break;
-			    				}
-			    			}
-			    		}
-			    	?>
-			    	
-			    	<?php
-			    		$pp_contact_enable_captcha = get_option('pp_contact_enable_captcha');
-			    		
-			    		if(!empty($pp_contact_enable_captcha))
-			    		{
-			    	?>
-			    		
-			    		<br class="clear"/>
-			    		<div id="captcha-wrap">
-							<div class="captcha-box">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/get_captcha.php" alt="" id="captcha" />
-							</div>
-							<div class="text-box">
-								<label>Type the two words:</label>
-								<input name="captcha-code" type="text" id="captcha-code">
-							</div>
-							<div class="captcha-action">
-								<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/refresh.jpg"  alt="" id="captcha-refresh" />
-							</div>
-						</div>
-					
-					<?php
-					}
-					?>
-			
-			        <br class="clear"/><br/>
-			    	<div class="btns_center"><input type="submit" value="<?php echo _e( '상담문의 남기기', THEMEDOMAIN ); ?>" /></div><br/>
-			    </form>
-			    <div id="reponse_msg"></div>
-			    <br/><br/><br/>
-			    
-			</div>
+    <?php
+    if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+
+        <?php the_content(); break; ?>
+
+    <?php endwhile; ?>
+
 				
 		<?php
 		if(!isset($hide_header) OR !$hide_header)
