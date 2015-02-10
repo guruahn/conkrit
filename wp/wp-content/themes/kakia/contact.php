@@ -326,7 +326,7 @@ else
 	define('SUBJECT_EMAIL', __( '상담문의', THEMEDOMAIN ));
 	
 	//Thankyou message when message sent
-	define('THANKYOU_MESSAGE', __( 'Thank you! We will get back to you as soon as possible', THEMEDOMAIN ));
+	define('THANKYOU_MESSAGE', __( '감사합니다. 가능한 빠른 시일내에 답변드리겠습니다.', THEMEDOMAIN ));
 	
 	//Error message when message can't send
 	define('ERROR_MESSAGE', __( 'Oops! something went wrong, please try to submit later.', THEMEDOMAIN ));
