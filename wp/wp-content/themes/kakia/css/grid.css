@@ -457,7 +457,7 @@
 	.contact_style1_info { margin-top: 20px; }
     /*main custom*/
     .slider_wrapper_bg {display:none;}
-    .header_bg, .slider_wrapper_bg, #content_wrapper, body.home #content_wrapper {width: 95%;margin: 0 auto;}
+    .header_bg, .slider_wrapper_bg, #content_wrapper, body.home #content_wrapper,.page-id-6389 #content_wrapper, .page-id-6409 #content_wrapper {width: 95%;margin: 0 auto;}
     body.home #content_wrapper { padding-top: 0}
     #content_wrapper .inner { width: 100%; }
     .home #content_wrapper .main, .home #content_wrapper .about-us { padding: 30px 10px; }
@@ -484,7 +484,14 @@
     .page .btns_center .button:first-child { margin-right: 0; margin-bottom: 5%;}
     .page.page-id-6401 .one_third .doing { background: none;}
     .page.page-id-6478 .process_text2 { padding: 0;}
-
+    .page.page-id-6389  #content_wrapper .title { margin-bottom: 15px; }
+    #kboard-default-list .kboard-header {margin-bottom: 5px!important;}
+    #kboard-default-list .kboard-header .target {width: 24%!important;}
+    #kboard-default-list .kboard-search input {width: 49%!important;}
+    #kboard-default-list .kboard-header button {width: 20%!important;}
+    #kboard-default-document .kboard-control .left {float: none; margin-bottom: 10px;}
+    #kboard-default-document .kboard-control .right{ float: none;text-align: left;}
+    .page .cufon.space {margin-bottom: 10px;}
 }
 
 /* 
