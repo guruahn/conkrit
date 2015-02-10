@@ -262,7 +262,7 @@
 	.flexslider, #slider_wrapper { height: 240px; margin: auto; }
 	.ajax_portfolio_wrapper .flexslider { height: 170px; }
 	.standard_wrapper.small { width: 290px; }
-	#footer { width: 100%; background-color: #000; }
+	#footer { width: 100%; background-color: #aaa; }
 	#footer ul.sidebar_widget { width: 95%; }
 	.widget_tag_cloud div { margin-bottom: 35px; }
 	#copyright { width: 100%; padding: 0; }
@@ -471,17 +471,17 @@
     #footer .footer_menu_section h4 { margin: 0; font-size: 2em!important;}
     #footer ul.two li.widget.last { float: none; width: 100%;}
     #footer .footer_address_wrap { text-align: center}
-    .page .breadcrumbs { height: auto; margin-top: -5px;}
-    .page .page_caption .caption_bg { height: auto;}
-    .page .page_caption .caption_bg img { width: 100%;height: auto; }
+    .page .breadcrumbs { height: auto; }
+    .page .page_caption .caption_bg { display: none;}
     .page .breadcrumbs { border: 0; border-bottom: 1px solid #ddd;}
-    .page .breadcrumbs a { padding: 0 4px; height: 27px; line-height: 27px;border-top:1px solid #ddd;}
-    .page .breadcrumbs a:first-child { width: 35px; padding: 0; }
-    .page .breadcrumbs > span { height: 27px; line-height: 27px; padding: 0 4px; border-top:1px solid #ddd;}
+    .page .breadcrumbs a { display: none;}
+    .page .breadcrumbs a:first-child { display: inline-block; width: 35px; padding: 0;height: 27px; }
+    .page .breadcrumbs > span { height: 27px; line-height: 27px; padding: 0 10px; border-right: 0;}
     .page .breadcrumbs > span:after { width: 0; background: none;}
     .page #content_wrapper { padding: 0; }
     .page #content_wrapper .inner { padding: 5%; width: 90%; margin-bottom: 5%;}
-    .page .btns_center .button:first-child { margin-right: 0; margin-bottom: 5%;}
+    .page .btns_center a { width: 50%;display: block;}
+    .page .btns_center .button:first-child {margin: 5px auto!important;}
     .page.page-id-6401 .one_third .doing { background: none;}
     .page.page-id-6478 .process_text2 { padding: 0;}
     .page.page-id-6389  #content_wrapper .title { margin-bottom: 15px; }
