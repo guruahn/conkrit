@@ -4720,6 +4720,7 @@ body.single-portfolios #slider_wrapper
 	left:0;
 	color:#222;
 	font-size:7px;
+    padding-top: 5px;
 }
 .additional_service_list li a{
 	overflow: hidden;
