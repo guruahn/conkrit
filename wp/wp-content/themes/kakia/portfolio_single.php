@@ -35,15 +35,20 @@ if(empty($pp_portfolio_slider_animation))
 		
 </div>
 
-<div class="page_caption">
-	<div class="caption_inner">
-		<div class="caption_header">
-			<h1 class="cufon"><span><?php the_title(); ?></span></h1>
-		</div>
-	</div>
-	<br class="clear"/>
-</div>
-<br class="clear"/>
+    <div class="page_caption">
+        <div class="caption_header">
+            <?php if ( has_post_thumbnail() ) : ?>
+                <div class="caption_bg">
+                    <?php the_post_thumbnail(); ?>
+                </div>
+            <?php endif; ?>
+            <?php
+            breadcrumbs('primary-menu');
+            ?>
+
+        </div>
+        <br class="clear"/>
+    </div>
 
 <!-- Begin content -->
 <div id="content_wrapper">
