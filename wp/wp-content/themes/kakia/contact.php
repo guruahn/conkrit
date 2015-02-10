@@ -155,7 +155,7 @@ if(!isset($_POST['your_name']))
                     case 3:
                     ?>
 
-                </div><div class="one_half last"><textarea id="message" name="message" rows="7" cols="10" title="<?php echo _e( '프로젝트 문의', THEMEDOMAIN ); ?>" style="width:95%;height:147px"></textarea></div>
+                </div><div class="one_half last"><textarea id="message" name="message" rows="7" cols="10" title="<?php echo _e( '프로젝트 문의', THEMEDOMAIN ); ?>" style="width:95%;"></textarea></div>
                 <?php
                 break;
                 }
@@ -205,7 +205,7 @@ if(!isset($_POST['your_name']))
 				if(!empty($pp_contact_email) OR !empty($pp_contact_email_display) OR !empty($pp_contact_phone) OR !empty($pp_contact_address))
 				{
 			?>
-				<p class="contact_text">콘크릿에 대해 더 궁금하시다면 언제든지 연락 주세요!</p>
+				<p class="contact_text">콘크릿에 대해 더 궁금하시다면<br/> 언제든지 연락 주세요!</p>
 	    		<div class="contact_style1_info">
 	    			<h2>
 	    			<?php

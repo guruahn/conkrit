@@ -4717,7 +4717,7 @@ body.single-portfolios #slider_wrapper
 }
 .additional_service_list li i{
 	position: absolute;
-	left:0;
+	left:5px;
 	color:#222;
 	font-size:7px;
     padding-top: 5px;
@@ -4726,5 +4726,6 @@ body.single-portfolios #slider_wrapper
 	overflow: hidden;
 	display: block;
 	max-height: 36px;
-	font-weight: bold;
+	font-size:15px;
+	font-family: "helvetica";
 }
