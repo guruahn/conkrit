@@ -316,7 +316,7 @@
 	.portfolio460_shadow { width: 310px; height: 198px; }
 	.portfolio460_shadow img.portfolio_img { width: 310px; }
 	.portfolio460_overlay { width: 310px; height: 198px; margin-left: 0px; display:none; margin-top: -203px; }
-	.portfolio_desc_460 { width: 290px; margin-top: 0; }
+	.portfolio_desc_460 { width: 274px; margin-top: 0; }
 	#portfolio_filter_wrapper.two_columns > div { width: 100%; margin-right: 0; margin-bottom: 10px; }
 	
 	.portfolio305_shadow { width: 310px; height: 224px; }
@@ -478,7 +478,7 @@
     .page .breadcrumbs a:first-child { display: inline-block; width: 35px; padding: 0;height: 27px; }
     .page .breadcrumbs > span { height: 27px; line-height: 27px; padding: 0 10px; border-right: 0;}
     .page .breadcrumbs > span:after { width: 0; background: none;}
-    .page #content_wrapper { padding: 0;background-image: none; }
+    .page #content_wrapper { padding: 0;background-image: none;width: 95%; }
     .page #content_wrapper .inner { padding: 5%; width: 90%; margin-bottom: 5%;}
     .page .btns_center a { width: 50%;display: block;}
     .page .btns_center .button:first-child {margin: 5px auto!important;}
@@ -497,6 +497,9 @@
     .page.page-id-6543 .testing_kind_wrap li { margin: 10px auto;float: none;width: 80%;}
     .page.page-id-6543 .testing_kind.performance { padding: 0;}
     .page ol.testing_process li {float: none; margin: 20px auto;margin-top: 40px; background: none; width: 80%;padding: 0;}
+    .ajax_portfolio_wrapper h4.portfolio_single_title {width: 90%;padding: 0 5%;}
+    .ajax_portfolio_wrapper .ajax_close, .ajax_portfolio_wrapper .ajax_portfolio_direction { margin-bottom: 0}
+    .ajax_portfolio_wrapper .ajax_content { margin-top: 0;margin-bottom: 0;}
 }
 
 /* 
