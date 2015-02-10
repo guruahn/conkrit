@@ -478,7 +478,7 @@
     .page .breadcrumbs a:first-child { display: inline-block; width: 35px; padding: 0;height: 27px; }
     .page .breadcrumbs > span { height: 27px; line-height: 27px; padding: 0 10px; border-right: 0;}
     .page .breadcrumbs > span:after { width: 0; background: none;}
-    .page #content_wrapper { padding: 0; }
+    .page #content_wrapper { padding: 0;background-image: none; }
     .page #content_wrapper .inner { padding: 5%; width: 90%; margin-bottom: 5%;}
     .page .btns_center a { width: 50%;display: block;}
     .page .btns_center .button:first-child {margin: 5px auto!important;}
@@ -492,6 +492,11 @@
     #kboard-default-document .kboard-control .left {float: none; margin-bottom: 10px;}
     #kboard-default-document .kboard-control .right{ float: none;text-align: left;}
     .page .cufon.space {margin-bottom: 10px;}
+    .page.page-id-6543 .one_fourth, .page.page-id-6543 .one_fourth.last { width: 50%; }
+    .page.page-id-6543 .testing_area { background: none;}
+    .page.page-id-6543 .testing_kind_wrap li { margin: 10px auto;float: none;width: 80%;}
+    .page.page-id-6543 .testing_kind.performance { padding: 0;}
+    .page ol.testing_process li {float: none; margin: 20px auto;margin-top: 40px; background: none; width: 80%;padding: 0;}
 }
 
 /* 
