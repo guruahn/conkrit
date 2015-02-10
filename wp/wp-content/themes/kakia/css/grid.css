@@ -496,13 +496,17 @@
     .page.page-id-6543 .testing_kind_wrap li { margin: 10px auto;float: none;width: 80%;}
     .page.page-id-6543 .testing_kind.performance { padding: 0;}
     .page ol.testing_process li {float: none; margin: 20px auto;margin-top: 40px; background: none; width: 80%;padding: 0;}
-    .ajax_portfolio_wrapper h4.portfolio_single_title {width: 90%;padding: 0 5%;}
+    .ajax_portfolio_wrapper h4.portfolio_single_title {width: 90%;padding: 0 5%;margin-bottom: 10px;}
     .ajax_portfolio_wrapper .ajax_close, .ajax_portfolio_wrapper .ajax_portfolio_direction { margin-bottom: 0}
     .ajax_portfolio_wrapper .ajax_content { margin-top: 0;margin-bottom: 0;}
     .page .map_shadow {display: block; width: 100%;}
     #contact_form textarea { border: 1px solid #333; }
     .page.page-id-6524 .contact_form_title {  margin: 30px 0 0 0; width: 100%;}
     .page.page-id-6524 .btns_center { margin-top: 0;}
+    .page-template-portfolio-2-filter-for-case-study #portfolio_filter_wrapper { width: auto;}
+    .page-template-portfolio-2-filter-for-case-study .portfolio460_shadow { width: auto;}
+    .page-template-portfolio-2-filter-for-case-study .portfolio_desc {width: auto;}
+    .page-template-portfolio-2-filter-for-case-study .ajax_portfolio_link>div { width: auto;}
 }
 
 /* 
