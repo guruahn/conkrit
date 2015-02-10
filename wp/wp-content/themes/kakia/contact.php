@@ -323,7 +323,7 @@ else
 	define('DEST_EMAIL', $contact_email);
 	
 	//Change email subject to something more meaningful
-	define('SUBJECT_EMAIL', __( 'Email from contact form', THEMEDOMAIN ));
+	define('SUBJECT_EMAIL', __( '상담문의', THEMEDOMAIN ));
 	
 	//Thankyou message when message sent
 	define('THANKYOU_MESSAGE', __( 'Thank you! We will get back to you as soon as possible', THEMEDOMAIN ));
@@ -347,13 +347,13 @@ else
  
     # Common Headers
     $headers = "";
-    $headers .= 'From: '.$from_name.'<'.$from_email.'>'.PHP_EOL;
-    $headers .= 'Reply-To: '.$from_name.'<'.$from_email.'>'.PHP_EOL;
-    $headers .= 'Return-Path: '.$from_name.'<'.$from_email.'>'.PHP_EOL;        // these two to set reply address
+    $headers .= 'From: '.$from_name.'<webmaster@conkrit.com>'.PHP_EOL;
+    $headers .= 'Reply-To: '.$from_name.'<webmaster@conkrit.com>'.PHP_EOL;
+    $headers .= 'Return-Path: '.$from_name.'<webmaster@conkrit.com>'.PHP_EOL;        // these two to set reply address
     $headers .= "Message-ID: <".$now."webmaster@".$_SERVER['SERVER_NAME'].">";
     $headers .= "X-Mailer: PHP v".phpversion().PHP_EOL;                  // These two to help avoid spam-filters
-	
-	$message = 'Name: '.$from_name.PHP_EOL;
+
+    $message = 'Name: '.$from_name.PHP_EOL;
 	$message.= 'Email: '.$from_email.PHP_EOL.PHP_EOL;
 	$message.= 'Message: '.PHP_EOL.$_POST['message'].PHP_EOL.PHP_EOL;
 	
@@ -385,7 +385,7 @@ else
 	
 	if(!empty($from_name) && !empty($from_email) && !empty($message))
 	{
-		mail(DEST_EMAIL, SUBJECT_EMAIL, $message, $headers);
+		mail(DEST_EMAIL, SUBJECT_EMAIL." : ".$from_name, $message, $headers);
 	
 		echo THANKYOU_MESSAGE;
 		
