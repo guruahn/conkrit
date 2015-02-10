@@ -280,7 +280,7 @@
 	
 	.filter li { line-height: 42px; }
 	.caption_header h1 { font-size: 20px; }
-	.page_caption { height: auto; padding-bottom: 15px; }
+	.page_caption { height: auto; padding-bottom: 15px;width: 95%; }
 	
 	.one_fourth { width: 100%; margin-bottom: 4%; }
 	.one_fourth.last { width: 100%; margin-bottom: 4%; }
@@ -471,6 +471,20 @@
     #footer .footer_menu_section h4 { margin: 0; font-size: 2em!important;}
     #footer ul.two li.widget.last { float: none; width: 100%;}
     #footer .footer_address_wrap { text-align: center}
+    .page .breadcrumbs { height: auto; margin-top: -5px;}
+    .page .page_caption .caption_bg { height: auto;}
+    .page .page_caption .caption_bg img { width: 100%;height: auto; }
+    .page .breadcrumbs { border: 0; border-bottom: 1px solid #ddd;}
+    .page .breadcrumbs a { padding: 0 4px; height: 27px; line-height: 27px;border-top:1px solid #ddd;}
+    .page .breadcrumbs a:first-child { width: 35px; padding: 0; }
+    .page .breadcrumbs > span { height: 27px; line-height: 27px; padding: 0 4px; border-top:1px solid #ddd;}
+    .page .breadcrumbs > span:after { width: 0; background: none;}
+    .page #content_wrapper { padding: 0; }
+    .page #content_wrapper .inner { padding: 5%; width: 90%; margin-bottom: 5%;}
+    .page .btns_center .button:first-child { margin-right: 0; margin-bottom: 5%;}
+    .page.page-id-6401 .one_third .doing { background: none;}
+    .page.page-id-6478 .process_text2 { padding: 0;}
+
 }
 
 /* 
