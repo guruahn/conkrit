@@ -184,7 +184,6 @@ if(!empty($pp_seo_meta_key))
 	}
 ?>
 
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
 
 <?php
 	wp_enqueue_script("jquery", get_stylesheet_directory_uri()."/js/jquery.js", false, $pp_theme_version);
