@@ -25,6 +25,7 @@
 		8-4.테스팅 서비스 : Performance Testing
 		8-5.테스팅 서비스 : Security Testing
 	9.사이트맵
+	10.개인정보취급방침
 */
 
 /* a-1.상단 비쥬얼 타이틀 영역
@@ -715,4 +716,43 @@ ol.testing_process li img{
 	font-weight: bold;
 	font-family: "Nanum Barun Gothic";
 	font-size: 16px;
+}
+
+/* 10.개인정보취급방침
+----------------------------------*/
+.privacy_rule{
+	padding-top:22px;
+	font-size:14px;
+	color:#666;
+}
+.privacy_rule .privacy_title_collect{
+	overflow: hidden;
+	padding:32px 0 32px 44px;
+	border:1px solid #e3e3e3;
+}
+.privacy_rule .privacy_title_collect li{
+	float:left;
+	width:29%;
+	margin:0 4% 9px 0;
+	list-style-position: inside;
+}
+.privacy_rule h2{
+	margin:36px 0 20px;
+	font-size: 19px;
+	font-family: "Nanum Barun Gothic";
+	font-weight: bold;
+	color:#0e0e0e;
+}
+.privacy_rule p{
+	margin:20px 0;
+	padding:0;
+}
+#content_wrapper .privacy_rule .privacy_contents ul{
+	margin-left:64px;
+}
+.privacy_rule .privacy_contents li div{
+	margin:0 0 20px 0;
+}
+.privacy_rule .privacy_contents{
+	padding-left:28px;
 }
