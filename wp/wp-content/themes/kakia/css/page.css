@@ -220,11 +220,6 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 
 /* 1.콘크릿 소개
 ----------------------------------*/
-.page-id-6401 .intro_text{
-	font-size: 39.48px;
-	color:#111;
-	line-height: 140%;
-}
 .page-id-6401 .intro_text strong{
 	color:#000;
 }
@@ -360,11 +355,6 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 
 /* 4. O2 Test Manager
 ----------------------------------*/
-.page-id-6461 .otm_text{
-	font-size: 40px;
-	line-height: 1.2;
-	color:#000;
-}
 .page-id-6461 .otm_text em{
 	display: inline-block;
 	margin-bottom:10px;
@@ -373,12 +363,6 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	font-size:25px;
 	color:#fff;
 	font-family: "helvetica";
-}
-.page-id-6461 .otm_text strong{
-	display: inline-block;
-	padding-top:7px;
-	font-family: "Nanum Barun Gothic";
-	font-weight: normal;
 }
 .page-id-6461 .otm_bg{
 	padding-top: 142px;
@@ -545,11 +529,6 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 .page-id-6543 .one_fourth{
 	width:22%;
 	margin-right:0;
-}
-.page-id-6543 .testing_text{
-	font-size: 40px;
-	color:#111;
-	line-height: 1.3;
 }
 .page-id-6543 .testing_area{
 	margin-top:80px;
@@ -720,6 +699,9 @@ ol.testing_process li img{
 
 /* 10.개인정보취급방침
 ----------------------------------*/
+.page-id-6687 .page_caption{
+	height:226px;
+}
 .privacy_rule{
 	padding-top:22px;
 	font-size:14px;
