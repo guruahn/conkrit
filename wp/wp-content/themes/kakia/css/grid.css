@@ -515,7 +515,24 @@
 	.page-id-6524 .contact_telephone{width:100%;}
 	.page-id-6524 .contact_text{font-size:25px;}
 	.title_desc{font-size: 25px;}
-	
+	.title{margin-top:1em;}
+	.page-id-6401 .btns_center{margin-top:1em;}
+	.page-id-6478 .process_text,
+	.page-id-6478 .process_text2{font-size:20px;}
+	.page-id-6478 .process_list{margin-bottom:50px;}
+	.page-id-6461 .otm_text em{font-size:15px;}
+	.page-id-6461 .otm_bg{padding-top:0; margin-bottom: 0;}
+	.page-id-6461 .point,
+	.page-id-6461 .major{margin-bottom:30px;}
+	.privacy_rule .privacy_title_collect{padding:1em;}
+	.privacy_rule .privacy_title_collect li{float:none; width:100%; margin}
+	.privacy_rule .privacy_contents{padding-left:0;}
+	#content_wrapper .privacy_rule .privacy_contents ul{margin-left:20px;}
+	.page-id-6687 .page_caption,
+	.page-id-6677 .page_caption{height:auto;}
+	.page-id-6677 .one_third{width:100%; margin-right:0;}
+	.page-id-6677 .menu_depth2,
+	.page-id-6677 .menu_depth3{font-size:22px;}
 }
 
 /* 
