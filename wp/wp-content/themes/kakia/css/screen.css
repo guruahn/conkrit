@@ -976,7 +976,8 @@ body.admin-bar #header_wrapper
 	border-right: 0;
 }
 
-#menu_wrapper .nav ul li ul li:last-child a, #menu_wrapper div .nav li ul li:last-child a
+#menu_wrapper .nav ul li ul li:last-child a, 
+#menu_wrapper div .nav ul li ul li:last-child a
 {
 	border-bottom: 1px solid transparent;
 }
