@@ -88,7 +88,7 @@ if(!isset($_POST['your_name']))
 
         <div class="">
 
-            <h4 class="contact_form_title">콘크릿 서비스와 관련한 상담이 필요하신가요?</h4>
+            <h4 class="contact_form_title">CONKRIT 서비스와 관련한 상담이 필요하신가요?</h4>
             <p class="contact_form_text">필요한 서비스와 함께 상담문의를 남겨주시면 정성껏 답변해 드리겠습니다. </p>
 
             <?php
@@ -205,7 +205,7 @@ if(!isset($_POST['your_name']))
 				if(!empty($pp_contact_email) OR !empty($pp_contact_email_display) OR !empty($pp_contact_phone) OR !empty($pp_contact_address))
 				{
 			?>
-				<p class="contact_text">콘크릿에 대해 더 궁금하시다면<br/> 언제든지 연락 주세요!</p>
+				<p class="contact_text">CONKRIT에 대해 더 궁금하시다면<br/> 언제든지 연락 주세요!</p>
 	    		<div class="contact_style1_info">
 	    			<h2>
 	    			<?php
