@@ -1,18 +1,1 @@
-input[type="submit"], input[type="button"], a.button, .pagination a
-{
-	padding: .65em 1.5em .65em 1.5em;
-}
-
-.social_wrapper ul li img
-{
-	background: transparent;
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */   
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);   /* IE6 & 7 */      
-    zoom: 1;
-}
-
-.portfolio200_overlay img, .portfolio460_overlay img, .portfolio305_overlay img, .portfolio195_overlay img, .portfolio200_overlay img
-{
-	opacity: 0;
-	filter:alpha(opacity=0);
-}
+.pagination a,a.button,input[type=button],input[type=submit]{padding:.65em 1.5em}.social_wrapper ul li img{background:0 0;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF, endColorstr=#00FFFFFF);zoom:1}.portfolio195_overlay img,.portfolio200_overlay img,.portfolio305_overlay img,.portfolio460_overlay img{opacity:0;filter:alpha(opacity=0)}

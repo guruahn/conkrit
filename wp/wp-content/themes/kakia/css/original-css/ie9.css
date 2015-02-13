@@ -1,0 +1,5 @@
+.footer_address_wrap select,
+#kboard-default-list .kboard-search select{
+	background-image:none;
+}
+

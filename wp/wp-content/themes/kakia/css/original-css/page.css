@@ -1,0 +1,743 @@
+/*
+	*** common style ***
+	a-1.상단 비쥬얼 타이틀 영역
+	a-2.페이지 타이틀
+	a-3.페이지 로케이션(빵부스러기)
+	a-4.TagLine 스타일 변경
+	a-5.button 스타일 변경
+	a-6.단락 스타일
+	a-7.list style
+	a-8.포트폴리오 상세보기 타이틀 스타일
+	a-9.타이틀 및 설명
+
+	*** page style ***
+	1.콘크릿 소개
+	2.테스팅 사례 (포트폴리오 2colum filter)
+	3.공지사항 & FAQ
+	4. O2 Test Manager
+	5.서비스 제공 프로세스
+	6.기타 서비스 소개(포트폴리오 스타일)
+	7.상담문의
+	8.콘크릿 서비스 소개
+		8-1.테스팅 서비스 : Functional Testing
+		8-2.테스팅 서비스 : Usability Testing
+		8-3.테스팅 서비스 : Globalization Testing
+		8-4.테스팅 서비스 : Performance Testing
+		8-5.테스팅 서비스 : Security Testing
+	9.사이트맵
+	10.개인정보취급방침
+*/
+
+/* a-1.상단 비쥬얼 타이틀 영역
+----------------------------------*/
+/* 페이지 그림자 */
+#content_wrapper{
+	-webkit-box-shadow: 0 5px 8px 2px rgba(0,0,0,0.32);
+	-moz-box-shadow: 	0 5px 8px 2px rgba(0,0,0,0.32);
+	box-shadow: 		0 5px 8px 2px rgba(0,0,0,0.32);
+}
+.page_caption
+{
+	margin: auto;
+	width: 100%;
+	height: 272px;
+	background: #fff;
+	padding: 0 0 0 0;
+	text-align: center;
+	border-bottom: 0;
+	margin-bottom: 0;
+	-webkit-box-shadow: 0 1px 8px 2px rgba(0,0,0,0.32);
+	-moz-box-shadow: 	0 1px 8px 2px rgba(0,0,0,0.32);
+	box-shadow: 		0 1px 8px 2px rgba(0,0,0,0.32);
+}
+
+.page_caption p
+{
+	display: block;
+	float: left;
+	margin: 13px 0 0 0;
+}
+
+.page_caption .caption_bg{
+	height:226px;
+}
+
+/* a-2.페이지 타이틀
+----------------------------------*/
+.page .title h1{
+	font-family: "Nanum Barun Gothic";
+}
+.page .title .cufon span{
+	font-weight:bold;
+}
+.page .title .cufon span:before{
+	content: "";
+	display: block;
+	margin-bottom: 14px;
+	border-top:4px solid #000;
+	width:60px;
+}
+
+/* a-3.페이지 로케이션(빵부스러기)
+----------------------------------*/
+.breadcrumbs
+{
+	width: 100%;
+	height:44px;
+	font-size: 11px;
+	border: 1px solid #ddd;
+	border-width: 1px 0;
+	text-align: left;
+}
+.breadcrumbs a{
+	display: inline-block;
+	padding:0 41px;
+	height:44px;
+	border-right: 1px solid #ddd;
+	line-height: 44px;
+	font-size: 12px;
+	color:#6d6d6e;
+}
+.breadcrumbs a,
+.breadcrumbs span{
+	vertical-align: top;
+}
+.breadcrumbs a:first-child{
+	display: inline-block;
+	padding:0;
+	width:47px;
+	height:44px;
+	background: url(../images/icon_home.gif) no-repeat 50% 50%;
+}
+
+.breadcrumbs a:first-child span{
+	display:block;	
+	text-indent: -9999px;
+}
+
+.breadcrumbs > span{
+	display: inline-block;
+	height:44px;
+	line-height: 44px;
+	padding:0 41px;
+	color:#222;
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: bold;
+	vertical-align: top;
+	border-right: 1px solid #ddd;
+}
+
+.breadcrumbs > span:after{
+	content:"";
+	display: inline-block;
+	width:13px;
+	height:8px;
+	padding-left: 11px;
+	background:url(../images/breadcrumbs_arrow.gif) no-repeat 11px 0;
+}
+
+/* a-4.TagLine 스타일 변경
+----------------------------------*/
+.tagline{
+	border-left:4px solid #fe413d;
+	background-color: transparent !important;
+}
+
+.tagline h2{
+	padding-left: 10px;
+	font-size: 21px;
+	font-weight: bold;
+	font-family: 'Nanum Barun Gothic';
+	color:#111;
+	line-height: 105%;
+}
+
+/* a-5.button 스타일 변경
+----------------------------------*/
+input[type=submit], input[type=button], a.button{
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15.89px;
+	padding: .5em 1em .6em 1em;
+	padding:18px 50px 17px;
+	color: #111 !important;
+	font-weight: 500;
+	border: solid 1px #111;
+	background-color: #fff !important;
+	margin-right: 5px;
+	font-weight: bold;	
+}
+input[type=submit]:hover, input[type=button]:hover, a.button:hover{
+	background-color: #000 !important;
+	color:#fff !important;
+}
+.btns_center{ /*버튼 가운데 정렬*/
+	text-align: center;
+}
+
+/* a-6.단락 스타일
+----------------------------------*/
+.new_line{
+	display: block;
+	width:22px;
+	margin-bottom: 15px;
+	border-top:1px solid #333;
+}
+
+/* a-7.list style
+----------------------------------*/
+.basic_list{
+	margin-top:18px;
+	margin-left:15px !important;
+}
+.basic_list li{
+	padding:1px 0;
+	list-style-type:square;
+	color:#666;
+	font-size:14px;
+}
+
+/* a-8.포트폴리오 상세보기 타이틀 스타일
+----------------------------------*/
+.portfolio_single_title{
+	padding:1px 16px;
+	font-family: "Nanum Barun Gothic";
+	color:#fff;
+	background-color: #000;
+}
+
+/* a-9.타이틀 및 설명
+----------------------------------*/
+.title_desc{
+	font-size:40px;
+	line-height: 1.3;
+	color:#111;
+}
+
+/* 1.콘크릿 소개
+----------------------------------*/
+.page-id-6401 .intro_text strong{
+	color:#000;
+}
+.page-id-6401 .text_box{
+	margin-top:0;
+	padding-top:0;
+	font-size: 14px;
+	color:#666;
+}
+.page-id-6401 .more_conkrit{
+	margin:0;
+	margin-bottom:5px;
+	font-size: 14px;
+	font-weight: bold;
+	color:#111;
+}
+.page-id-6401 .one_third{
+	margin-right:0;
+}
+.page-id-6401 .one_third .doing{
+	background: url(../images/bg_line.gif) no-repeat 100% 50%;
+	text-align: center;
+}
+.page-id-6401 .one_third.last .doing{
+	background: none;
+}
+.page-id-6401 .doing h3{
+	margin-top: 11px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.page-id-6401 .doing p{
+	margin-top: 0;
+	padding-top: 0.3em;
+	font-size: 14px;
+}
+.page-id-6401 .btns_center{
+	margin-top:4em;
+}
+.page-id-6401 .btns_center p .button:first-child{
+	margin-right:18px;
+}
+
+/* 2.테스팅 사례 (포트폴리오 2colum filter)
+----------------------------------*/
+.page-id-6447 #content_wrapper{
+	padding-left:153px;
+	padding-right:153px;
+	width:894px;
+}
+.page-id-6447 #content_wrapper ul.filter{
+	margin-top:48px;
+}
+.portfolio460_shadow{
+	width:423px;
+	height:261px;
+	border:1px solid #464646;
+	border-bottom:0;
+}
+.portfolio460_shadow > a > img{
+	width:423px;
+	height:261px;
+}
+.portfolio_desc_460{
+	width:387px;
+}
+.portfolio_desc{
+	border:1px solid #464646;
+	border-top:0;
+	color:#333;
+	padding:21px 18px 20px;
+	text-align: left;
+}
+.portfolio460_overlay
+{
+	width:423px;
+	height:261px;
+	position: relative;
+	margin-top: -266px;
+	background-color: rgba(0, 0, 0, 0.8);
+	text-align: center;
+	display: none;
+	overflow-x: hidden;
+}
+.portfolio460_overlay .overlay_icon_circle{
+	background-color: #888 !important;
+}
+.ajax_content .tagline{
+	margin-top:20px;
+}
+.ajax_content .tagline:first-child{
+	margin-top:0;
+}
+.ajax_content .kind_text{
+	padding-left:15px;
+	color:#333;
+}
+
+/* 3.공지사항 & FAQ
+----------------------------------*/
+.page-id-6389 #content_wrapper,
+.page-id-6409 #content_wrapper{
+	padding-left:153px;
+	padding-right:153px;
+	width:894px;
+}
+.page-id-6409 .ui-icon { 
+	width: 20px; 
+	height: 24px;
+}
+.page-id-6409 .ui-state-default .ui-icon{
+	background: transparent url('../images/icon_question.png') no-repeat;
+}
+
+.page-id-6409 .ui-state-active .ui-icon{
+	background: transparent url('../images/icon_answer.png') no-repeat;
+}
+.page-id-6409 .ui-accordion .ui-accordion-header .ui-icon{
+	left: 15px;
+	margin-top: -11px; 
+}
+.page-id-6409 .ui-accordion .ui-accordion-header a
+{
+	margin-left:39px;
+}
+.page-id-6409 .ui-accordion .ui-accordion-content{
+	margin-left: 0;
+	padding-left: 55px;
+	border-top:1px solid #eee;
+	background-color: #f7f7f7;
+	color:#333;
+}
+.tabs .ui-state-default a{
+	color: #333;
+}
+
+/* 4. O2 Test Manager
+----------------------------------*/
+.page-id-6461 .otm_text em{
+	display: inline-block;
+	margin-bottom:10px;
+	padding:3px 17px 4px;
+	background-color: black;
+	font-size:25px;
+	color:#fff;
+	font-family: "helvetica";
+}
+.page-id-6461 .otm_bg{
+	padding-top: 142px;
+	margin-bottom:50px;
+}
+.page-id-6461 .basic_list{
+	margin-top:18px;
+	margin-left:15px !important;
+}
+.page-id-6461 .point{
+	margin-bottom: 60px;
+}
+.page-id-6461 .major{
+	margin-bottom:120px;
+}
+.page-id-6461 .btns_center{
+	margin-top:100px;
+}
+.page-id-6461 .btns_center a:first-child{
+	margin-right:18px;
+}
+
+/* 5.서비스 제공 프로세스
+----------------------------------*/
+.page-id-6478 .process_text{
+	font-size:25px;
+	color:#111;
+}
+.page-id-6478 .process_text2{
+	padding:62px 0 0 95px;
+	font-size:25px;
+	color:#111;
+}
+.page-id-6478 .process_img{
+	padding:10px 0 50px 0;
+}
+.page-id-6478 .process_list{
+	margin-bottom: 120px;
+}
+.page-id-6478 .btns_center{
+	margin-top:50px;
+}
+.page-id-6478 .btns_center .button:first-child{
+	margin-right:18px;
+} 
+
+/* 6.기타 서비스 소개(포트폴리오 스타일)
+----------------------------------*/
+.page-id-6492 .title{
+	margin-bottom:50px;
+}
+.page-id-6492 #content_wrapper{
+	padding-left:153px;
+	padding-right:153px;
+	width:894px;
+}
+.ajax_portfolio_wrapper .portfolio_single_img{
+	width:892px;
+	border:1px solid #474546;
+}
+.ajax_content .desc_text{
+	padding:5px 0 0 15px;
+	margin:0;
+	color:#333;
+}
+.ajax_content .basic_list{
+	margin-top:0;
+}
+.ajax_content .ui-accordion .ui-accordion-header a{
+	margin-top:6px;
+	margin-bottom: 6px;
+}
+.ajax_content .ui-accordion .ui-accordion-content{
+	margin-left: 0;
+	padding-left: 27px;
+	border-top:1px solid #eee;
+	background-color: #f7f7f7;
+	color:#333;
+}
+
+/* 7.상담문의
+----------------------------------*/
+.page-id-6524 .contact_text{
+	padding-bottom: 0;
+	font-size:40px;
+	color:#111;
+	line-height: 1.3;
+}
+.page-id-6524 .contact_address h3,
+.page-id-6524 .contact_email h3,
+.page-id-6524 .contact_telephone h3{
+	font-size:21px;
+	font-family: "Nanum Barun Gothic";
+	font-weight: bold;
+}
+.page-id-6524 .contact_address p,
+.page-id-6524 .contact_email p,
+.page-id-6524 .contact_telephone p{
+	margin-top:0;
+	padding-top:0;
+	font-size:14px;
+	color:#666;
+}
+.page-id-6524 .contact_form_title{
+	margin-top:50px;
+	font-size: 40px;
+}
+.page-id-6524 .contact_form_text{
+	margin-top:0.5em;
+	margin-bottom:28px;
+	font-size: 14px;
+}
+.page-id-6524 #contact_form.style1 input[type=text]{
+	margin-top:1px;
+	border-color:#111;
+	box-shadow: none;
+}
+.page-id-6524 #contact_form .btns_center input{
+	float:none;
+}
+.page-id-6524 #contact_form input{
+	padding-top:18px;
+	padding-bottom:16px;
+	margin-bottom:9px;
+}
+.page-id-6524 .btns_center{
+	margin-top:5px;
+}
+.page-id-6524 textarea{
+	height:219px;
+}
+.page-id-6524 .one_third{
+	width:auto;
+	margin-right:5%;
+}
+.page-id-6524 .contact_address{
+	width:354px;
+}
+.page-id-6524 .contact_email{
+	width:260px;
+}
+.page-id-6524 .contact_telephone{
+	width:165px;
+}
+.page-id-6524 .contact_address,
+.page-id-6524 .contact_email,
+.page-id-6524 .contact_telephone{
+	position: relative;
+}
+.page-id-6524 .contact_address:after,
+.page-id-6524 .contact_email:after{
+	position: absolute;
+	top:50%;
+	right:0;
+	margin-top:-8px;
+	width:2px;
+	height:17px;
+	content: '';
+	background-color: #bbb;
+}
+
+/* 8.콘크릿 서비스 소개
+----------------------------------*/
+.page-id-6543 .one_fourth{
+	width:22%;
+	margin-right:0;
+}
+.page-id-6543 .testing_area{
+	margin-top:80px;
+	background: url(../images/bg_line.gif) no-repeat 100% 50%;
+	text-align:center;
+}
+.page-id-6543 .one_fourth.last .testing_area{
+	background: none;
+}
+.page-id-6543 .testing_area h3{
+	margin-top:11px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.page-id-6543 .testing_area p{
+	margin-top:0;
+	padding-top:0.3em;
+	font-size: 14px;
+}
+.page-id-6543 #content_wrapper ul.testing_kind_wrap{
+	overflow: hidden;
+	margin-top:43px;
+	margin-left:0;
+	list-style:none;
+}
+.page-id-6543 .testing_kind_wrap li{
+	float:left;
+	width:286px;
+	height:328px;
+	margin-left: 37px;
+}
+.page-id-6543 .testing_kind.performance,
+.page-id-6543 .testing_kind.security{
+	margin-top:-16px;
+}
+.page-id-6543 .testing_kind.performance{
+	padding-left:163px;
+}
+.page-id-6543 .testing_kind a{
+	position:relative;
+	display: block;
+	width:100%;
+	height:100%;
+}
+.page-id-6543 .testing_kind img{
+	position: absolute;
+}
+.page-id-6543 .testing_kind a img.overlay{
+	opacity:1;
+}
+.page-id-6543 .testing_kind a:hover img.overlay{
+	opacity:0;
+	transition: opacity .2s ease-in .2s;
+}
+.page-id-6543 .testing_kind_title{
+	margin-top:60px;
+}
+.page-id-6543 .btns_center{
+	margin-top:50px;
+}
+.page-id-6594 ul,
+.page-id-6596 ul,
+.page-id-6598 ul,
+.page-id-6600 ul,
+.page-id-6602 ul{
+	margin-bottom:45px;
+}
+.testing_effect li:first-child strong{
+	margin-top:0;
+}
+.testing_effect strong{
+	display: block;
+	margin-top:10px;
+	padding-bottom:1px;
+}
+ol.testing_process{
+	overflow: hidden;
+	list-style: none;
+	font-size: 14px;
+}
+ol.testing_process li{
+	float:left;
+	margin-top:25px;
+	padding-left:35px;
+	text-align:center;
+	background: url(../images/testing_line_bg.gif) no-repeat 0 0;
+}
+ol.testing_process li:first-child{
+	padding-left:0;
+	background:none;
+}
+ol.testing_process li img{
+	margin-bottom:10px;
+}
+
+/* 8-1.테스팅 서비스 : Functional Testing
+----------------------------------*/
+.page-id-6594 #content_wrapper{
+	background:#fff url(../images/functional_testing_bg.jpg) no-repeat 100% 0;
+}
+
+/* 8-2.테스팅 서비스 : Usability Testing
+----------------------------------*/
+.page-id-6596 #content_wrapper{
+	background:#fff url(../images/usability_testing_bg.jpg) no-repeat 100% 0;
+}
+
+/* 8-3.테스팅 서비스 : Globalization Testing
+----------------------------------*/
+.page-id-6598 #content_wrapper{
+	background:#fff url(../images/globalization_testing_bg.jpg) no-repeat 100% 0;
+}
+
+/* 8-4.테스팅 서비스 : Performance Testing
+----------------------------------*/
+.page-id-6600 #content_wrapper{
+	background:#fff url(../images/performance_testing_bg.jpg) no-repeat 100% 0;
+}
+
+/* 8-5.테스팅 서비스 : Security Testing
+----------------------------------*/
+.page-id-6602 #content_wrapper{
+	background:#fff url(../images/security_testing_bg.jpg) no-repeat 100% 0;
+}
+
+/* 9.사이트맵
+----------------------------------*/
+.page-id-6677 .page_caption{
+	height:226px;
+}
+.page-id-6677 .title{
+	margin-bottom: 50px;
+}
+.page-id-6677 .one_third{
+	padding-bottom:90px;
+	width:28%;
+	margin-right:8%;
+}
+.page-id-6677 .one_third.last{
+	margin-right: 0;
+}
+.page-id-6677 .standard_wrapper p{
+	padding:0;
+	margin:0;
+}
+.page-id-6677 .menu_depth1{
+	padding:16px 0 12px 18px;
+	border-top:2px solid #000;
+	border-bottom:1px solid #dbdbdb;
+	font-family: "Nanum Barun Gothic";
+	font-size:21px;
+	font-weight:bold;
+	line-height: 1;
+}
+.page-id-6677 .menu_depth2,
+.page-id-6677 .menu_depth3{	
+	display: block;
+	margin:12px 0;
+	padding-left:18px;
+	font-size:14px;
+}
+.page-id-6677 .menu_depth2{
+	margin-top:22px;
+	font-weight: bold;
+	font-family: "Nanum Barun Gothic";
+	font-size: 16px;
+}
+
+/* 10.개인정보취급방침
+----------------------------------*/
+.page-id-6687 .page_caption{
+	height:226px;
+}
+.privacy_rule{
+	padding-top:22px;
+	font-size:14px;
+	color:#666;
+}
+.privacy_rule .privacy_title_collect{
+	overflow: hidden;
+	padding:32px 0 32px 44px;
+	border:1px solid #e3e3e3;
+}
+.privacy_rule .privacy_title_collect li{
+	float:left;
+	width:29%;
+	margin:0 4% 9px 0;
+	list-style-position: inside;
+}
+.privacy_rule h2{
+	margin:36px 0 20px;
+	font-size: 19px;
+	font-family: "Nanum Barun Gothic";
+	font-weight: bold;
+	color:#0e0e0e;
+}
+.privacy_rule p{
+	margin:20px 0;
+	padding:0;
+}
+#content_wrapper .privacy_rule .privacy_contents ul{
+	margin-left:64px;
+}
+.privacy_rule .privacy_contents li div{
+	margin:0 0 20px 0;
+}
+.privacy_rule .privacy_contents{
+	padding-left:28px;
+}
