@@ -1,10 +1,5 @@
 var $j = jQuery.noConflict();
 
-$j('select.custom_select').change(function(){
-	var option = $j('select.custom_select').find('option:selected').val();
-	console.log(option)
-});
-
 function isTooLightYIQ(hexcolor){
 	var r = parseInt(hexcolor.substr(0,2),16);
 	var g = parseInt(hexcolor.substr(2,2),16);
