@@ -78,3 +78,9 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+// 휴지통 7일 보관
+define ('EMPTY_TRASH_DAYS', 7);
+
+// 리비전 3개 제한
+define( 'WP_POST_REVISIONS', 3 );
