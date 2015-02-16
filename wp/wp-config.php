@@ -16,6 +16,8 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define( 'WPCACHEHOME', 'C:\wamp\www\conkrit\wp\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
+define('WP_CACHE', true); //Added by WP-Cache Manager
 define('DB_NAME', 'zhszmflxm');
 
 /** MySQL database username */
