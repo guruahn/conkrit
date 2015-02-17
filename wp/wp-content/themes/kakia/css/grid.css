@@ -534,6 +534,8 @@
 	.page-id-6677 .menu_depth2,
 	.page-id-6677 .menu_depth3{font-size:22px;}
 	.breadcrumbs a:first-child{background-position: 11px 8px;}
+	.home .tabs-wrapper{height:auto;}
+	#footer ul{margin-bottom: 0; padding-bottom: 0;}
 }
 
 /* 
