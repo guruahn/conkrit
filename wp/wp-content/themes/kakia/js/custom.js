@@ -641,8 +641,10 @@ $j(document).ready(function(){
 
     /*메인 ABOUT US 클릭시 준비중*/
     $j('.portfolio200_shadow').click(function(){
-        alert("준비중입니다.");
-        return false;
+        if( $j(this).find('a').attr('href') == '#'){
+            alert("준비중입니다.");
+            return false;
+        }
     });
 
     $j('.ajax_portfolio_direction').click(
