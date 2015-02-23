@@ -186,9 +186,9 @@ if(!empty($pp_seo_meta_key))
 
 
 <?php
-	wp_enqueue_script("jquery", get_stylesheet_directory_uri()."/js/jquery.js", false, $pp_theme_version);
+	wp_enqueue_script("jquery", "//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js", false, $pp_theme_version);
 	wp_enqueue_script("jquery_UI_js", get_stylesheet_directory_uri()."/js/jquery-ui.js", false, $pp_theme_version);
-	wp_enqueue_script("swfobject.js", get_stylesheet_directory_uri()."/swfobject/swfobject.js", false, $pp_theme_version);
+	//wp_enqueue_script("swfobject.js", get_stylesheet_directory_uri()."/swfobject/swfobject.js", false, $pp_theme_version);
 	
 	//Get Google Webfont
 	if(isset($_SESSION['pp_font_family']))
@@ -270,7 +270,8 @@ if(!empty($pp_seo_meta_key))
 	//End Get Theme Layout
 	
 	//Get all theme javascripts
-	wp_enqueue_script("jquery");
+	//wp_enqueue_script("jquery");
+wp_enqueue_script("jquery", "//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js", false, $pp_theme_version);
 	wp_enqueue_script("google_maps", "http://maps.google.com/maps/api/js?sensor=false", false, THEMEVERSION);
 	wp_enqueue_script("jquery_UI_js", get_stylesheet_directory_uri()."/js/jquery-ui.js", false, THEMEVERSION);
 	wp_enqueue_script("swfobject.js", get_stylesheet_directory_uri()."/swfobject/swfobject.js", false, THEMEVERSION);
@@ -324,7 +325,7 @@ if(!empty($pp_seo_meta_key))
 			}
 		}
 	}
-	
+
 	wp_register_script("script-contact-form", get_stylesheet_directory_uri()."/templates/script-contact-form.php", false, THEMEVERSION, true);
 	$params = array(
 	  'ajaxurl' => curPageURL(),
