@@ -204,8 +204,11 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 /* a-8.포트폴리오 상세보기 타이틀 스타일
 ----------------------------------*/
 .portfolio_single_title{
-	padding:1px 16px;
 	font-family: "Nanum Barun Gothic";
+}
+.portfolio_single_title em{
+	margin-right:5px;
+	padding:1px 16px;
 	color:#fff;
 	background-color: #000;
 }
