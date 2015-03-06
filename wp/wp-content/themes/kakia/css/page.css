@@ -212,7 +212,9 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 	color:#fff;
 	background-color: #000;
 }
-
+.portfolio_single_title .thumb_none{
+	display: block;
+}
 /* a-9.타이틀 및 설명
 ----------------------------------*/
 .title_desc{
@@ -319,6 +321,9 @@ input[type=submit]:hover, input[type=button]:hover, a.button:hover{
 .ajax_content .kind_text{
 	padding-left:15px;
 	color:#333;
+}
+.page-id-6447 h5 .thumb_none{
+	display: none;
 }
 
 /* 3.공지사항 & FAQ

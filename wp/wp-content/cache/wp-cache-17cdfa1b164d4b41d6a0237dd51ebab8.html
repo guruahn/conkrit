@@ -32,6 +32,9 @@
 <link rel="alternate" type="application/rss+xml" title="CONKRIT &raquo; 피드" href="http://conkrit.com:8080/wp/feed/" />
 <link rel="alternate" type="application/rss+xml" title="CONKRIT &raquo; 댓글 피드" href="http://conkrit.com:8080/wp/comments/feed/" />
 <link rel="alternate" type="application/rss+xml" title="CONKRIT &raquo; 테스팅 사례 댓글 피드" href="http://conkrit.com:8080/wp/%ed%85%8c%ec%8a%a4%ed%8c%85-%ec%82%ac%eb%a1%80/feed/" />
+<link rel='stylesheet' id='open-sans-css'  href='//fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&#038;subset=latin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext&#038;ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://conkrit.com:8080/wp/wp-includes/css/dashicons.min.css?ver=4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://conkrit.com:8080/wp/wp-includes/css/admin-bar.min.css?ver=4.1' type='text/css' media='all' />
 <link rel='stylesheet' id='jqueryui_css-css'  href='http://conkrit.com:8080/wp/wp-content/themes/kakia/css/jqueryui/custom.css?ver=1.8' type='text/css' media='all' />
 <link rel='stylesheet' id='flexslider_css-css'  href='http://conkrit.com:8080/wp/wp-content/themes/kakia/js/flexslider/flexslider.css?ver=1.8' type='text/css' media='all' />
 <link rel='stylesheet' id='slider-style.css-css'  href='http://conkrit.com:8080/wp/wp-content/themes/kakia/css/slider-style.css?ver=1.8' type='text/css' media='all' />
@@ -87,6 +90,15 @@
 <style type="text/css" id="custom-background-css">
 body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-content/uploads/2015/01/bg_body.gif'); background-repeat: repeat; background-position: top left; background-attachment: scroll; }
 </style>
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
 
 <!--[if IE 9]>
   <link rel="stylesheet" type="text/css" media="all" href="http://conkrit.com:8080/wp/wp-content/themes/kakia/css/ie9.css" />
@@ -94,7 +106,7 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
 </head>
 
 
-<body class="page page-id-6447 page-template page-template-portfolio-2-filter-for-case-study page-template-portfolio-2-filter-for-case-study-php custom-background">
+<body class="page page-id-6447 page-template page-template-portfolio-2-filter-for-case-study page-template-portfolio-2-filter-for-case-study-php logged-in admin-bar no-customize-support custom-background">
 
 		<input type="hidden" id="slider_timer" name="slider_timer" value="10"/>
 	
@@ -154,12 +166,12 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
 	<li id="menu-item-6459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6459"><a href="/wp/?page_id=6401">회사소개</a>
 	<ul class="sub-menu">
 		<li id="menu-item-6406" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6406"><a href="http://conkrit.com:8080/wp/conkrit-%ec%86%8c%ea%b0%9c/">CONKRIT 소개</a></li>
-		<li id="menu-item-6482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6482"><a href="http://conkrit.com:8080/wp/%ec%84%9c%eb%b9%84%ec%8a%a4-%ec%a0%9c%ea%b3%b5-%ed%94%84%eb%a1%9c%ec%84%b8%ec%8a%a4/">서비스 제공 프로세스</a></li>
+		<li id="menu-item-6482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6482"><a href="http://conkrit.com:8080/wp/%ec%84%9c%eb%b9%84%ec%8a%a4-%ec%a0%9c%ea%b3%b5-%ed%94%84%eb%a1%9c%ec%84%b8%ec%8a%a4/">CONKRIT 프로세스</a></li>
 	</ul>
 </li>
 	<li id="menu-item-6464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6464"><a href="/wp/?page_id=6461">CONKRIT 지원 프로그램</a>
 	<ul class="sub-menu">
-		<li id="menu-item-6463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6463"><a href="http://conkrit.com:8080/wp/o2-test-manager/">O Test Manager</a></li>
+		<li id="menu-item-6463" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6463"><a href="http://conkrit.com:8080/wp/o2-test-manager/">OTestManager</a></li>
 	</ul>
 </li>
 	<li id="menu-item-6513" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6513"><a href="/wp/?page_id=6389">고객지원</a>
@@ -291,22 +303,20 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
 
 
     <div id="ajax_6714" class="ajax_portfolio_wrapper">
-        <h4 class="portfolio_single_title">Line</h4>
+        <h4 class="portfolio_single_title"><span class="thumb_none">APP</span><em>Line</em></h4>
         <a class="ajax_close" data-rel="6714">X</a>
         <a class="ajax_next ajax_portfolio_direction" data-rel="6465">&gt;</a>
         <a class="ajax_prev ajax_portfolio_direction" data-rel="6455">&lt;</a>
                     <img src="http://conkrit.com:8080/wp/wp-content/uploads/2015/02/case_study_line-960x430.jpg" alt="" class="portfolio_single_img img_shadow"/>
                     <div class="ajax_content">
             <div class="one_third">
-<div class="tagline"><h2>Client</h2></div><span class="kind_text">Line</span><br />
-<div class="tagline"><h2>테스팅내역</h2></div><span class="kind_text">Globalization Testing</span>
+<div class="tagline"><h2>테스팅 후</h2></div>
 </div>
 <div class="two_third last">
-<div class="one_half ">라인플러스 주식회사의 “LINE 프리콜 글로벌 품질 테스트”를 미국, 사우디 아라비아, 콜롬비아의 해외 3개국 대상으로 기능 테스팅을 수행하고 있습니다.</div>
-<div class="one_half last ">1단계로 안드로이드폰을 대상으로 글로벌 품질 테스트를 시행 하였고,</p>
-<p>2단계에는 아이폰도 추가적으로 글로벌 품질 테스트를 시행 하였습니다.</p>
-<p>국가별 현지 담당자와 현지인들의 적극적인 테스트 수행으로 라인플러스 주식회사로부터 만족스러운 평가를 받고 있습니다.</p></div>
-<p><br class="clear"/>
+라인플러스 주식회사의 “LINE 프리콜 글로벌 품질 테스트”를 미국, 사우디 아라비아, 콜롬비아의 해외 3개국 대상으로 기능 테스팅을 수행하고 있습니다.<br />
+1단계로 안드로이드폰을 대상으로 글로벌 품질 테스트를 시행 하였고,<br />
+2단계에는 아이폰도 추가적으로 글로벌 품질 테스트를 시행 하였습니다.<br />
+국가별 현지 담당자와 현지인들의 적극적인 테스트 수행으로 라인플러스 주식회사로부터 만족스러운 평가를 받고 있습니다.
 </div>
 <p><br class="clear"/></p>
         </div>
@@ -314,23 +324,19 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
 
 
     <div id="ajax_6465" class="ajax_portfolio_wrapper">
-        <h4 class="portfolio_single_title">리니어블</h4>
+        <h4 class="portfolio_single_title"><span class="thumb_none">IoT</span><em>리니어블</em>(Functional Testing)</h4>
         <a class="ajax_close" data-rel="6465">X</a>
         <a class="ajax_next ajax_portfolio_direction" data-rel="6455">&gt;</a>
         <a class="ajax_prev ajax_portfolio_direction" data-rel="6714">&lt;</a>
                     <img src="http://conkrit.com:8080/wp/wp-content/uploads/2015/02/lineable-960x430.jpg" alt="" class="portfolio_single_img img_shadow"/>
                     <div class="ajax_content">
             <div class="one_third">
-<div class="tagline"><h2>Client</h2></div><span class="kind_text">Lineable</span><br />
-<div class="tagline"><h2>테스팅내역</h2></div><span class="kind_text">APP, Functional Testing</span>
+<div class="tagline"><h2>테스팅 후</h2></div>
 </div>
 <div class="two_third last">
-<div class="one_half ">저희 애플리케이션이 출시된 지 얼마 안 된 시점에서 참여하여 매우 좋은 기회였다고 생각됩니다.<br/><br />
-테스팅 매니저들과 사전 미팅을 통해 작업을 시작할 수 있었으며, 향후의 테스팅 플랜에 대해 의견을 들을 수 있었습니다.<br/><br />
-실제로 테스트하는 과정 중 내부에서 미처 발견하지 못했던 부분이 많이 노출되었고, 좋은 사전 점검의 기회가 되었습니다. </div>
-<div class="one_half last ">콘크릿 테스팅을 통해 도출된 많은 부분을 향후 업데이트 과정에서 수정, 보완할 예정입니다.<br/><br />
-저희는 언제든 새로운 서비스를 출시할 시에 콘크릿에 서비스를 의뢰할 생각이 있으며, 많은 스타트업에 콘크릿을 추천하고 싶습니다. </div>
-<p><br class="clear"/>
+저희 애플리케이션이 출시된 지 얼마 안 된 시점에서 참여하여 매우 좋은 기회였다고 생각됩니다. 테스팅 매니저들과 사전 미팅을 통해 작업을 시작할 수 있었으며, 향후의 테스팅 플랜에 대해 의견을 들을 수 있었습니다.<br />
+실제로 테스트하는 과정 중 내부에서 미처 발견하지 못했던 부분이 많이 노출되었고, 좋은 사전 점검의 기회가 되었습니다. 콘크릿 테스팅을 통해 도출된 많은 부분을 향후 업데이트 과정에서 수정, 보완할 예정입니다.<br />
+저희는 언제든 새로운 서비스를 출시할 시에 콘크릿에 서비스를 의뢰할 생각이 있으며, 많은 스타트업에 콘크릿을 추천하고 싶습니다.
 </div>
 <p><br class="clear"/></p>
         </div>
@@ -338,23 +344,20 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
 
 
     <div id="ajax_6455" class="ajax_portfolio_wrapper">
-        <h4 class="portfolio_single_title">Music King</h4>
+        <h4 class="portfolio_single_title"><span class="thumb_none">APP</span><em>Music King</em></h4>
         <a class="ajax_close" data-rel="6455">X</a>
         <a class="ajax_next ajax_portfolio_direction" data-rel="6714">&gt;</a>
         <a class="ajax_prev ajax_portfolio_direction" data-rel="6465">&lt;</a>
                     <img src="http://conkrit.com:8080/wp/wp-content/uploads/2015/01/music_king-960x430.jpg" alt="" class="portfolio_single_img img_shadow"/>
                     <div class="ajax_content">
             <div class="one_third">
-<div class="tagline"><h2>Client</h2></div><span class="kind_text">Music King</span><br />
-<div class="tagline"><h2>테스팅내역</h2></div><span class="kind_text">APP, Functional Testing</span>
+<div class="tagline"><h2>테스팅 후</h2></div>
 </div>
 <div class="two_third last">
-<div class="one_half ">저희 애플리케이션이 출시된 지 얼마 안 된 시점에서 참여하여 매우 좋은 기회였다고 생각됩니다.<br/><br />
-테스팅 매니저들과 사전 미팅을 통해 작업을 시작할 수 있었으며, 향후의 테스팅 플랜에 대해 의견을 들을 수 있었습니다.<br/><br />
-실제로 테스트하는 과정에서 내부에서 미처 발견하지 못했던 부분이 많이 노출되었고, 좋은 사전 점검의 기회가 되었습니다. </div>
-<div class="one_half last ">콘크릿의 테스팅을 통해 도출된 많은 부분을 향후 업데이트 과정에서 수정, 보완할 예정입니다.<br/><br />
-저희는 언제든 새로운 서비스를 출시할 시에 콘크릿에 서비스를 의뢰할 생각이 있으며, 많은 스타트업에 콘크릿을 추천하고 싶습니다. </div>
-<p><br class="clear"/>
+저희 애플리케이션이 출시된 지 얼마 안 된 시점에서 참여하여 매우 좋은 기회였다고 생각됩니다.<br />
+테스팅 매니저들과 사전 미팅을 통해 작업을 시작할 수 있었으며, 향후의 테스팅 플랜에 대해 의견을 들을 수 있었습니다. 실제로 테스트하는 과정에서 내부에서 미처 발견하지 못했던 부분이 많이 노출되었고, 좋은 사전 점검의 기회가 되었습니다.<br />
+콘크릿의 테스팅을 통해 도출된 많은 부분을 향후 업데이트 과정에서 수정, 보완할 예정입니다.<br />
+저희는 언제든 새로운 서비스를 출시할 시에 콘크릿에 서비스를 의뢰할 생각이 있으며, 많은 스타트업에 콘크릿을 추천하고 싶습니다.
 </div>
 <p><br class="clear"/></p>
         </div>
@@ -376,7 +379,7 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
 
                     
             <div class="portfolio_desc portfolio_desc_460">
-                <h5 class="cufon">Line</h5>
+                <h5 class="cufon"><span class="thumb_none">APP</span><em>Line</em></h5>
     				    	<span>
     				    	어플리케이션																
     				    	</span>
@@ -384,8 +387,8 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
         </div>
     </div>
 
-    <div class="element app ">
-        <div data-id="post-3" data-type="app ">
+    <div class="element iot ">
+        <div data-id="post-3" data-type="iot ">
                                 <div class="portfolio460_shadow">
                         <a href="javascript:;" data-rel="6465" class="ajax_portfolio_link">
                             <img src="http://conkrit.com:8080/wp/wp-content/uploads/2015/02/lineable-470x300.jpg" alt="" class="portfolio_img"/>
@@ -399,7 +402,7 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
 
                     
             <div class="portfolio_desc portfolio_desc_460">
-                <h5 class="cufon">리니어블</h5>
+                <h5 class="cufon"><span class="thumb_none">IoT</span><em>리니어블</em>(Functional Testing)</h5>
     				    	<span>
     				    	어플리케이션																
     				    	</span>
@@ -422,7 +425,7 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
 
                     
             <div class="portfolio_desc portfolio_desc_460">
-                <h5 class="cufon">Music King</h5>
+                <h5 class="cufon"><span class="thumb_none">APP</span><em>Music King</em></h5>
     				    	<span>
     				    	어플리케이션																
     				    	</span>
@@ -474,7 +477,7 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
 <li id="text-3" class="widget widget_text">			<div class="textwidget"><div class="footer_address_wrap">
 	<select name="" id="family_site" class="custom_select" title="new window"  onchange="window.open(this.value, '_blank')">
 		<option>FAMILY SITE</option>
-		<option value="http://www.sten.or.kr">스텐</option>
+		<option value="http://www.sten.or.kr">STEN</option>
 		<option value="http://www.sta.co.kr">STA</option>
 		<option value="http://www.kstqb.org">KSTQB</option>
 	</select>
@@ -514,14 +517,66 @@ body.custom-background { background-image: url('http://conkrit.com:8080/wp/wp-co
 
 
 
+<script type='text/javascript' src='http://conkrit.com:8080/wp/wp-includes/js/admin-bar.min.js?ver=4.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
-var tgAjax = {"ajaxurl":"http:\/\/conkrit.com:8080\/wp\/%ed%85%8c%ec%8a%a4%ed%8c%85-%ec%82%ac%eb%a1%80\/","ajax_nonce":"aa69198500"};
+var tgAjax = {"ajaxurl":"http:\/\/conkrit.com:8080\/wp\/%ed%85%8c%ec%8a%a4%ed%8c%85-%ec%82%ac%eb%a1%80\/","ajax_nonce":"8a1ca39174"};
 /* ]]> */
 </script>
 <script type='text/javascript' src='http://conkrit.com:8080/wp/wp-content/themes/kakia/templates/script-contact-form.php?ver=1.8'></script>
-</body>
+	<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+			request = true;
+
+			b[c] = b[c].replace( rcs, ' ' );
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs" role="navigation">
+			<a class="screen-reader-shortcut" href="#wp-toolbar" tabindex="1">툴바로 바로가기</a>
+			<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="상단 내비게이션 툴바" tabindex="0">
+				<ul id="wp-admin-bar-root-default" class="ab-top-menu">
+		<li id="wp-admin-bar-wp-logo" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://conkrit.com:8080/wp/wp-admin/about.php" title="워드프레스 소개"><span class="ab-icon"></span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-wp-logo-default" class="ab-submenu">
+		<li id="wp-admin-bar-about"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/about.php">워드프레스 소개</a>		</li></ul><ul id="wp-admin-bar-wp-logo-external" class="ab-sub-secondary ab-submenu">
+		<li id="wp-admin-bar-wporg"><a class="ab-item"  href="https://wordpress.org/">WordPress.org</a>		</li>
+		<li id="wp-admin-bar-documentation"><a class="ab-item"  href="http://codex.wordpress.org/">문서</a>		</li>
+		<li id="wp-admin-bar-support-forums"><a class="ab-item"  href="https://wordpress.org/support/">지원 포럼</a>		</li>
+		<li id="wp-admin-bar-feedback"><a class="ab-item"  href="https://wordpress.org/support/forum/requests-and-feedback">피드백</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-site-name" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://conkrit.com:8080/wp/wp-admin/">CONKRIT</a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-site-name-default" class="ab-submenu">
+		<li id="wp-admin-bar-dashboard"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/">알림판</a>		</li></ul><ul id="wp-admin-bar-appearance" class="ab-submenu">
+		<li id="wp-admin-bar-themes"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/themes.php">테마</a>		</li>
+		<li id="wp-admin-bar-customize" class="hide-if-no-customize"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/customize.php?url=http%3A%2F%2Fconkrit.com%3A8080%2Fwp%2F%25ed%2585%258c%25ec%258a%25a4%25ed%258c%2585-%25ec%2582%25ac%25eb%25a1%2580%2F">사용자 정의하기</a>		</li>
+		<li id="wp-admin-bar-widgets"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/widgets.php">위젯</a>		</li>
+		<li id="wp-admin-bar-menus"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/nav-menus.php">메뉴</a>		</li>
+		<li id="wp-admin-bar-background" class="hide-if-customize"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/themes.php?page=custom-background">배경</a>		</li>
+		<li id="wp-admin-bar-customize-background" class="hide-if-no-customize"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/customize.php?url=http%3A%2F%2Fconkrit.com%3A8080%2Fwp%2F%25ed%2585%258c%25ec%258a%25a4%25ed%258c%2585-%25ec%2582%25ac%25eb%25a1%2580%2F&#038;autofocus%5Bcontrol%5D=background_image">배경</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-updates"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/update-core.php" title="번역 업데이트"><span class="ab-icon"></span><span class="ab-label">1</span><span class="screen-reader-text">번역 업데이트</span></a>		</li>
+		<li id="wp-admin-bar-comments"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/edit-comments.php" title="0 댓글이 검토를 기다리고 있습니다."><span class="ab-icon"></span><span id="ab-awaiting-mod" class="ab-label awaiting-mod pending-count count-0">0</span></a>		</li>
+		<li id="wp-admin-bar-new-content" class="menupop"><a class="ab-item"  aria-haspopup="true" href="http://conkrit.com:8080/wp/wp-admin/post-new.php" title="새로 추가"><span class="ab-icon"></span><span class="ab-label">새로 추가</span></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-new-content-default" class="ab-submenu">
+		<li id="wp-admin-bar-new-post"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/post-new.php">글</a>		</li>
+		<li id="wp-admin-bar-new-media"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/media-new.php">미디어</a>		</li>
+		<li id="wp-admin-bar-new-page"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/post-new.php?post_type=page">페이지</a>		</li>
+		<li id="wp-admin-bar-new-slides"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/post-new.php?post_type=slides">Slide</a>		</li>
+		<li id="wp-admin-bar-new-portfolios"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/post-new.php?post_type=portfolios">Portfolio</a>		</li>
+		<li id="wp-admin-bar-new-services"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/post-new.php?post_type=services">Service</a>		</li>
+		<li id="wp-admin-bar-new-team"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/post-new.php?post_type=team">Team Member</a>		</li>
+		<li id="wp-admin-bar-new-faq"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/post-new.php?post_type=faq">FAQ</a>		</li>
+		<li id="wp-admin-bar-new-gallery"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/post-new.php?post_type=gallery">Gallery</a>		</li>
+		<li id="wp-admin-bar-new-user"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/user-new.php">사용자</a>		</li>
+		<li id="wp-admin-bar-ab-ls-add-new"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/admin.php?page=layerslider">LayerSlider</a>		</li></ul></div>		</li>
+		<li id="wp-admin-bar-edit"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/post.php?post=6447&#038;action=edit">페이지 편집</a>		</li></ul><ul id="wp-admin-bar-top-secondary" class="ab-top-secondary ab-top-menu">
+		<li id="wp-admin-bar-search" class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://conkrit.com:8080/wp/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><input type="submit" class="adminbar-button" value="검색"/></form></div>		</li>
+		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item"  aria-haspopup="true" href="http://conkrit.com:8080/wp/wp-admin/profile.php" title="나의 계정">안녕하세요, conkrit님<img alt='' src='http://0.gravatar.com/avatar/6e39c45ce5594c613e24728fe1abc150?s=26&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D26&amp;r=G' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
+		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://conkrit.com:8080/wp/wp-admin/profile.php"><img alt='' src='http://0.gravatar.com/avatar/6e39c45ce5594c613e24728fe1abc150?s=64&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D64&amp;r=G' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>conkrit</span></a>		</li>
+		<li id="wp-admin-bar-edit-profile"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-admin/profile.php">내 프로필 편집</a>		</li>
+		<li id="wp-admin-bar-logout"><a class="ab-item"  href="http://conkrit.com:8080/wp/wp-login.php?action=logout&#038;_wpnonce=868041e7e8">로그아웃</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://conkrit.com:8080/wp/wp-login.php?action=logout&#038;_wpnonce=868041e7e8">로그아웃</a>
+					</div>
+
+		</body>
 </html>
 
-<!-- Dynamic page generated in 0.605 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2015-03-02 08:59:37 -->
+<!-- Dynamic page generated in 0.653 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2015-03-06 08:41:39 -->
