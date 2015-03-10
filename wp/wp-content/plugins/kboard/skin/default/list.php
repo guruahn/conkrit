@@ -46,6 +46,7 @@
 		<table>
 			<thead>
 				<tr>
+					<td class="kboard-list-uid">구분</td>
 					<td class="kboard-list-uid">No.</td>
 					<td class="kboard-list-title"><?php echo __('Title', 'kboard')?></td>
 					<td class="kboard-list-user"><?php echo __('Author', 'kboard')?></td>
@@ -57,6 +58,7 @@
 				<?php while($content = $list->hasNextNotice()):?>
 				<tr class="kboard-list-notice">
 					<td class="kboard-list-uid">중요</td>
+					<td class="kboard-list-bid"><?php echo $list->index()+1; ?></td>
 					<td class="kboard-list-title"><div class="cut_strings">
 							<a href="<?php echo $url->set('uid', $content->uid)->set('mod', 'document')->toString()?>"><?php echo $content->title?></a>
 							<?php echo $content->getCommentsCount()?>
@@ -68,7 +70,8 @@
 				<?php endwhile?>
 				<?php while($content = $list->hasNext()):?>
 				<tr>
-					<td class="kboard-list-uid"><?php echo $list->index()?></td>
+					<td class="kboard-list-uid"></td>
+					<td class="kboard-list-uid"><?php echo $list->index()+1?></td>
 					<td class="kboard-list-title"><div class="cut_strings">
 							<a href="<?php echo $url->set('uid', $content->uid)->set('mod', 'document')->toString()?>"><?php echo $content->title?>
 							<?php if($content->secret):?><img src="<?php echo $skin_path?>/images/icon_lock.png" alt="<?php echo __('Secret', 'kboard')?>"><?php endif?>

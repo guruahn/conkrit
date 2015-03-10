@@ -88,12 +88,12 @@ if(!empty($sets_arr) && empty($term))
             <span class="separator">/</span>
         </li>
         <?php
-        foreach($sets_arr as $key => $set_item)
+		for($i=0; $i<count($sets_arr); $i++)
         {
-            $case_study_terms[] = $set_item->term_id;
+            $case_study_terms[] = $sets_arr[$i]->term_id;
             ?>
-            <li class="cat-item <?php echo $set_item->slug; ?>" data-type="<?php echo $set_item->slug; ?>" style="clear:none">
-                <a data-filter=".<?php echo $set_item->slug; ?>" href="javascript:;" title="<?php echo $set_item->name; ?>"><?php echo $set_item->name; ?></a>
+            <li class="cat-item <?php echo $sets_arr[$i]->slug; ?>" data-type="<?php echo $sets_arr[$i]->slug; ?>" style="clear:none">
+                <a data-filter=".<?php echo $sets_arr[$i]->slug; ?>" href="javascript:;" title="<?php echo $sets_arr[$i]->name; ?>"><?php echo $sets_arr[$i]->name; ?></a>
                 <span class="separator">/</span>
             </li>
         <?php
