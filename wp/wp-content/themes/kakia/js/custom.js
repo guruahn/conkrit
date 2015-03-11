@@ -647,6 +647,11 @@ $j(document).ready(function(){
         }
     });
 
+    // 메인 OUR SERVICE 이미지까지 링크연결
+    $j('.ppb_serivce_wrapper').click(function(){
+    	location.href = $j(this).find('a').attr('href');
+    });
+
     $j('.ajax_portfolio_direction').click(
     	function() {
     		$j('.ajax_portfolio_wrapper').stop().slideUp(600);

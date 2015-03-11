@@ -4546,6 +4546,7 @@ body.single-portfolios #slider_wrapper
     font-size: 14px;
     color: #000;
     text-align: center;
+    cursor: pointer;
 }
 .home .ppb_serivce_wrapper img { float: none; margin: 0}
 .home .ppb_serivce_wrapper h5 {
