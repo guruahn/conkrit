@@ -4730,3 +4730,25 @@ body.single-portfolios #slider_wrapper
 	font-size:15px;
 	font-family: "helvetica";
 }
+
+/* 포트폴리오 상세페이지
+----------------------------------*/
+.single-portfolios .page_caption{
+	display: none;
+}
+
+/* a-4.TagLine 스타일 변경
+----------------------------------*/
+.tagline{
+	border-left:4px solid #fe413d;
+	background-color: transparent !important;
+}
+
+.tagline h2{
+	padding-left: 10px;
+	font-size: 21px;
+	font-weight: bold;
+	font-family: 'Nanum Barun Gothic';
+	color:#111;
+	line-height: 105%;
+}

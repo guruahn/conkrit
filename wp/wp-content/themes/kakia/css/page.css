@@ -3,7 +3,7 @@
 	a-1.상단 비쥬얼 타이틀 영역
 	a-2.페이지 타이틀
 	a-3.페이지 로케이션(빵부스러기)
-	a-4.TagLine 스타일 변경
+	a-4.TagLine 스타일 변경 - screen.css로 이동
 	a-5.button 스타일 변경
 	a-6.단락 스타일
 	a-7.list style
@@ -137,21 +137,6 @@
 	background:url(../images/sprite_collect.png) no-repeat 9px -161px;
 }
 */
-/* a-4.TagLine 스타일 변경
-----------------------------------*/
-.tagline{
-	border-left:4px solid #fe413d;
-	background-color: transparent !important;
-}
-
-.tagline h2{
-	padding-left: 10px;
-	font-size: 21px;
-	font-weight: bold;
-	font-family: 'Nanum Barun Gothic';
-	color:#111;
-	line-height: 105%;
-}
 
 /* a-5.button 스타일 변경
 ----------------------------------*/
